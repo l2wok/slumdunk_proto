@@ -8,11 +8,11 @@
         <meta name="author" content="">
 
         <title>MainPage proto</title>
-        
+
         <link rel="apple-touch-icon" sizes="180x180" href="assets/img/apple-touch-icon.png"/>
         <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32x32.png"/>
         <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon-16x16.png"/>
-        
+
         <!-- // css block -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
@@ -22,19 +22,48 @@
         <!-- ~~~~~~ HEADER ~~~~~ -->
         <header class="">
             <div class="container">
-                
+                <div class="card">
+                    <p>123</p>
+                </div>
             </div>
         </header>
         <!-- ~~~~~~ END HEADER ~~~~~ -->
         <!-- ~~~~~~ MAIN ~~~~~ -->
-        
+        <div class="container">
+            <div class="row main">
+                <div id="carousel" class="carousel slide carousel-fade w-100" style="background-color: gray; max-height: 400px;" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carousel" data-slide-to="0" class=" text-dark active"></li>
+                        <li data-target="#carousel" data-slide-to="1" class=" text-dark"></li>
+                        <li data-target="#carousel" data-slide-to="2" class=" text-dark"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="d-block w-50" style="margin: 0 auto" src="assets/img/tapok2.png" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-50" style="margin: 0 auto" src="assets/img/tapok3.png" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-50" style="margin: 0 auto" src="assets/img/tapok2.png" alt="...">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+                        <i class="fas fa-chevron-circle-left fa-3x"></i>
+                    </a>
+                    <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+                        <i class="fas fa-chevron-circle-right fa-3x"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
         <!-- ~~~~~~ END MAIN ~~~~~ -->
         <!-- ~~~~~~ SECONDARY ~~~~~ -->
-        
+
         <!-- ~~~~~~ END SECONDARY ~~~~~ -->
         <!-- ~~~~~~ FOOTER ~~~~~ -->
         <footer class="">
-            
+
         </footer>
         <!-- ~~~~~~ END FOOTER ~~~~~ -->
         <!-- ~~~~~~ JS ~~~~~ -->
