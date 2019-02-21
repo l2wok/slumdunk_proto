@@ -235,3 +235,7 @@ a.dashed {
     background-color: darkgray !important;
     color: #111;
 }
+.firms{
+    min-width: 250px;
+    width: 30%;
+}
