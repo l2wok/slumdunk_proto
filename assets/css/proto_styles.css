@@ -167,6 +167,10 @@ a.dashed {
 .badge.badge-secondary{
     background-color: black
 }
+.btn-outline-dark{
+    background-color: transparent !important;
+    color: #111 !important;
+}
 .btn-outline-dark,
 .btn-dark,
 .btn-black
@@ -182,19 +186,14 @@ a.dashed {
 .btn-outline-dark:hover,.btn-outline-dark:focus,
 .btn-dark:hover,.btn-dark:focus,
 .btn-black:hover,.btn-black:focus{
-    color: white;
-    -webkit-transition: all 200ms linear;
-    -moz-transition: all 200ms linear;
-    -ms-transition: all 200ms linear;
-    -o-transition: all 200ms linear;
-    transition: all 200ms linear;
+    color: #f5f5f5;
     -webkit-box-shadow: 0 0 0 .5px silver;
     box-shadow: 0 0 0 .5px silver;
 }
 .in-cart{
     position: absolute !important;
     right: -8px !important;
-    top: -14px !important;
+    top: -11px !important;
     z-index: 10;
     border-radius: 0;
     -webkit-box-shadow: 0 0 0 .5px #111;
