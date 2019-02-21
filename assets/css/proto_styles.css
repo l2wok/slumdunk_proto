@@ -239,3 +239,11 @@ a.dashed {
     min-width: 250px;
     width: 30%;
 }
+.fixed-top{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    border-bottom: 1px solid black;
+}
