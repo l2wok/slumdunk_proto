@@ -8,6 +8,11 @@
         margin: 0 auto;
     }
 }
+@media(min-width:768px){
+    .address{
+        text-align: left;
+    }
+}
 @font-face { font-family: 'Panton-LightitalicCaps';  src: local('Panton-LightitalicCaps'), url('https://nomail.com.ua/files/woff/e159044effcdaefc9db94053c2922c71.woff') format('woff'); }
 
 .myr { font-family: 'MyriadPro-Bold'; font-size: 16px; font-weight: 700;}
@@ -34,29 +39,29 @@ small.text-sm{font-weight: 200; font-size: 80%; line-height: 100%;}
 }
 .slide_1{
     background-color: #eea340;
-/*    orange*/
+    /*    orange*/
 }
 .slide_2{
     background-color: #e06167;
-/*    pink*/
+    /*    pink*/
 }
 .slide_3{
     background-color: #3e3e4d;
-/*    darknest*/
+    /*    darknest*/
 }
 .bg-pink{
     background-color: #e06167;
-/*    pink*/
+    /*    pink*/
 }
 .bg-darks{
     background-color: #3e3e4d;
-/*    darknest*/
+    /*    darknest*/
 }
 .bg-orange{
     background-color: #eea340;
 }
 .btm_links{
-    
+
 }
 .btm_links>*>h5{
     margin-bottom: .25em;
@@ -109,5 +114,13 @@ a.no-decor:hover{
 }
 .logo{
     width: 74px;
-    height: 71px;
+    height: 68px;
+}
+.infolink{
+    width: 33%;
+    margin-left: 1rem;
+    padding: .25rem 0;
+    text-align: center;
+    word-wrap: break-word;
+    color: #f5f5f5;
 }

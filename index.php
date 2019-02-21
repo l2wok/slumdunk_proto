@@ -350,21 +350,6 @@
             <div class="col-12 d-flex justify-content-center">
                 <button class="btn btn-dark">СМОТРЕТЬ ЕЩЁ</button>
             </div>
-            <div class="col-12 d-flex justify-content-center">
-
-
-                <div class="bg-dark text-white text-right w-50 pr-3 pt-1">
-                    long text in the button
-                </div>
-                <a href="/" class="btn btn-warning">
-                    <span class="logoFirst">SLUM</span><br>
-                    <span>DUNK</span>
-                </a>
-                <div  class="bg-dark text-white w-50">
-                    and short
-                </div>
-
-            </div>
         </div>
         <!-- ~~~~~~ END MAIN ~~~~~ -->
         <!-- ~~~~~~ SECONDARY ~~~~~ -->
@@ -442,10 +427,10 @@
         <footer class="subscribe">
             <div class="container">
                 <div class="row text-white">
-                    <div class="col-12 d-flex justify-content-center pt-1">
-                        <a class="text-white col-sm-12 col-md-4 text-center" href="#">Юридическая информация</a>
-                        <a class="text-white col-sm-12 col-md-4 text-center" href="#">Политика конфиденциальности</a>
-                        <a class="text-white col-sm-12 col-md-4 text-center" href="#">Все права защищены</a>
+                    <div class="col-12 d-flex justify-content-center pt-1 mb-1">
+                        <a class="infolink" href="#">Юридическая информация</a>
+                        <a class="infolink" href="#">Все права защищены</a>
+                        <a class="infolink" href="#">Политика конфиденциальности</a>
                     </div>
                     <div class="col-12 d-flex justify-content-center align-items-center pt-1">
                         <div class="w-50 address text-right">
@@ -457,12 +442,8 @@
                         </div>
                         <div class="logo light-shadow align-self-center ml-2 mt-1 pt-1 pl-1 pr-1 mr-2">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 73 71.88">
-                            <defs>
-                            <style>.cls-one,.cls-2{fill-rule:evenodd;}.cls-2{fill:#f5f5f5;}.cls-3{fill:#e76e01;}</style>
-                            </defs>
-                            <g id="layer">
-                            <g id="slum"><g id="dunk">
-                            <g id="divider">
+                            <defs><style>.cls-one,.cls-2{fill-rule:evenodd;}.cls-2{fill:#f5f5f5;}.cls-3{fill:#e76e01;}</style></defs>
+                            <g id="layer"><g id="slum"><g id="dunk"><g id="divider">
                             <path class="cls-one" d="M0,8V63.86a7.63,7.63,0,0,0,.8,3.22,8.6,8.6,0,0,0,7.34,4.8H64.86a8.33,8.33,0,0,0,5.65-2.46A8.09,8.09,0,0,0,73,63.86V8a8,8,0,0,0-1.54-4.46A8.89,8.89,0,0,0,68.12.79,8.07,8.07,0,0,0,64.86,0H8.14A7.74,7.74,0,0,0,4.88.79,8.43,8.43,0,0,0,0,8Z"/>
                             <path class="cls-2" d="M18.22,22.64a11.22,11.22,0,0,1-.29,2.77,3.88,3.88,0,0,1-1.13,1.91,5.14,5.14,0,0,1-1.75,1,7.49,7.49,0,0,1-2.55.39,5.91,5.91,0,0,1-4.26-1.4,4.12,4.12,0,0,1-1.11-1.82,10,10,0,0,1-.31-2.74h3.46a6.74,6.74,0,0,0,.12,1.42,2.15,2.15,0,0,0,.49,1,2.07,2.07,0,0,0,.63.4,2.49,2.49,0,0,0,1,.16,2.12,2.12,0,0,0,1.67-.6,2.09,2.09,0,0,0,.46-.94,6.63,6.63,0,0,0,.12-1.42,10.68,10.68,0,0,0-.08-1.4,2.36,2.36,0,0,0-.31-.94,2.11,2.11,0,0,0-.63-.64,5.06,5.06,0,0,0-1.05-.51l-2.63-1a6.61,6.61,0,0,1-1.42-.75,3.27,3.27,0,0,1-.94-1A4.75,4.75,0,0,1,7.18,15,11,11,0,0,1,7,12.9a7,7,0,0,1,.45-2.58A4.81,4.81,0,0,1,8.8,8.4a5.45,5.45,0,0,1,1.65-.94,6.16,6.16,0,0,1,2.12-.34,5.62,5.62,0,0,1,4,1.28,4.27,4.27,0,0,1,1.21,2A9.41,9.41,0,0,1,18.07,13H14.61a7.85,7.85,0,0,0-.09-1.28,2,2,0,0,0-.43-1,1.85,1.85,0,0,0-1.54-.63,2.1,2.1,0,0,0-.88.16,1.87,1.87,0,0,0-.6.43,3.08,3.08,0,0,0-.59,2.09,8.21,8.21,0,0,0,.06,1.1,1.86,1.86,0,0,0,.26.76,1.92,1.92,0,0,0,.56.55,4.27,4.27,0,0,0,.94.45l2.59,1a7.21,7.21,0,0,1,1.64.86,3.49,3.49,0,0,1,1,1.16,5.16,5.16,0,0,1,.53,1.64A14.62,14.62,0,0,1,18.22,22.64Z"/>
                             <polygon class="cls-2" points="21.42 28.52 21.42 7.3 25.09 7.3 25.09 25.51 31.23 25.51 31.23 28.52 21.42 28.52"/>
@@ -476,7 +457,6 @@
                             <path class="cls-2" d="M16.12,53.83q0-2.8-.12-4.38a4.41,4.41,0,0,0-.68-2.32,1.91,1.91,0,0,0-.75-.63,2.55,2.55,0,0,0-1.14-.24H11.24v15.2h2.19a2.54,2.54,0,0,0,1.14-.24,1.91,1.91,0,0,0,.75-.63A4.48,4.48,0,0,0,16,58.24Q16.12,56.63,16.12,53.83Zm3.72,0q0,1.85-.05,3.23a20.65,20.65,0,0,1-.22,2.44,7.2,7.2,0,0,1-.51,1.83,4.56,4.56,0,0,1-.95,1.37A6.2,6.2,0,0,1,16.3,64a6.53,6.53,0,0,1-2.77.51h-6V43.25h6a6.53,6.53,0,0,1,2.77.51A6.18,6.18,0,0,1,18.11,45a4.61,4.61,0,0,1,.95,1.36,7,7,0,0,1,.51,1.82,20.66,20.66,0,0,1,.22,2.44Q19.84,52,19.84,53.83Z"/>
                             <rect class="cls-3" x="6.83" y="34.95" width="59.56" height="2.44"/></g></g></g></g></svg>    
                         </div>
-                        
                         <div class="w-50 address">
                             <p>САМАРА:</p>
                             <p>ПР-Т ЛЕНИНА, 12-А ТЦ МЕЛОДИЯ, 3 ЭТАЖ</p>
@@ -485,8 +465,7 @@
                             </a>
                         </div>
                     </div>
-
-                    <p class="w-100 lead myr text-center">&COPY; <?php echo date("Y"); ?> SLAMDUNK</p>
+                    <p class="w-100 lead myr text-center mt-2">&COPY; <?php echo date("Y"); ?> SLAMDUNK</p>
                 </div>
             </div>
         </footer>
