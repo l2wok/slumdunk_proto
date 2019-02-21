@@ -11,6 +11,7 @@
 @font-face { font-family: 'Panton-LightitalicCaps';  src: local('Panton-LightitalicCaps'), url('https://nomail.com.ua/files/woff/e159044effcdaefc9db94053c2922c71.woff') format('woff'); }
 
 .myr { font-family: 'MyriadPro-Bold'; font-size: 16px; font-weight: 700;}
+small.text-sm{font-weight: 200; font-size: 80%; line-height: 100%;}
 .pan { font-family: 'Panton-LightitalicCaps'; font-size: 16px; font-weight: 500; }
 .container>*{
     margin-top: 1.5rem;
@@ -79,8 +80,34 @@ a.no-decor:hover{
 }
 .btn.btn-dark{
     font-family: 'MyriadPro-Bold';
-    padding: .375rem .5rem;
-    border-radius: 3px !important;
+    padding: .375rem .65rem;
+    border-radius: 2px !important;
     -webkit-font-smoothing: antialiased;
     text-shadow: 1px 1px 1px rgba(0,0,0,0.04);
+}
+.subscribe{
+    background-color: black;
+    color: whitesmoke;
+}
+.sub-row>*>.input-group>.form-control{
+    border-bottom-left-radius: 2px;
+    border-top-left-radius: 2px;
+}
+.sub-row{
+    min-height: 130px;
+}
+.card-footer.vs-border{
+    border-top: 1px solid rgba(0,0,0,.125) !important;
+}
+.address>p{
+    margin-bottom: .25em;
+}
+.light-shadow{
+    border-radius: .25rem;
+    -webkit-box-shadow: 0 0 0 1px #ccc;
+    box-shadow: 0 0 0 1px #ccc;
+}
+.logo{
+    width: 74px;
+    height: 71px;
 }
