@@ -22,40 +22,141 @@
         <!-- ~~~~~~ HEADER ~~~~~ -->
         <header class="">
             <div class="container">
-                <div class="card">
-                    <p>123</p>
+                <div class="row">
+
                 </div>
             </div>
         </header>
         <!-- ~~~~~~ END HEADER ~~~~~ -->
         <!-- ~~~~~~ MAIN ~~~~~ -->
         <div class="container">
-            <div class="row main">
-                <div id="carousel" class="carousel slide carousel-fade w-100" style="background-color: gray; max-height: 400px;" data-ride="carousel">
-                    <ol class="carousel-indicators">
-                        <li data-target="#carousel" data-slide-to="0" class=" text-dark active"></li>
-                        <li data-target="#carousel" data-slide-to="1" class=" text-dark"></li>
-                        <li data-target="#carousel" data-slide-to="2" class=" text-dark"></li>
-                    </ol>
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <img class="d-block w-50" style="margin: 0 auto" src="assets/img/tapok2.png" alt="...">
+                <div class="row">
+                    <div id="carousel" class="carousel slide col-12" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carousel" data-slide-to="0" class=" text-dark active"></li>
+                            <li data-target="#carousel" data-slide-to="1" class=" text-dark"></li>
+                            <li data-target="#carousel" data-slide-to="2" class=" text-dark"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div style="min-height: 400px;" class=" slide_1"></div>
+                            </div>
+                            <div class="carousel-item">
+                                <div style="min-height: 400px;" class="slide_2"></div>
+                            </div>
+                            <div class="carousel-item">
+                                <div style="min-height: 400px;" class="slide_3"></div>
+                            </div>
                         </div>
-                        <div class="carousel-item">
-                            <img class="d-block w-50" style="margin: 0 auto" src="assets/img/tapok3.png" alt="...">
-                        </div>
-                        <div class="carousel-item">
-                            <img class="d-block w-50" style="margin: 0 auto" src="assets/img/tapok2.png" alt="...">
+                        <a class="carousel-control-prev text-dark" href="#carousel" role="button" data-slide="prev">
+                            <i class="fas fa-chevron-circle-left fa-3x"></i>
+                        </a>
+                        <a class="carousel-control-next text-dark" href="#carousel" role="button" data-slide="next">
+                            <i class="fas fa-chevron-circle-right fa-3x"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-12 d-flex justify-content-center">
+                    <button class="btn btn-dark">НОВЫЕ ПОСТУПЛЕНИЯ</button>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6 col-md-6 col-lg-3">
+                        <div class="card product_card">
+                            <div class="card-img-overlay d-flex align-items-end justify-content-center">
+                                <button class="btn btn-dark">ПОДРОБНЕЕ</button>
+                            </div>
                         </div>
                     </div>
-                    <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
-                        <i class="fas fa-chevron-circle-left fa-3x"></i>
-                    </a>
-                    <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
-                        <i class="fas fa-chevron-circle-right fa-3x"></i>
-                    </a>
+                    <div class="col-sm-6 col-md-6 col-lg-3">
+                        <div class="card product_card">
+                            <div class="card-img-overlay d-flex align-items-end justify-content-center">
+                                <button class="btn btn-dark">ПОДРОБНЕЕ</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-6 col-lg-3">
+                        <div class="card product_card">
+                            <div class="card-img-overlay d-flex align-items-end justify-content-center">
+                                <button class="btn btn-dark">ПОДРОБНЕЕ</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-6 col-lg-3">
+                        <div class="card product_card">
+                            <div class="card-img-overlay d-flex align-items-end justify-content-center">
+                                <button class="btn btn-dark">ПОДРОБНЕЕ</button>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </div>
+                <div class="col-12 d-flex justify-content-center">
+                    <button class="btn btn-dark">КОЛЛЕКЦИИ</button>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12 col-md-12 col-lg-6">
+                        <div class="card product_card">
+                            <div class="card-body">
+                                <h3 class="ml-4 mt-4">КУПИ КИРПИЧ</h3>
+                                <p class="ml-2 col-10">За эту обувь не жаль и Родину продать. Поэтому докажи свою лольность бренду и неси свои денюжки к нам. Быссстрааа блять!!!111</p>
+                                <a href="#" class="btn btn-dark myr ml-4">ПОДРОБНЕЕ</a><br>
+                                <a href="#" class="btn btn-dark myr ml-4 mt-3">КУПИТЬ</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 col-md-4 col-lg-2">
+                        <div class="card product_card">
+                            <div class="card-img-overlay d-flex align-items-end justify-content-center">
+                                <button class="btn btn-dark">ПОДРОБНЕЕ</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 col-md-4 col-lg-2">
+                        <div class="card product_card">
+                            <div class="card-img-overlay d-flex align-items-end justify-content-center">
+                                <button class="btn btn-dark">ПОДРОБНЕЕ</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 col-md-4 col-lg-2">
+                        <div class="card product_card">
+                            <div class="card-img-overlay d-flex align-items-end justify-content-center">
+                                <button class="btn btn-dark">ПОДРОБНЕЕ</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 d-flex justify-content-center">
+                    <button class="btn btn-dark">ИЗБРАННЫЕ СТАТЬИ</button>
+                </div>
+
+                <div class="col-sm-12 col-md-12 col-lg-10 offset-lg-1">
+                    <div class="row">
+                        <div class="col-sm-6 col-md-6 col-lg-3">
+                            <div class="card product_card">
+                                1
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-6 col-lg-3">
+                            <div class="card product_card">
+                                1
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-6 col-lg-3">
+                            <div class="card product_card">
+                                1
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-6 col-lg-3">
+                            <div class="card product_card">
+                                1
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 d-flex justify-content-center">
+                    <button class="btn btn-dark">ЕЩЁ ТЕБЕ ПОНРАВИТСЯ</button>
+                </div>
         </div>
         <!-- ~~~~~~ END MAIN ~~~~~ -->
         <!-- ~~~~~~ SECONDARY ~~~~~ -->
