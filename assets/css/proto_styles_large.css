@@ -1,4 +1,10 @@
 @font-face { font-family: 'MyriadPro-Bold';  src: local('MyriadPro-Bold'), url('https://nomail.com.ua/files/woff/a4a83b50ac24f2af4df10725e63542be.woff') format('woff'); }
+@font-face { font-family: 'Panton-LightitalicCaps';  src: local('Panton-LightitalicCaps'), url('https://nomail.com.ua/files/woff/e159044effcdaefc9db94053c2922c71.woff') format('woff'); }
+@media(min-width:768px){
+    .address{
+        text-align: left;
+    }
+}
 @media (min-width: 1200px) {
     .container{
         max-width: 1170px;
@@ -8,12 +14,11 @@
         margin: 0 auto;
     }
 }
-@media(min-width:768px){
-    .address{
-        text-align: left;
-    }
+@media (min-width: 1430px) {
+  .container {
+    max-width: 1400px;
+  }
 }
-@font-face { font-family: 'Panton-LightitalicCaps';  src: local('Panton-LightitalicCaps'), url('https://nomail.com.ua/files/woff/e159044effcdaefc9db94053c2922c71.woff') format('woff'); }
 .myr { font-family: 'MyriadPro-Bold'; font-size: 16px; font-weight: 700;}
 small.text-sm{font-weight: 200; font-size: 80%; line-height: 100%;}
 .pan { font-family: 'Panton-LightitalicCaps'; font-size: 16px; font-weight: 500; }
