@@ -22,17 +22,84 @@
     <body>
         <!-- ~~~~~~ HEADER ~~~~~ -->
         <header class="">
-            <div class="container">
-                <div class="row">
+            <nav class="navbar navbar-expand-lg sticky-top navbar-light bg-light">
+                <div class="container d-flex align-items-end">
+                    <a class="navbar-brand mb-1" href="#">
+                        <div class="logo">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 73 71.88">
+                            <defs><style>.cls-one,.cls-2{fill-rule:evenodd;}.cls-2{fill:#f5f5f5;}.cls-3{fill:#e76e01;}</style></defs>
+                            <g id="layer_h"><g id="slum_h"><g id="dunk_h"><g id="divider_h">
+                            <path class="cls-one" d="M0,8V63.86a7.63,7.63,0,0,0,.8,3.22,8.6,8.6,0,0,0,7.34,4.8H64.86a8.33,8.33,0,0,0,5.65-2.46A8.09,8.09,0,0,0,73,63.86V8a8,8,0,0,0-1.54-4.46A8.89,8.89,0,0,0,68.12.79,8.07,8.07,0,0,0,64.86,0H8.14A7.74,7.74,0,0,0,4.88.79,8.43,8.43,0,0,0,0,8Z"/>
+                            <path class="cls-2" d="M18.22,22.64a11.22,11.22,0,0,1-.29,2.77,3.88,3.88,0,0,1-1.13,1.91,5.14,5.14,0,0,1-1.75,1,7.49,7.49,0,0,1-2.55.39,5.91,5.91,0,0,1-4.26-1.4,4.12,4.12,0,0,1-1.11-1.82,10,10,0,0,1-.31-2.74h3.46a6.74,6.74,0,0,0,.12,1.42,2.15,2.15,0,0,0,.49,1,2.07,2.07,0,0,0,.63.4,2.49,2.49,0,0,0,1,.16,2.12,2.12,0,0,0,1.67-.6,2.09,2.09,0,0,0,.46-.94,6.63,6.63,0,0,0,.12-1.42,10.68,10.68,0,0,0-.08-1.4,2.36,2.36,0,0,0-.31-.94,2.11,2.11,0,0,0-.63-.64,5.06,5.06,0,0,0-1.05-.51l-2.63-1a6.61,6.61,0,0,1-1.42-.75,3.27,3.27,0,0,1-.94-1A4.75,4.75,0,0,1,7.18,15,11,11,0,0,1,7,12.9a7,7,0,0,1,.45-2.58A4.81,4.81,0,0,1,8.8,8.4a5.45,5.45,0,0,1,1.65-.94,6.16,6.16,0,0,1,2.12-.34,5.62,5.62,0,0,1,4,1.28,4.27,4.27,0,0,1,1.21,2A9.41,9.41,0,0,1,18.07,13H14.61a7.85,7.85,0,0,0-.09-1.28,2,2,0,0,0-.43-1,1.85,1.85,0,0,0-1.54-.63,2.1,2.1,0,0,0-.88.16,1.87,1.87,0,0,0-.6.43,3.08,3.08,0,0,0-.59,2.09,8.21,8.21,0,0,0,.06,1.1,1.86,1.86,0,0,0,.26.76,1.92,1.92,0,0,0,.56.55,4.27,4.27,0,0,0,.94.45l2.59,1a7.21,7.21,0,0,1,1.64.86,3.49,3.49,0,0,1,1,1.16,5.16,5.16,0,0,1,.53,1.64A14.62,14.62,0,0,1,18.22,22.64Z"/>
+                            <polygon class="cls-2" points="21.42 28.52 21.42 7.3 25.09 7.3 25.09 25.51 31.23 25.51 31.23 28.52 21.42 28.52"/>
+                            <path class="cls-2" d="M40.78,12.42l-2,8.88h4Zm3.64,16.09-1-4.2H38.06l-.92,4.2H33.27L39,7.3h3.58l5.67,21.22Z"/>
+                            <polygon class="cls-2" points="62.71 28.52 62.71 15.28 59.52 23.99 57.49 23.99 54.38 15.43 54.38 28.52 50.7 28.52 50.7 7.3 54.01 7.3 58.54 18.44 63.03 7.3 66.38 7.3 66.38 28.52 62.71 28.52"/>
+                            <path class="cls-2" d="M18.22,22.64a11.22,11.22,0,0,1-.29,2.77,3.88,3.88,0,0,1-1.13,1.91,5.14,5.14,0,0,1-1.75,1,7.49,7.49,0,0,1-2.55.39,5.91,5.91,0,0,1-4.26-1.4,4.12,4.12,0,0,1-1.11-1.82,10,10,0,0,1-.31-2.74h3.46a6.74,6.74,0,0,0,.12,1.42,2.15,2.15,0,0,0,.49,1,2.07,2.07,0,0,0,.63.4,2.49,2.49,0,0,0,1,.16,2.12,2.12,0,0,0,1.67-.6,2.09,2.09,0,0,0,.46-.94,6.63,6.63,0,0,0,.12-1.42,10.68,10.68,0,0,0-.08-1.4,2.36,2.36,0,0,0-.31-.94,2.11,2.11,0,0,0-.63-.64,5.06,5.06,0,0,0-1.05-.51l-2.63-1a6.61,6.61,0,0,1-1.42-.75,3.27,3.27,0,0,1-.94-1A4.75,4.75,0,0,1,7.18,15,11,11,0,0,1,7,12.9a7,7,0,0,1,.45-2.58A4.81,4.81,0,0,1,8.8,8.4a5.45,5.45,0,0,1,1.65-.94,6.16,6.16,0,0,1,2.12-.34,5.62,5.62,0,0,1,4,1.28,4.27,4.27,0,0,1,1.21,2A9.41,9.41,0,0,1,18.07,13H14.61a7.85,7.85,0,0,0-.09-1.28,2,2,0,0,0-.43-1,1.85,1.85,0,0,0-1.54-.63,2.1,2.1,0,0,0-.88.16,1.87,1.87,0,0,0-.6.43,3.08,3.08,0,0,0-.59,2.09,8.21,8.21,0,0,0,.06,1.1,1.86,1.86,0,0,0,.26.76,1.92,1.92,0,0,0,.56.55,4.27,4.27,0,0,0,.94.45l2.59,1a7.21,7.21,0,0,1,1.64.86,3.49,3.49,0,0,1,1,1.16,5.16,5.16,0,0,1,.53,1.64A14.62,14.62,0,0,1,18.22,22.64Z"/>
+                            <polygon class="cls-2" points="21.42 28.52 21.42 7.3 25.09 7.3 25.09 25.51 31.23 25.51 31.23 28.52 21.42 28.52"/>
+                            <path class="cls-2" d="M40.78,12.42l-2,8.88h4Zm3.64,16.09-1-4.2H38.06l-.92,4.2H33.27L39,7.3h3.58l5.67,21.22Z"/>
+                            <polygon class="cls-2" points="62.71 28.52 62.71 15.28 59.52 23.99 57.49 23.99 54.38 15.43 54.38 28.52 50.7 28.52 50.7 7.3 54.01 7.3 58.54 18.44 63.03 7.3 66.38 7.3 66.38 28.52 62.71 28.52"/>
+                            <path class="cls-2" d="M63.41,64.46,59.6,55.73,57.81,59v5.45H54.09V43.25h3.72v10l5.14-10H66.7L62,52l5.48,12.43Zm-15.95,0-5.57-12.6v12.6H38.18V43.25h3.32L47,55.85V43.25h3.72V64.46ZM35,59.25a5.44,5.44,0,0,1-.43,2.2,5.13,5.13,0,0,1-1.2,1.7A6.23,6.23,0,0,1,29,64.7a6.28,6.28,0,0,1-4.41-1.55,5.13,5.13,0,0,1-1.19-1.7,5.44,5.44,0,0,1-.43-2.2v-16h3.72V59.43a2.09,2.09,0,0,0,.68,1.7,2.49,2.49,0,0,0,1.64.57,2.42,2.42,0,0,0,1.63-.57,2.11,2.11,0,0,0,.66-1.7V43.25H35ZM16.12,53.83q0-2.8-.12-4.38a4.41,4.41,0,0,0-.68-2.32,1.91,1.91,0,0,0-.75-.63,2.55,2.55,0,0,0-1.14-.24H11.24v15.2h2.19a2.54,2.54,0,0,0,1.14-.24,1.91,1.91,0,0,0,.75-.63A4.48,4.48,0,0,0,16,58.24Q16.12,56.63,16.12,53.83Zm3.72,0q0,1.85-.05,3.23a20.65,20.65,0,0,1-.22,2.44,7.2,7.2,0,0,1-.51,1.83,4.56,4.56,0,0,1-.95,1.37A6.2,6.2,0,0,1,16.3,64a6.53,6.53,0,0,1-2.77.51h-6V43.25h6a6.53,6.53,0,0,1,2.77.51A6.18,6.18,0,0,1,18.11,45a4.61,4.61,0,0,1,.95,1.36,7,7,0,0,1,.51,1.82,20.66,20.66,0,0,1,.22,2.44Q19.84,52,19.84,53.83Z"/>
+                            <path class="cls-2" d="M16.12,53.83q0-2.8-.12-4.38a4.41,4.41,0,0,0-.68-2.32,1.91,1.91,0,0,0-.75-.63,2.55,2.55,0,0,0-1.14-.24H11.24v15.2h2.19a2.54,2.54,0,0,0,1.14-.24,1.91,1.91,0,0,0,.75-.63A4.48,4.48,0,0,0,16,58.24Q16.12,56.63,16.12,53.83Zm3.72,0q0,1.85-.05,3.23a20.65,20.65,0,0,1-.22,2.44,7.2,7.2,0,0,1-.51,1.83,4.56,4.56,0,0,1-.95,1.37A6.2,6.2,0,0,1,16.3,64a6.53,6.53,0,0,1-2.77.51h-6V43.25h6a6.53,6.53,0,0,1,2.77.51A6.18,6.18,0,0,1,18.11,45a4.61,4.61,0,0,1,.95,1.36,7,7,0,0,1,.51,1.82,20.66,20.66,0,0,1,.22,2.44Q19.84,52,19.84,53.83Z"/>
+                            <rect class="cls-3" x="6.83" y="34.95" width="59.56" height="2.44"/></g></g></g></g></svg>    
+                        </div>
+                    </a>
+                    <button class="navbar-toggler align-self-center" type="button" data-toggle="collapse" data-target="#top_nav" aria-controls="top_nav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
 
+                    <div class="collapse navbar-collapse bg-md-dark" id="top_nav">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item active">
+                                <a class="btn btn-nav btn-black mb-2 mr-1" href="#">ОДЕЖДА <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="btn btn-nav btn-black mb-2 mr-1" href="#">ОБУВЬ </a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="btn btn-nav btn-black mb-2 mr-1" href="#">МЯЧИ </a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="btn btn-nav btn-black mb-2 mr-1" href="#">АКСЕССУАРЫ </a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="btn btn-nav btn-black mb-2 mr-1" href="#">СКИДКИ </a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="btn btn-nav btn-black mb-2 mr-1" href="#"><i class="fas fa-search"></i></a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="btn btn-nav dashed mb-2 mr-1" href="#">Регион <i class="fas fa-chevron-down"></i></a></a>
+                            </li>
+                        </ul>
+                        <div class="d-inline mb-2">
+                            <button class="btn btn-outline-dark my-2 my-sm-0" >
+                                <i class="fas fa-phone-volume"></i>&nbsp;8-800-500-62-63
+                                <span class="badge badge-secondary in-tel">Бесплатно!</span>
+                            </button>
+                            <button class="btn btn-outline-dark my-2 my-sm-0" >
+                                ВОЙТИ <i class="fas fa-user"></i>
+                            </button>
+                            <button class="btn btn-outline-dark my-2 my-sm-0" >
+                                <i class="fas fa-shopping-cart"></i>
+                                <span class="badge badge-warning in-cart">1</span>
+                            </button>
+                        </div>
+                    </div>
                 </div>
-            </div>
+            </nav>
         </header>
         <!-- ~~~~~~ END HEADER ~~~~~ -->
+        <nav class="bg-black" aria-label="breadcrumb">
+            <div class="container d-block">
+                <div class="divide d-flex align-items-center">
+                    <span class="text-capitalize text-white myr">ОРИГИНАЛЬНЫЕ БРЕНДЫ ОТ ПРОИЗВОДИТЕЛЕЙ</span>
+                </div>
+            </div>
+        </nav>
         <!-- ~~~~~~ MAIN ~~~~~ -->
-        <div class="container">
+        <div class="container main">
             <div class="row">
-                <div id="carousel" class="carousel slide col-12 d-sm-none d-md-block" data-ride="carousel">
+                <div id="carousel" class="d-none d-sm-none d-md-none d-lg-block col-lg-12 carousel slide" data-ride="carousel">
                     <ol class="carousel-indicators">
                         <li data-target="#carousel" data-slide-to="0" class="active"></li>
                         <li data-target="#carousel" data-slide-to="1"></li>
@@ -306,6 +373,11 @@
                                     <small>Item description</small><br/>
                                     <small>Price</small>
                                 </div>
+                                <div class="over">
+                                    <span class="bg-dark text-white p-2">
+                                        НОВИНКА
+                                    </span>
+                                </div>
                             </div>
                         </a>
                     </div>
@@ -317,6 +389,11 @@
                                     <small>Model name</small><br/>
                                     <small>Item description</small><br/>
                                     <small>Price</small>
+                                </div>
+                                <div class="over">
+                                    <span class="bg-dark text-white  p-2">
+                                        СКИДКА
+                                    </span>
                                 </div>
                             </div>
                         </a>
@@ -371,10 +448,10 @@
             </div>
         </div>
         <div class="container">
-            <div class="row btm_links">
+            <div class="row btm_links pt-4">
                 <div class="col-sm-6 col-md-2 offset-md-2">
                     <h5>О компании</h5>
-                    <ul class="">
+                    <ul class="pt-1">
                         <li><a href="#">О нас</a></li>
                         <li><a href="#">Новости</a></li>
                         <li><a href="#">Гарантии</a></li>
@@ -384,7 +461,7 @@
                 </div>
                 <div class="col-sm-6 col-md-2">
                     <h5>Помощь</h5>
-                    <ul class="">
+                    <ul class="pt-1">
                         <li><a href="#">Как заказать</a></li>
                         <li><a href="#">Доставка и оплата</a></li>
                         <li><a href="#">Программа лояльности</a></li>
@@ -393,7 +470,7 @@
                 </div>
                 <div class="col-sm-6 col-md-2">
                     <h5>Бренды</h5>
-                    <ul class="">
+                    <ul class="pt-1">
                         <li><a href="#">бла</a></li>
                         <li><a href="#">бла</a></li>
                         <li><a href="#">бла</a></li>
@@ -404,17 +481,16 @@
                 </div>
                 <div class="col-sm-6 col-md-2">
                     <h5>Магазин</h5>
-                    <ul class="">
+                    <ul class="pt-1">
                         <li><a href="#">Кросовки</a></li>
                         <li><a href="#">Толстовки</a></li>
                         <li><a href="#">Футболки и майки</a></li>
-                        <li><a href="#">Шорты</a></li>
                         <li><a href="#">Компрессионное белье</a></li>
                         <li><a href="#">Мячи</a></li>
                     </ul>
                 </div>
                 <div class="col-12">
-                    <h3 class="text-center mb-3 ">ОЦЕНИТЕ НАС 
+                    <h3 class="text-center mb-4 ">ОЦЕНИТЕ НАС 
                         <a class="no-decor text-dark" href=""><i class="fab fa-instagram fa-1x ml-3"></i></a>
                         <a class="no-decor text-dark" href=""><i class="fab fa-vk fa-1x ml-3"></i></a>
                         <a class="no-decor text-dark" href=""><i class="fab fa-facebook fa-1x ml-3"></i></a>
@@ -424,7 +500,7 @@
         </div>
         <!-- ~~~~~~ END SECONDARY ~~~~~ -->
         <!-- ~~~~~~ FOOTER ~~~~~ -->
-        <footer class="subscribe">
+        <footer class="subscribe mt-2">
             <div class="container">
                 <div class="row text-white">
                     <div class="col-12 d-flex justify-content-center pt-1 mb-1">
