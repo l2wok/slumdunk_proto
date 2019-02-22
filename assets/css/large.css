@@ -1,0 +1,71 @@
+/*BODY > * {
+    outline: 2px solid deeppink;
+}
+BODY > * > * {
+    outline: 2px dashed lime;
+    outline-offset: -2px;
+}
+BODY > * > * > * {
+    outline: 2px dotted dodgerblue;
+    outline-offset: -4px;
+}*/
+
+/********************************
+            HEADER
+********************************/
+header{
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+/********************************
+            COLORS
+********************************/
+.b_black{
+    background-color: black;
+}
+.t_black{
+    color: black;
+}
+.b_white{
+    background-color: snow;
+}
+.t_white{
+    color: snow;
+}
+
+.b_red{
+    background-color: salmon;
+}
+.t_red{
+    color: salmon;
+}
+
+.b_light{
+    background-color: lightcyan;
+}
+.t_light{
+    color: lightcyan;
+}
+
+.b_orange{
+    background-color: chocolate;
+}
+.t_orange{
+    color: chocolate;
+}
+
+
+/********************************
+            --
+********************************/
+
+/********************************
+            --
+********************************/

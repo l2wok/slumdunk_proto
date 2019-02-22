@@ -228,7 +228,7 @@ a.dashed {
 }
 .infolink:hover{
     color: inherit;
-    text-decoration: 1px solid white;
+/*    text-decoration: solid white;*/
 }
 #searched.form-control{
     background-color: darkgray !important;

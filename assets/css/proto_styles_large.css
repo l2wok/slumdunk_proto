@@ -41,7 +41,7 @@ small.text-sm{font-weight: 200; font-size: 80%; line-height: 100%;}
 }*/
 header{
     height: 80px;
-    overflow-x: none;
+    
 }
 header .container>*{
     /*margin: 0 !important;*/
@@ -144,10 +144,14 @@ header .container>*{
 /*
     BUTTONS
 */
-.btn-outline-dark{
+.btn-outline-black{
+    border-radius: 0;
+    background-color: #111;
+}
+/*.btn-outline-dark{
     background-color: transparent;
     color: #111;
-}
+}*/
 /*.btn-outline-dark,
 .btn-dark,
 {
