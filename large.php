@@ -23,10 +23,24 @@
         <!-- ~~~~~~ HEADER ~~~~~ -->
         <header class="fixed-top">
             <div class="topCollapsedMenu bg-light" id="hiddenTopMenu">
+                <div id="search" class="collapse" data-parent="#hiddenTopMenu">
+                    <div class="container">
+                        <div class="row">
+                            <h3 class="text-center w-100 pt-4 pb-2"> Введите наименование интересующего вас товара или фирмы в строку поиска.</h3>
+                            <div class="col-6 offset-3 input-group mt-3 mb-2">
+                                <input type="text" class="form-control" placeholder="Строка поиска" aria-label="строка поиска" >
+                                <div class="input-group-append">
+                                    <button class="btn btn-outline-warning" type="button" id="button-addon2">OКЕЙ ГУГАЛ ...</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
                 <div id="phoneCall" class="collapse" data-parent="#hiddenTopMenu">
                     <div class="container">
                         <div class="row">
-                            <h3 class="text-center w-100 pt-4 pb-2"> Позвоните нам по бесплатному номеру 8-80000-545-45-3-53</h3>
+                            <h3 class="text-center w-100 pt-4 pb-2"> Позвоните нам по бесплатному номеру 8-80000-545-45-3-53 <a class="btn btn-outline-warning mb-2"> Набрать чичас!</a></h3>
                         </div>
                     </div>
                 </div>
@@ -34,8 +48,8 @@
                 <div id="userProfileTop" class="collapse" data-parent="#hiddenTopMenu">
                     <div class="container">
                         <div class="row">
-                            <div class="col-sm-12 col-md-8 pt-4 pb-2">
-                                <p>Для оформления заказа ребуется <a class="mb-1 btn btn-outline-warning btn-sm">войти</a> или Вы можете использовать свои аккаунты соц.сетей: 
+                            <div class="col-sm-12 col-md-7 pt-4 pb-2">
+                                <p>Для оформления заказа ребуется <a class="mb-1 btn btn-outline-warning btn-sm">войти</a> или Вы можете <br>войти через соц.сети: 
                                     <a class=" btn btn-outline-warning btn-sm">
                                         <i class="fab fa-vk"></i>
                                     </a>
@@ -44,9 +58,9 @@
                                     </a>
                                 </p>
                                 <p>Зарегистрировать новый аккаунт <a class="mb-1 btn btn-outline-warning btn-sm">можно тут</a></p>
-                                <p>Или вы можете позвонить и сделать заказ по бесплатному номеру <a class="mb-1 btn btn-outline-warning btn-sm">8-800-555-35-35</a></p>
+                                <p>Позвоните нам по бесплатному номеру <a class="mb-1 btn btn-outline-warning btn-sm">8-800-555-35-35</a> если возникли вопросы.</p>
                             </div>
-                            <div class="col-sm-12 col-md-4 pt-4 pb-2">
+                            <div class="col-sm-12 col-md-5 pt-4 pb-2">
                                 <ul class="list-group">
                                     <li class="list-group-item list-group-item-action list-group-item-warning d-flex justify-content-between align-items-center">
                                         <strong>Список ваших покупок:</strong>
@@ -102,8 +116,11 @@
                         </div>
                     </nav>
                     <div class="w-25 d-flex align-self-start justify-content-end align-items-start pt-2">
-                        <a class="collapsed btn btn-outline-dark mr-1 active" data-toggle="collapse" data-target="#phoneCall" aria-expanded="false" aria-controls="phoneCall" href="#">
+                        <a class="collapsed btn btn-outline-dark mr-1" data-toggle="collapse" data-target="#phoneCall" aria-expanded="false" aria-controls="phoneCall" href="#">
                             <i class="fa fa-phone-volume"></i>
+                        </a>
+                        <a class="collapsed btn btn-outline-dark mr-1" data-toggle="collapse" data-target="#search" aria-expanded="false" aria-controls="search" href="#">
+                            <i class="fa fa-search"></i>
                         </a>
                         <a class="collapsed btn btn-outline-dark" data-toggle="collapse" data-target="#userProfileTop" aria-expanded="false" aria-controls="userProfileTop" href="#">
 
