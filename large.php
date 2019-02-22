@@ -106,18 +106,30 @@
                                 </div>
                             </a>
                             <ul class="navbar-nav mr-auto mt-lg-0">
-                                <li class="nav-item">
+                                <li class="nav-item mr-1">
                                     <a class="btn btn-nav btn-outline-dark" href="#">
                                         <i class="fab fa-dribbble"></i> Мячи
                                     </a>
                                 </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">Link</a>
+                                <li class="nav-item mr-1">
+                                    <a class="btn btn-nav btn-outline-dark" href="#">
+                                        <i class="fab fa-dribbble"></i> Мячи
+                                    </a>
+                                </li>
+                                <li class="nav-item mr-1">
+                                    <a class="btn btn-nav btn-outline-dark" href="#">
+                                        <i class="fab fa-dribbble"></i> Мячи
+                                    </a>
+                                </li>
+                                <li class="nav-item mr-1">
+                                    <a class="btn btn-nav btn-outline-dark" href="#">
+                                        <i class="fab fa-dribbble"></i> Мячи
+                                    </a>
                                 </li>
                             </ul>
                         </div>
                     </nav>
-                    <div class="w-25 d-flex align-self-start justify-content-end align-items-start pt-2">
+                    <div class="w-25 lastBlock d-flex align-self-start justify-content-end align-items-start mt-lg-0">
                         <a class="collapsed btn btn-outline-dark mr-1" data-toggle="collapse" data-target="#phoneCall" aria-expanded="false" aria-controls="phoneCall" href="#">
                             <i class="fa fa-phone-volume"></i>
                         </a>
