@@ -88,7 +88,7 @@
                         <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
                             <a class="navbar-brand" href="#">
                                 <div class="logo">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 73 71.88" width="36" height="36">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 73 71.88" width="40" height="40">
                                     <defs><style>.cls-one,.cls-2{fill-rule:evenodd;}.cls-1{fill:#000;}.cls-4{fill:#e76e01;}</style></defs>
                                     <g id="layer_h"><g id="slum_h"><g id="dunk_h"><g id="divider_h">
                                     <path class="cls-one" d="M0,8V63.86a7.63,7.63,0,0,0,.8,3.22,8.6,8.6,0,0,0,7.34,4.8H64.86a8.33,8.33,0,0,0,5.65-2.46A8.09,8.09,0,0,0,73,63.86V8a8,8,0,0,0-1.54-4.46A8.89,8.89,0,0,0,68.12.79,8.07,8.07,0,0,0,64.86,0H8.14A7.74,7.74,0,0,0,4.88.79,8.43,8.43,0,0,0,0,8Z"/>
@@ -105,9 +105,11 @@
                                     <rect class="cls-4" x="6.83" y="34.95" width="59.56" height="2.44"/></g></g></g></g></svg>    
                                 </div>
                             </a>
-                            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                            <ul class="navbar-nav mr-auto mt-lg-0">
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                                    <a class="btn btn-nav btn-outline-dark" href="#">
+                                        <i class="fab fa-dribbble"></i> Мячи
+                                    </a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="#">Link</a>
