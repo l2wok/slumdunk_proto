@@ -44,11 +44,11 @@ header>.container>*{
     -webkit-box-shadow: 0 0 0 1px #FFAB19;
     box-shadow: 0 0 0 1px #FFAB19;
 }
-.logo svg{
+/*.logo svg{
     border-radius: .5rem;
     -webkit-box-shadow: 0 0 1px 1px #FFAB19;
     box-shadow: 0 0 1px 1px #FFAB19;
-}
+}*/
 .navbar-toggler{
     position: relative;
 }
