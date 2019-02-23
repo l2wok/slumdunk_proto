@@ -33,9 +33,9 @@
                                             <div class="col-12 my-1">
                                                 <h3 class="text-center">Header in dropdown 1</h3>
                                             </div>
-                                            <div class="d-sm-none d-md-block col-md-4 col-lg-2 my-1">
+                                            <div class="col-md-3 col-lg-2 my-1" d-none d-sm-block >
                                                 <h6>We can place image here or what you want?!</h6>
-                                                <img src="https://www.slamdunk.su/thumbs/5b7578ecd5b805b4b432f16c7car0458_600-0-1.jpg" width="100%" class="img-fluid border-warning">
+                                                <img src="https://www.slamdunk.su/thumbs/5b7578ecd5b805b4b432f16c7car0458_600-0-1.jpg" width="120">
                                             </div>
                                             <div class="col-sm-12 col-md-4 col-lg-3 my-1">
                                                 <ul>
@@ -124,15 +124,27 @@
             <div class="container">
                 <h1 class="text-dark">Пустая страница</h1>
                 <hr/>
+                <hr/>
+                <hr/>
                 <p class="text-dark">на которой мы проимитируем</p>
+                <hr/>
+                <hr/>
                 <hr/>
                 <p class="text-dark">короткую страницу</p>
                 <hr/>
+                <hr/>
+                <hr/>
                 <p class="text-dark">для проверки прижимания футера </p>
+                <hr/>
+                <hr/>
                 <hr/>
                 <p class="text-dark">но на мобиле хватит  </p>
                 <hr/>
+                <hr/>
+                <hr/>
                 <p class="text-dark">текста для появления скроллинга </p>
+                <hr/>
+                <hr/>
                 <hr/>
             </div>
         </main>
