@@ -15,54 +15,102 @@
     </head>
     <body class="d-flex flex-column h-100">
         <header>
-            <div class="orange_shadow"></div>
+            <div class="header-end-shadow-block"></div>
             <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
                 <div class="container top-nav d-flex align-items-center">
-                    <a class="d-md-none d-lg-block mr-auto mr-lg-1 btn btn-outline-dark mr-1 " href="#"><i class="fa fa-home"></i></a>
+                    <a class="d-lg-block mr-auto mr-lg-1 btn btn-outline-dark mr-1 " href="#"><i class="fa fa-home"></i></a>
                     <button class="navbar-toggler p-0 border-0" type="button" data-toggle="offcanvas">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="navbar-collapse offcanvas-collapse" id="j-nav">
                         <ul class="navbar-nav mr-auto">
-                            <li class="nav-item my-md-1 my-lg-0 mr-lg-1 active">
-                                <a class="btn btn-outline-dark my-md-1 my-sm-0" href="#">Dashboard</a>
-                            </li>
-                            <li class="nav-item my-md-1 my-lg-0 mr-lg-1">
-                                <a class="btn btn-outline-dark my-md-1 my-sm-0" href="#">Dashboard</a>
-                            </li>
-                            <li class="nav-item my-md-1 my-lg-0 mr-lg-1 dropdown">
+                            <li class="nav-item my-sm-2 mr-lg-1 dropdown position-static">
                                 <a class="btn btn-outline-dark my-md-1 my-sm-0 dropdown-toggle" href="#" id="dropdown01" 
-                                   data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Settings</a>
-                                <div class="dropdown-menu" aria-labelledby="dropdown01">
-                                    <a class="dropdown-item" href="#">Action</a>
-                                    <a class="dropdown-item" href="#">Another action</a>
-                                    <a class="dropdown-item" href="#">Something else here</a>
+                                   data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">НАЖИМАЙ МЕНЯ НЕЖНО</a>
+                                <div class="dropdown-menu w-100" aria-labelledby="dropdown01">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-12 my-1">
+                                                <h3 class="text-center">Header in dropdown 1</h3>
+                                            </div>
+                                            <div class="d-sm-none d-md-block col-md-4 col-lg-2 my-1">
+                                                <h6>We can place image here or what you want?!</h6>
+                                                <img src="https://www.slamdunk.su/thumbs/5b7578ecd5b805b4b432f16c7car0458_600-0-1.jpg" width="100%" class="img-fluid border-warning">
+                                            </div>
+                                            <div class="col-sm-12 col-md-4 col-lg-3 my-1">
+                                                <ul>
+                                                    <h4>Or category links</h4>
+                                                    <li class="dropdown-item"><a href="#">Column item</a></li>
+                                                    <li class="dropdown-item"><a href="#">Column item</a></li>
+                                                    <li class="dropdown-item"><a href="#">Column item</a></li>
+                                                    <li class="dropdown-item"><a href="#">Column item</a></li>
+                                                    <li class="dropdown-item"><a href="#">Column item</a></li>
+                                                    <li class="dropdown-item"><a href="#">Column item</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-sm-12 col-md-4 col-lg-4 my-1">
+                                                <ul class="list-group">
+                                                    <li class="list-group-item active"><strong>Or List group</strong></li>
+                                                    <li class="list-group-item"><a href="#">with links</a></li>
+                                                    <li class="list-group-item">or just text</li>
+                                                    <li class="list-group-item">width does not have to be equal </li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-md-none col-lg-block col-lg-3 my-1">
+                                                <div class="card w-100">
+                                                    <svg class="bd-placeholder-img card-img-top" width="100%" height="120"
+                                                         xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice"
+                                                         focusable="false" role="img" >
+                                                    <rect width="100%" height="100%" fill="#868e96"></rect></svg>
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">Card title</h5>
+                                                        <p class="card-text">Ofcouse card include</p>
+                                                        <a href="#" class="btn btn-primary">what choose?</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </li>
-                            <li class="nav-item my-md-1 my-lg-0 mr-lg-1 dropdown">
-                                <a class="btn btn-outline-dark my-md-1 my-sm-0 dropdown-toggle" href="#" id="dropdown02"
-                                   data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Settings</a>
-                                <div class="dropdown-menu" aria-labelledby="dropdown02">
-                                    <a class="dropdown-item" href="#">Action</a>
-                                    <a class="dropdown-item" href="#">Another action</a>
-                                    <a class="dropdown-item" href="#">Something else here</a>
+                            <li class="nav-item my-sm-2 mr-lg-1 dropdown position-static">
+                                <a class="btn btn-outline-dark my-md-1 my-sm-0 dropdown-toggle" href="#" id="" 
+                                   data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Empty</a>
+                                <div class="dropdown-menu w-100" aria-labelledby="">
                                 </div>
                             </li>
-                            <li class="nav-item my-md-1 my-lg-0 mr-lg-1 dropdown">
-                                <a class="btn btn-outline-dark my-md-1 my-sm-0 dropdown-toggle" href="#" id="dropdown03" 
-                                   data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Settings</a>
-                                <div class="dropdown-menu" aria-labelledby="dropdown03">
-                                    <a class="dropdown-item" href="#">Action</a>
-                                    <a class="dropdown-item" href="#">Another action</a>
-                                    <a class="dropdown-item" href="#">Something else here</a>
+                            <li class="nav-item my-sm-2 mr-lg-1 dropdown position-static">
+                                <a class="btn btn-outline-dark my-md-1 my-sm-0 dropdown-toggle" href="#" id="" 
+                                   data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Empty</a>
+                                <div class="dropdown-menu w-100" aria-labelledby="">
+                                </div>
+                            </li>
+                            <li class="nav-item my-sm-2 mr-lg-1 dropdown position-static">
+                                <a class="btn btn-outline-dark my-md-1 my-sm-0 dropdown-toggle" href="#" id="" 
+                                   data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Empty</a>
+                                <div class="dropdown-menu w-100" aria-labelledby="">
+                                </div>
+                            </li>
+                            <li class="nav-item my-sm-2 mr-lg-1 dropdown position-static">
+                                <a class="btn btn-outline-dark my-md-1 my-sm-0 dropdown-toggle" href="#" id="" 
+                                   data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Empty</a>
+                                <div class="dropdown-menu w-100" aria-labelledby="">
                                 </div>
                             </li>
                         </ul>
-                        <div class="right-btns my-md-1 my-lg-0">
-                            <button class="btn btn-outline-dark " type="submit">Search</button>
-                            <button class="btn btn-outline-dark " type="submit">Search</button>
-                            <button class="btn btn-outline-dark " type="submit">Search</button>
-                            <button class="btn btn-outline-dark " type="submit">Search</button>
+                        <div class="right-btns my-sm-2 mr-lg-1">
+                            <button class="btn btn-outline-dark ">
+                                <i class="fa fa-search"></i>
+                            </button>
+                            <button class="btn btn-outline-dark ">
+                                <i class="fa fa-phone-volume"></i>
+                            </button>
+                            <button class="btn btn-outline-dark ">
+                                <i class="fa fa-user"></i>
+                            </button>
+                            <button class="btn btn-outline-dark ">
+                                <i class="fa fa-shopping-cart"></i>
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -70,44 +118,23 @@
         </header>
         <main>
             <div class="container">
-                <h1 class="text-dark">Header</h1>
-                <p class="text-dark"> main string</p>
+                <h1 class="text-dark">Пустая страница</h1>
                 <hr/>
-                <h1 class="text-dark">Header</h1>
-                <p class="text-dark"> main string</p>
+                <p class="text-dark">на которой мы проимитируем</p>
                 <hr/>
-                <h1 class="text-dark">Header</h1>
-                <p class="text-dark"> main string</p>
+                <p class="text-dark">короткую страницу</p>
                 <hr/>
-                <h1 class="text-dark">Header</h1>
-                <p class="text-dark"> main string</p>
+                <p class="text-dark">для проверки прижимания футера </p>
                 <hr/>
-                <h1 class="text-dark">Header</h1>
-                <p class="text-dark"> main string</p>
+                <p class="text-dark">но на мобиле хватит  </p>
                 <hr/>
-                <h1 class="text-dark">Header</h1>
-                <p class="text-dark"> main string</p>
-                <hr/>
-                <h1 class="text-dark">Header</h1>
-                <p class="text-dark"> main string</p>
-                <hr/>
-                <h1 class="text-dark">Header</h1>
-                <p class="text-dark"> main string</p>
-                <hr/>
-                <h1 class="text-dark">Header</h1>
-                <p class="text-dark"> main string</p>
-                <hr/>
-                <h1 class="text-dark">Header</h1>
-                <p class="text-dark"> main string</p>
-                <hr/>
-                <h1 class="text-dark">Header</h1>
-                <p class="text-dark"> main string</p>
+                <p class="text-dark">текста для появления скроллинга </p>
                 <hr/>
             </div>
         </main>
         <footer class="mt-auto py-2">
             <div class="container">
-                <p class="text-dark"> Footer string</p>
+                <p class="text-dark">Footer string</p>
             </div>
         </footer>
         <!-- // js block -->
