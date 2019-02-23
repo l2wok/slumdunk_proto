@@ -73,10 +73,14 @@
                                     </div>
                                 </div>
                             </li>
-                            <li class="nav-item my-sm-2 mr-lg-1 dropdown position-static">
-                                <a class="btn btn-outline-dark my-md-1 my-sm-0 dropdown-toggle" href="#" id="" 
-                                   data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Empty</a>
-                                <div class="dropdown-menu w-100" aria-labelledby="">
+                            <li class="nav-item my-sm-2 mr-lg-1 dropdown">
+                                <a class="btn btn-outline-dark my-md-1 my-sm-0 dropdown-toggle" href="#" id="drop1" 
+                                   data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">КОРОТКИЙ ДРОПДАУН</a>
+                                <div class="dropdown-menu" aria-labelledby="drop1">
+
+                                    <a class="dropdown-item" href="#">Action</a>
+                                    <a class="dropdown-item" href="#">Another action</a>
+                                    <a class="dropdown-item" href="#">Something else here</a>
                                 </div>
                             </li>
                             <li class="nav-item my-sm-2 mr-lg-1 dropdown position-static">
