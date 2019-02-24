@@ -84,7 +84,7 @@
                         <div class="navbar-collapse offcanvas-collapse" id="j-nav">
                             <ul class="navbar-nav nav-left">
                                 <li class="nav-item">
-                                    <a class="btn btn-outline-dark" href="#"><i class="fa fa-home"></i><span class="d-inline d-lg-none d-md-block"> НА&nbsp;ГЛАВНУЮ</span></a>
+                                    <a class="btn btn-outline-dark" href="/slamdunk/menu.php"><i class="fa fa-home"></i><span class="d-inline d-lg-none d-md-block"> НА&nbsp;ГЛАВНУЮ</span></a>
                                 </li>
                                 <li class="nav-item dropdown position-static">
                                     <a class="btn btn-outline-dark dropdown-toggle" href="#" id="cat_clothes" 
