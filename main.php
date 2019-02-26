@@ -1,7 +1,7 @@
 <?php
 $ver = 100000 + rand(1, 100000);
 /**
- * remove VER in local files
+ * remove VER in local files and check title
  */
 ?>
 <!doctype html>
