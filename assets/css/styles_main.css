@@ -1,0 +1,47 @@
+/********************************
+            PAGE
+********************************/
+html{ height: 100%;}
+body header,
+body main,
+body footer{
+    display: flow-root;
+}
+html:not(.desktop){
+    .only-desktop{
+        display: none;
+    }
+}
+/********************************
+            GRID
+********************************/
+body {
+    padding-top: 80px;
+}
+header #collapseParent{
+    position: relative;
+    z-index: 2;
+}
+.navbar{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.top-nav{
+    height: 80px;
+}
+footer{
+    min-height: 50px;
+}
+@media (min-width: 1200px) {
+    .container{
+        max-width: 1170px;
+    }
+}
+@media (min-width: 1430px) {
+    .container {
+        max-width: 1400px;
+    }
+}
+@media (max-width: 991.98px) {
+    
+}
