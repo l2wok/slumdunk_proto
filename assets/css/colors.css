@@ -19,6 +19,9 @@ and open the template in the editor.
 .font-color-black{
     color: black;
 }
+a.font-color-black:hover{
+    color: black;
+}
 .font-shadow-black{
     text-shadow: 0 0 .5px black;
 }

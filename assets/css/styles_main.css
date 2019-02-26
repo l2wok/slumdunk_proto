@@ -189,6 +189,7 @@ a.btn{
     height: 400px;
     max-height: 400px;
     overflow: hidden;
+    border-radius: 2px;
 }
 .std_height_300 > .item_card{
     height: inherit;
@@ -197,11 +198,12 @@ a.btn{
     height: 300px;
     max-height: 300px;
     overflow: hidden;
+    border-radius: 2px;
 }
 .card-hover-shadow:hover{
 /*    cursor: pointer;*/
-    -webkit-box-shadow: 0 0 0 1px #eea340;
-    box-shadow: 0 0 0 1px #eea340;
+    -webkit-box-shadow: 0 0 0 .5px #999;
+    box-shadow: 0 0 0 .5px #999;
 }
 /********************************
             VISUAL
@@ -211,4 +213,9 @@ a.btn{
 }
 main .row{
     padding: 2rem 0;
+}
+.item_card img{
+    width: 90%;
+    position: relative;
+    left: 5%;
 }

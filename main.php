@@ -164,162 +164,55 @@ $ver = 100000 + rand(1, 100000);
 
                 <!-- FIrst items cards -->
                 <div class="row">
-
                     <div class="col-sm-6 col-md-6 col-lg-3 mb-1">
-                        <div class="item_card std_height_400">
-                            <img src="https://www.slamdunk.su/thumbs/5b7578ecd5b805b4b432f16c7car0458_600-0-1.jpg" width="100%" class="card-img" alt="">
-                            <div class="card-img-overlay d-flex flex-column align-items-start justify-content-center">
-                                <p class="lead w-100 mb-auto">Very very ultra very LONG collection&nbsp;name SYKABLA</p>
-                                <button class="btn btn-dark bg-color-black align-self-center" onclick="jQuery(alert('Клик на Very very ultra ПОДРОБНЕЕ'))">ПОДРОБНЕЕ</button>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-sm-6 col-md-6 col-lg-3 mb-1">
-                        <div class="item_card std_height_400">
-                            <img src="https://www.slamdunk.su/thumbs/5b7578ecd5b805b4b432f16c7car0458_600-0-1.jpg" width="100%" class="card-img" alt="">
-                            <div class="card-img-overlay d-flex flex-column align-items-start justify-content-center">
-                                <p class="lead w-100 mb-auto">Very very ultra very LONG collection&nbsp;name SYKABLA</p>
-                                <button class="btn btn-dark bg-color-black align-self-center" onclick="jQuery(alert('Клик на Very very ultra ПОДРОБНЕЕ'))">ПОДРОБНЕЕ</button>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-sm-6 col-md-6 col-lg-3 mb-1">
-                        <div class="item_card std_height_400">
-                            <img src="https://www.slamdunk.su/thumbs/5b7578ecd5b805b4b432f16c7car0458_600-0-1.jpg" width="100%" class="card-img" alt="">
-                            <div class="card-img-overlay d-flex flex-column align-items-start justify-content-center">
-                                <p class="lead w-100 mb-auto">Very very ultra very LONG collection&nbsp;name SYKABLA</p>
-                                <button class="btn btn-dark bg-color-black align-self-center" onclick="jQuery(alert('Клик на Very very ultra ПОДРОБНЕЕ'))">ПОДРОБНЕЕ</button>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-sm-6 col-md-6 col-lg-3 mb-1">
-                        <div class="item_card std_height_400">
-                            <img src="https://www.slamdunk.su/thumbs/5b7578ecd5b805b4b432f16c7car0458_600-0-1.jpg" width="100%" class="card-img" alt="">
-                            <div class="card-img-overlay d-flex flex-column align-items-start justify-content-center">
-                                <p class="lead w-100 mb-auto">Very very ultra very LONG collection&nbsp;name SYKABLA</p>
-                                <button class="btn btn-dark bg-color-black align-self-center" onclick="jQuery(alert('Клик на Very very ultra ПОДРОБНЕЕ'))">ПОДРОБНЕЕ</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-
-                    <div class="col-sm-6 col-md-6 col-lg-3 mb-1">
-                        <div class="card item_card std_height_400">
-                            <img src="https://www.slamdunk.su/thumbs/5b7578ecd5b805b4b432f16c7car0458_600-0-1.jpg" width="100%" class="card-img" alt="">
-                            <div class="card-img-overlay d-flex align-items-end justify-content-center">
-                                <button class="btn btn-dark bg-color-black" onclick="jQuery(alert('Клик на ПОДРОБНЕЕ vs border'))">ПОДРОБНЕЕ</button>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-sm-6 col-md-6 col-lg-3 mb-1">
-                        <div class="card item_card std_height_400">
-                            <img src="https://www.slamdunk.su/thumbs/5b7578ecd5b805b4b432f16c7car0458_600-0-1.jpg" width="100%" class="card-img" alt="">
-                            <div class="card-img-overlay d-flex align-items-end justify-content-center">
-                                <button class="btn btn-dark bg-color-black" onclick="jQuery(alert('Клик на ПОДРОБНЕЕ vs border'))">ПОДРОБНЕЕ</button>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-sm-6 col-md-6 col-lg-3 mb-1">
-                        <div class="card item_card std_height_400">
-                            <img src="https://www.slamdunk.su/thumbs/5b7578ecd5b805b4b432f16c7car0458_600-0-1.jpg" width="100%" class="card-img" alt="">
-                            <div class="card-img-overlay d-flex align-items-end justify-content-center">
-                                <button class="btn btn-dark bg-color-black" onclick="jQuery(alert('Клик на ПОДРОБНЕЕ vs border'))">ПОДРОБНЕЕ</button>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-sm-6 col-md-6 col-lg-3 mb-1">
-                        <div class="card item_card std_height_400">
-                            <img src="https://www.slamdunk.su/thumbs/5b7578ecd5b805b4b432f16c7car0458_600-0-1.jpg" width="100%" class="card-img" alt="">
-                            <div class="card-img-overlay d-flex align-items-end justify-content-center">
-                                <button class="btn btn-dark bg-color-black" onclick="jQuery(alert('Клик на ПОДРОБНЕЕ vs border'))">ПОДРОБНЕЕ</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-
-                    <div class="col-sm-6 col-md-6 col-lg-3 mb-1">
-                        <a href="#" class="no-decor" onclick="jQuery(alert('Клик на Card no-border'))">
+                        <a href="#" class="text-decoration-none font-color-black text-center" onclick="jQuery(alert('Клик на карточку товара'))">
                             <div class="item_card std_height_400 card-hover-shadow">
-                                <img src="https://www.slamdunk.su/thumbs/5b7578ecd5b805b4b432f16c7car0458_600-0-1.jpg" width="100%" class="" alt="">
+                                <img src="https://www.slamdunk.su/thumbs/5b7578ecd5b805b4b432f16c7car0458_600-0-1.jpg" class="" alt="">
+
+                                <div class="card-img-overlay d-flex flex-column align-items-start justify-content-center ">
+                                    <p class="lead w-100 mb-auto">Model name # 323423</p>
+                                    <p class="w-100 lead"><strong>Цена: 555555 р.</strong></p>
+                                </div>
                             </div>
                         </a>
                     </div>
-
                     <div class="col-sm-6 col-md-6 col-lg-3 mb-1">
-                        <a href="#" class="no-decor" onclick="jQuery(alert('Клик на Card no-border'))">
+                        <a href="#" class="text-decoration-none font-color-black text-center" onclick="jQuery(alert('Клик на карточку товара'))">
                             <div class="item_card std_height_400 card-hover-shadow">
-                                <img src="https://www.slamdunk.su/thumbs/5b7578ecd5b805b4b432f16c7car0458_600-0-1.jpg" width="100%" class="" alt="">
+                                <img src="https://www.slamdunk.su/thumbs/5b7578ecd5b805b4b432f16c7car0458_600-0-1.jpg" class="" alt="">
+
+                                <div class="card-img-overlay d-flex flex-column align-items-start justify-content-center ">
+                                    <p class="lead w-100 mb-auto">Model nameModel nameModel nameModel # 323423</p>
+                                    <p class="w-100 lead"><strong>Цена: 555555 р.</strong></p>
+                                </div>
                             </div>
                         </a>
                     </div>
-
                     <div class="col-sm-6 col-md-6 col-lg-3 mb-1">
-                        <a href="#" class="no-decor" onclick="jQuery(alert('Клик на Card no-border'))">
+                        <a href="#" class="text-decoration-none font-color-black" onclick="jQuery(alert('Клик на карточку товара'))">
                             <div class="item_card std_height_400 card-hover-shadow">
-                                <img src="https://www.slamdunk.su/thumbs/5b7578ecd5b805b4b432f16c7car0458_600-0-1.jpg" width="100%" class="" alt="">
+                                <img src="https://www.slamdunk.su/thumbs/5b7578ecd5b805b4b432f16c7car0458_600-0-1.jpg" class="" alt="">
+
+                                <div class="card-img-overlay d-flex flex-column align-items-start justify-content-center ">
+                                    <p class="lead w-100 mb-auto">Model nameModel nameModel nameModel # 323423</p>
+                                    <p class="w-100 lead"><strong>Цена: 555555 р.</strong></p>
+                                </div>
                             </div>
                         </a>
                     </div>
-
                     <div class="col-sm-6 col-md-6 col-lg-3 mb-1">
-                        <a href="#" class="no-decor" onclick="jQuery(alert('Клик на Card no-border'))">
+                        <a href="#" class="text-decoration-none font-color-black" onclick="jQuery(alert('Клик на карточку товара'))">
                             <div class="item_card std_height_400 card-hover-shadow">
-                                <img src="https://www.slamdunk.su/thumbs/5b7578ecd5b805b4b432f16c7car0458_600-0-1.jpg" width="100%" class="" alt="">
+                                <img src="https://www.slamdunk.su/thumbs/5b7578ecd5b805b4b432f16c7car0458_600-0-1.jpg" class="" alt="">
+
+                                <div class="card-img-overlay d-flex flex-column align-items-start justify-content-center ">
+                                    <p class="lead w-100 mb-auto">Model name # 323423</p>
+                                    <p class="w-100 lead"><strong>Цена: 555555 р.</strong></p>
+                                </div>
                             </div>
                         </a>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-sm-6 col-md-6 col-lg-3 mb-1">
-                        <div class="card item_card std_height_400">
-                            <img src="https://www.slamdunk.su/thumbs/5b7578ecd5b805b4b432f16c7car0458_600-0-1.jpg" width="100%" class="card-img" alt="">
-
-                            <div class="card-img-overlay d-flex flex-column align-items-start justify-content-center">
-                                <p class="lead w-100 mb-auto">Model name # 323423</p>
-                                <button class="btn btn-dark bg-color-black align-self-center" onclick="jQuery(alert('Клик на ПОДРОБНЕЕ in stdCard'))">ПОДРОБНЕЕ</button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-md-6 col-lg-3 mb-1">
-                        <div class="card item_card std_height_400">
-                            <img src="https://www.slamdunk.su/thumbs/5b7578ecd5b805b4b432f16c7car0458_600-0-1.jpg" width="100%" class="card-img" alt="">
-
-                            <div class="card-img-overlay d-flex flex-column align-items-start justify-content-center">
-                                <p class="lead w-100 mb-auto">Model name # 323423</p>
-                                <button class="btn btn-dark bg-color-black align-self-center" onclick="jQuery(alert('Клик на ПОДРОБНЕЕ in stdCard'))">ПОДРОБНЕЕ</button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-md-6 col-lg-3 mb-1">
-                        <div class="card item_card std_height_400">
-                            <img src="https://www.slamdunk.su/thumbs/5b7578ecd5b805b4b432f16c7car0458_600-0-1.jpg" width="100%" class="card-img" alt="">
-
-                            <div class="card-img-overlay d-flex flex-column align-items-start justify-content-center">
-                                <p class="lead w-100 mb-auto">Model name # 323423</p>
-                                <button class="btn btn-dark bg-color-black align-self-center" onclick="jQuery(alert('Клик на ПОДРОБНЕЕ in stdCard'))">ПОДРОБНЕЕ</button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-md-6 col-lg-3 mb-1">
-                        <div class="card item_card std_height_400">
-                            <img src="https://www.slamdunk.su/thumbs/5b7578ecd5b805b4b432f16c7car0458_600-0-1.jpg" width="100%" class="card-img" alt="">
-
-                            <div class="card-img-overlay d-flex flex-column align-items-start justify-content-center">
-                                <p class="lead w-100 mb-auto">Model name # 323423</p>
-                                <button class="btn btn-dark bg-color-black align-self-center" onclick="jQuery(alert('Клик на ПОДРОБНЕЕ in stdCard'))">ПОДРОБНЕЕ</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
                 <div class="midBtn my-1">
                     <button class="btn btn-dark bg-color-black" onclick="jQuery(alert('Клик на КОЛЛЕКЦИИ'))">КОЛЛЕКЦИИ</button>
                 </div>
