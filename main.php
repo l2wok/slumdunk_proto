@@ -21,44 +21,6 @@ $ver = 100000 + rand(1, 100000);
         <link rel="stylesheet" href="assets/css/styles_main.css?v=<?php echo $ver;?>">
     </head>
     <body class="d-flex flex-column h-100">
-        <div class="d-flex">
-        <?php
-        $gamma['names'] = ['black', 'orange', 'pink', 'light', 'smoke'];
-        $gamma['colors'] = ['black', 'orangered', 'lightcoral', 'gainsboro', 'whitesmoke'];
-        for($i=0; $i < count($gamma['names']); $i++){
-            $n_color = $gamma['names'][$i];
-            $w_color = $gamma['colors'][$i];
-            
-            echo ""
-                    . "<div class='card w-25'>"
-                        . "<div class='card-header'>"
-                            . "<p class='lead'>Web color = $w_color</p>"
-                        . "</div>"
-                        . "<div class='card-body'>"
-                            . "<div class='form-control bg-color-$n_color'></div>";
-                for($ic=0; $ic < count($gamma['names']); $ic++){
-                    $t_color = $gamma['names'][$ic];
-                        echo ""
-                            . "<br>"
-                            . "<div class='form-control bg-color-$n_color'>"
-                                . "<p class='font-color-$t_color small'>Text $t_color</p>"
-                            . "</div>";
-                        for($s=0; $s < count($gamma['names']); $s++){
-                            $s_color = $gamma['names'][$s];
-                            
-                                echo ""
-                            . "<div class='form-control bg-color-$n_color '>"
-                            . "<p class='font-color-$t_color font-shadow-$s_color small'>Text $t_color vs $s_color shadow</p>"
-                            . "</div>";
-                        }
-                }
-            echo ""
-                        . "</div>"
-                    . "</div>"
-                . "";
-        }
-        ?>
-        </div>
         
         <!-- // js block -->
         <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
