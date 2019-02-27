@@ -156,8 +156,8 @@ $ver = 100000 + rand(1, 100000);
         <main class="mb-auto">
             <!-- Carusel place -->
 
-
             <div class="container">
+                <!-- Middle buttons -->
                 <div class="midBtn my-1">
                     <button class="btn btn-dark bg-color-black" onclick="jQuery(alert('Клик на Новые Поступления'))">НОВЫЕ ПОСТУПЛЕНИЯ</button>
                 </div>
@@ -165,49 +165,45 @@ $ver = 100000 + rand(1, 100000);
                 <!-- FIrst items cards -->
                 <div class="row">
                     <div class="col-sm-6 col-md-6 col-lg-3 mb-1">
-                        <a href="#" class="text-decoration-none font-color-black text-center" onclick="jQuery(alert('Клик на карточку товара'))">
+                        <a href="#" class="text-decoration-none font-color-black" onclick="jQuery(alert('Клик на карточку товара без рамки (верхний ряд)'))">
                             <div class="item_card std_height_400 card-hover-shadow">
-                                <img src="https://www.slamdunk.su/thumbs/5b7578ecd5b805b4b432f16c7car0458_600-0-1.jpg" class="" alt="">
-
-                                <div class="card-img-overlay d-flex flex-column align-items-start justify-content-center ">
-                                    <p class="lead w-100 mb-auto">Model name # 323423</p>
-                                    <p class="w-100 lead"><strong>Цена: 555555 р.</strong></p>
+                                <img src="https://www.slamdunk.su/thumbs/5c7530c89e00dAO6224-004-PHSRH000-2000.jpeg" class="item-card-image" alt="">
+                                <div class="card-img-overlay d-flex flex-column align-items-start justify-content-center font-shadow-smoke">
+                                    <p class="lead ml-2 ">Баскетбольные кроссовки Jordan Ultra Fly 3 Low</p>
+                                    <p class="w-100 lead text-center mt-auto"><strong>Цена: </strong>9 190 р.</p>
                                 </div>
                             </div>
                         </a>
                     </div>
                     <div class="col-sm-6 col-md-6 col-lg-3 mb-1">
-                        <a href="#" class="text-decoration-none font-color-black text-center" onclick="jQuery(alert('Клик на карточку товара'))">
+                        <a href="#" class="text-decoration-none font-color-black" onclick="jQuery(alert('Клик на карточку товара без рамки (верхний ряд)'))">
                             <div class="item_card std_height_400 card-hover-shadow">
-                                <img src="https://www.slamdunk.su/thumbs/5b7578ecd5b805b4b432f16c7car0458_600-0-1.jpg" class="" alt="">
-
-                                <div class="card-img-overlay d-flex flex-column align-items-start justify-content-center ">
-                                    <p class="lead w-100 mb-auto">Model nameModel nameModel nameModel # 323423</p>
-                                    <p class="w-100 lead"><strong>Цена: 555555 р.</strong></p>
+                                <img src="https://www.slamdunk.su/thumbs/5c409dec2c2a0AO7893-002-PHSRH000-2000.jpeg" class="item-card-image" alt="">
+                                <div class="card-img-overlay d-flex flex-column align-items-start justify-content-center font-shadow-smoke">
+                                    <p class="lead ml-2 ">Баскетбольные кроссовки Nike Hyperdunk X</p>
+                                    <p class="w-100 lead text-center mt-auto"><strong>Цена: </strong>10 790 р.</p>
                                 </div>
                             </div>
                         </a>
                     </div>
                     <div class="col-sm-6 col-md-6 col-lg-3 mb-1">
-                        <a href="#" class="text-decoration-none font-color-black" onclick="jQuery(alert('Клик на карточку товара'))">
+                        <a href="#" class="text-decoration-none font-color-black" onclick="jQuery(alert('Клик на карточку товара без рамки (верхний ряд)'))">
                             <div class="item_card std_height_400 card-hover-shadow">
-                                <img src="https://www.slamdunk.su/thumbs/5b7578ecd5b805b4b432f16c7car0458_600-0-1.jpg" class="" alt="">
-
-                                <div class="card-img-overlay d-flex flex-column align-items-start justify-content-center ">
-                                    <p class="lead w-100 mb-auto">Model nameModel nameModel nameModel # 323423</p>
-                                    <p class="w-100 lead"><strong>Цена: 555555 р.</strong></p>
+                                <img src="https://www.slamdunk.su//thumbs/5bbbfc774f1ee.jpg" class="item-card-image" alt="">
+                                <div class="card-img-overlay d-flex flex-column align-items-start justify-content-center font-shadow-smoke">
+                                    <p class="lead ml-2 ">Баскетбольные кроссовки Jordan Jumpman Hustle</p>
+                                    <p class="w-100 lead text-center mt-auto"><strong>Цена: </strong>8 290 р.</p>
                                 </div>
                             </div>
                         </a>
                     </div>
                     <div class="col-sm-6 col-md-6 col-lg-3 mb-1">
-                        <a href="#" class="text-decoration-none font-color-black" onclick="jQuery(alert('Клик на карточку товара'))">
+                        <a href="#" class="text-decoration-none font-color-black" onclick="jQuery(alert('Клик на карточку товара c уебским фоном'))">
                             <div class="item_card std_height_400 card-hover-shadow">
-                                <img src="https://www.slamdunk.su/thumbs/5b7578ecd5b805b4b432f16c7car0458_600-0-1.jpg" class="" alt="">
-
-                                <div class="card-img-overlay d-flex flex-column align-items-start justify-content-center ">
-                                    <p class="lead w-100 mb-auto">Model name # 323423</p>
-                                    <p class="w-100 lead"><strong>Цена: 555555 р.</strong></p>
+                                <img src="https://www.slamdunk.su/thumbs/5b4b6bc7ca5052ce5bb7011d7c634596d5a08d92222e1.jpg" class="item-card-image" alt="">
+                                <div class="card-img-overlay d-flex flex-column align-items-start justify-content-center font-shadow-smoke">
+                                    <p class="lead ml-2 ">Баскетбольные кроссовки Nike KD Trey 5 VI</p>
+                                    <p class="w-100 lead text-center mt-auto"><strong>Цена: </strong>6 490 р.</p>
                                 </div>
                             </div>
                         </a>
