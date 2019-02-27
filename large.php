@@ -367,28 +367,28 @@
             </div>
             <div class="row">
                 <div class="col-sm-6 col-md-6 col-lg-3 mb-1">
-                    <div class="card item_card std_height_400 b_light">
+                    <div class="card item_card card-big b_light">
                         <div class="card-img-overlay d-flex align-items-end justify-content-center">
                             <button class="btn b_black t_orange">ПОДРОБНЕЕ</button>
                         </div>
                     </div>
                 </div>
                 <div class="col-sm-6 col-md-6 col-lg-3 mb-1">
-                    <div class="card item_card std_height_400 b_light">
+                    <div class="card item_card card-big b_light">
                         <div class="card-img-overlay d-flex align-items-end justify-content-center">
                             <button class="btn b_black t_orange">ПОДРОБНЕЕ</button>
                         </div>
                     </div>
                 </div>
                 <div class="col-sm-6 col-md-6 col-lg-3 mb-1">
-                    <div class="card item_card std_height_400 b_light">
+                    <div class="card item_card card-big b_light">
                         <div class="card-img-overlay d-flex align-items-end justify-content-center">
                             <button class="btn b_black t_orange">ПОДРОБНЕЕ</button>
                         </div>
                     </div>
                 </div>
                 <div class="col-sm-6 col-md-6 col-lg-3 mb-1">
-                    <div class="card item_card std_height_400 b_light">
+                    <div class="card item_card card-big b_light">
                         <div class="card-img-overlay d-flex align-items-end justify-content-center">
                             <button class="btn b_black t_orange">ПОДРОБНЕЕ</button>
                         </div>
@@ -400,7 +400,7 @@
             </div>
             <div class="row">
                 <div class="col-sm-12 col-md-12 col-lg-6 mb-1">
-                    <div class="card item_card std_height_400 b_light">
+                    <div class="card item_card card-big b_light">
                         <div class="card-body ">
                             <h2 class="ml-4 mt-4">КУПИ КИРПИЧ</h2>
                             <div class="ml-2 col-10">
@@ -412,7 +412,7 @@
                     </div>
                 </div>
                 <div class="col-sm-4 col-md-4 col-lg-2 mb-1">
-                    <div class="card item_card std_height_400 b_light ">
+                    <div class="card item_card card-big b_light ">
                         <svg class="card-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 103.61 382.57"><defs>
                         <style>.fill-dark{fill:#0b0f1b;}</style></defs>
                         <g id="man_1"><g id="man_2">
@@ -432,7 +432,7 @@
                     </div>
                 </div>
                 <div class="col-sm-4 col-md-4 col-lg-2 mb-1">
-                    <div class="card item_card std_height_400 b_red">
+                    <div class="card item_card card-big b_red">
                         <svg class="card-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 103.61 382.57"><defs>
                         <style>.fill-red{fill:#bb2914;}</style></defs>
                         <g id="man_3"><g id="man_4">
@@ -452,7 +452,7 @@
                     </div>
                 </div>
                 <div class="col-sm-4 col-md-4 col-lg-2 mb-1">
-                    <div class="card item_card std_height_400 b_orange">
+                    <div class="card item_card card-big b_orange">
                         <svg class="card-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 103.61 382.57"><defs>
                         <style>.fill-gray{fill:#333;}</style></defs>
                         <g id="man_5"><g id="man_6">

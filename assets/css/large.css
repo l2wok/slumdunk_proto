@@ -240,10 +240,10 @@ button.btn{
     margin-top: -40px;
     margin-bottom: -20px;
 }
-.std_height_400 > .item_card{
+.card-big > .item_card{
     height: inherit;
 }
-.std_height_400{
+.card-big{
     height: 400px;
     max-height: 400px;
     overflow: hidden;
