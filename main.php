@@ -319,7 +319,7 @@ $ver = 100000 + rand(1, 100000);
                 <div class="row">
                     <div class="col-md-12 col-lg-6 mb-4">
                         <div class="card card-big bg-color-black font-color-smoke font-shadow-black">
-                            <img src="assets/img/card-big.png" class="card-img" alt="">
+                            <img src="assets/img/123456.png" class="card-img" alt="">
                             <div class="card-img-overlay card-blog p-3">
                                 <h2 class="">Nike Air Max 95 SE</h2>
                                 <p>Признанная классика. Обувь, которая стала итогом многолетней кропотливой работы ведущих дизайнеров Nike. Обувь для твоих побед.</p>
