@@ -34,6 +34,14 @@ $(document).ready(function() {
     setTimeout(showHide,1000);
     
     
+    $(".collapsed").on('click', function(e) {
+        let th = $(this);
+        if (th.hasClass('active') !== true) {
+            $('.btn.border-warning.active').removeClass('active');
+        }
+        th.toggleClass('active');
+        th.blur();
+    });
 });
 function showHide(){
     if($('html').hasClass('desktop')){

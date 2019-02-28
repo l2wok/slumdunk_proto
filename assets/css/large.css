@@ -248,10 +248,10 @@ button.btn{
     max-height: 400px;
     overflow: hidden;
 }
-.std_height_300 > .item_card{
+.card-small > .item_card{
     height: inherit;
 }
-.std_height_300{
+.card-small{
     height: 300px;
     max-height: 300px;
     overflow: hidden;

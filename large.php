@@ -480,7 +480,7 @@
                 <div class="row">
                     <div class="col-12 col-sm-6 col-md-6 col-lg-3 mb-1">
                         <a href="#" class="no-decor">
-                            <div class="card item_card std_height_300 b_light t_black d-flex align-content-between flex-wrap">
+                            <div class="card item_card card-small b_light t_black d-flex align-content-between flex-wrap">
                                 <div class="card-header w-100 pan">
                                     <em>ЖИВИ БАСКЕТБОЛОМ</em>
                                 </div>
@@ -504,7 +504,7 @@
                     </div>
                     <div class="col-12 col-sm-6 col-md-6 col-lg-3 mb-1">
                         <a href="#" class="no-decor">
-                            <div class="card item_card std_height_300 b_red t_black d-flex align-content-between flex-wrap">
+                            <div class="card item_card card-small b_red t_black d-flex align-content-between flex-wrap">
                                 <div class="card-header w-100 pan">
                                     <em>НЕ ПОПАЛ?</em>
                                 </div>
@@ -528,7 +528,7 @@
                     </div>
                     <div class="col-12 col-sm-6 col-md-6 col-lg-3 mb-1">
                         <a href="#" class="no-decor">
-                            <div class="card item_card std_height_300 b_black t_white d-flex align-content-between flex-wrap">
+                            <div class="card item_card card-small b_black t_white d-flex align-content-between flex-wrap">
                                 <div class="card-header w-100 pan">
                                     <em>КУПИ МЯЧИК ЧТО ЛИ?</em>
                                 </div>
@@ -552,7 +552,7 @@
                     </div>
                     <div class="col-12 col-sm-6 col-md-6 col-lg-3 mb-1">
                         <a href="#" class="no-decor">
-                            <div class="card item_card std_height_300 b_orange t_black d-flex align-content-between flex-wrap">
+                            <div class="card item_card card-small b_orange t_black d-flex align-content-between flex-wrap">
                                 <div class="card-header w-100 pan">
                                     <em>НЕ ХОЧЕШЬ?</em>
                                 </div>
