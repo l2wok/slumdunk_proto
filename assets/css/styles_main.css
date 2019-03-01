@@ -36,7 +36,7 @@ footer{
 footer .container{
     position: relative;
 }
-@media (max-width: 576px) {
+@media (min-width: 576px) {
     .container{
         max-width: max-content;
     }

@@ -20,7 +20,7 @@ $ver = 100000 + rand(1, 100000);
         <link rel="stylesheet" href="assets/css/colors.css?v=<?php echo $ver; ?>">
         <link rel="stylesheet" href="assets/css/styles_main.css?v=<?php echo $ver; ?>">
     </head>
-    <body class="d-flex flex-column h-100">
+    <body class="d-flex flex-column h-100" id="top">
         <header>
             <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-color-smoke">
                 <div class="container">
@@ -641,7 +641,7 @@ $ver = 100000 + rand(1, 100000);
                 <a href="#">&COPY; <?php echo date("Y");?> SLUMDUNK</a>
                 <a href="#">Политика конфиденциальности</a>
                 <span class="pedal">
-                    <a id="go-to-top" class="btn btn-sm border-secondary font-color-light" href="#carousel">
+                    <a id="go-to-top" class="btn btn-sm border-secondary font-color-light" href="#top">
                         <i class="fa fa-chevron-up"></i> Наверх </a>
                 </span>
             </div>
