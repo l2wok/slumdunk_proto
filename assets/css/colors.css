@@ -162,18 +162,26 @@ a.font-color-black:hover{
     text-shadow: 0 0 .5px whitesmoke;
     border: inset 1px #131514;
 }
+.last-block h5{
+    color: #131514;
+    text-shadow: 0 0 .5px whitesmoke;
+}
 .last-block ul li a{
     color: #71706E;
     text-shadow: 0 0 .5px whitesmoke;
 }
 
-/*.last-block >*, 
-.last-block >*>h5, 
-.last-block >*>ul,
-.last-block >*>ul li,
-.last-block >*>ul li a{
-    color: inherit;
+.last-block ul li a:hover{
+    color: #131514;
 }
-.last-block >*>ul li a:hover{
-    
-}*/
+.social-rate h4{
+    color: #131514;
+}
+.social-rate a{
+    color: #131514;
+    text-shadow: 0 0 .5px whitesmoke;
+}
+.social-rate a:hover{
+    color: #71706E;
+    text-shadow: 0 0 .5px whitesmoke;
+}

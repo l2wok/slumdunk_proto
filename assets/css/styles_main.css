@@ -26,14 +26,14 @@ body {
 }
 
 .last-block-with-offset{
-    width: 95%;
+    width: 92%;
     margin: 0 auto;
     padding: 0;
 }
 footer{
     min-height: 50px;
 }
-@media (min-width: 576px) {
+@media (max-width: 576px) {
     .container{
         max-width: max-content;
     }
@@ -194,17 +194,18 @@ a.btn{
     font-weight: 500 !important;
 }
 .mid-btn-block{
-    display: block;
-    min-height: 1px;
+    display: flow-root;
+    min-height: 2rem;
     width: 100%;
     text-align: center;
-    padding: 1rem 0;
+    margin: 1.75rem auto 2rem auto;
 }
 /********************************
             CARDS
 ********************************/
 
 .card,
+.item-card,
 .card-hover-shadow{
     border-radius: 2px;
 }
@@ -232,7 +233,8 @@ a.btn{
     overflow: hidden;
 }
 .item_card .item-card-svg{
-    width: 50%;
+    width: 55%;
+    padding: 1rem;
     margin: .5rem auto;
 }
 
@@ -304,6 +306,13 @@ input.form-control{
 .social-rate{
     height: 50px;
     padding: 0;
+}
+.last-block ul{
+    padding: 0 0 0 1rem;
+    list-style: none;
+}
+.last-block ul li{
+    margin: .25rem 0;
 }
 .social-rate *{
     margin: 0;
