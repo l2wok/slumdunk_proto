@@ -7,20 +7,26 @@ and open the template in the editor.
     Created on : 26.02.2019, 8:49:13
     Author     : User
 
-    Gamma
+    Gamma 1st
     black, orangered, lightcoral, gainsboro, snow
+
+    Logo have
+    black - #131514
+    orange - #f86400
+    white - #ffffff
+    
 */
 
 /*      black
 */
 .bg-color-black{
-    background-color: black;
+    background-color: #131514;
 }
 .font-color-black{
-    color: black;
+    color: #131514;
 }
 a.font-color-black:hover{
-    color: black;
+    color: #131514;
 }
 .font-shadow-black{
     text-shadow: 0 0 .5px black;
@@ -29,13 +35,13 @@ a.font-color-black:hover{
 /*      orange
 */
 .bg-color-orange{
-    background-color: orangered;
+    background-color: #f86400;
 }
 .font-color-orange{
-    color: orangered;
+    color: #f86400;
 }
 .font-shadow-orange{
-    text-shadow: 0 0 .5px orangered;
+    text-shadow: 0 0 .5px #f86400;
 }
 
 /*      pink
@@ -96,7 +102,72 @@ a.font-color-black:hover{
     color: black !important;
 }
 
-.last-block >*, 
+
+.btn.focus,
+.btn:focus{
+    -webkit-box-shadow: 0 0 0 0.1rem rgba(11,11,11,.25);
+    box-shadow: 0 0 0 0.1rem rgba(11,11,11,.25);
+}
+
+.btn.btn-orange{
+    background-color: #f86400;
+    color: #131514;
+    text-shadow: 0 0 .5px #f86400;
+}
+.btn.btn-orange:hover{
+    background-color: gainsboro;
+    color: #f86400;
+    text-shadow: 0 0 1px #131514;
+    border: inset 1px #131514;
+}
+.btn.btn-orange.active,
+.btn.btn-orange:active{
+    background-color: gainsboro;
+    color: #131514;
+    text-shadow: 0 0 .5px whitesmoke;
+    border: inset 1px #131514;
+}
+.btn.btn-black{
+    background-color: #131514;
+    color: #fff;
+    text-shadow: 0 0 .5px #131514;
+}
+.btn.btn-black:hover{
+    background-color: whitesmoke;
+    color: #131514;
+    text-shadow: 0 0 .5px #fff;
+    border: inset 1px #131514;
+}
+.btn.btn-black.active,
+.btn.btn-black:active{
+    background-color: gainsboro;
+    color: #131514;
+    text-shadow: 0 0 .5px whitesmoke;
+    border: inset 1px #131514;
+}
+.btn.btn-outline-dark{
+    color: #131514;
+    font-weight: 500 !important;
+    text-shadow: 0 0 .5px #fff;
+}
+.btn.btn-outline-dark:hover{
+    background-color: #131514;
+    color: #fff;
+    text-shadow: 0 0 .5px #131514;
+}
+.btn.btn-outline-dark.active,
+.btn.btn-outline-dark:active{
+    background-color: gainsboro;
+    color: #131514;
+    text-shadow: 0 0 .5px whitesmoke;
+    border: inset 1px #131514;
+}
+.last-block ul li a{
+    color: #71706E;
+    text-shadow: 0 0 .5px whitesmoke;
+}
+
+/*.last-block >*, 
 .last-block >*>h5, 
 .last-block >*>ul,
 .last-block >*>ul li,
@@ -105,4 +176,4 @@ a.font-color-black:hover{
 }
 .last-block >*>ul li a:hover{
     
-}
+}*/
