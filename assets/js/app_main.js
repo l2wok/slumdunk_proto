@@ -1,5 +1,17 @@
 $(function () {
     'use strict';
+    $(document).on('shown.bs.dropdown', '#j-nav', function(e) {
+        $('.j-move').on('click', function(e) {
+            e.preventDefault(); // no need to use this line
+            let sectionTo = $(this).attr('href');
+            let i = $(sectionTo).offset().top;
+            $('.offcanvas-collapse').animate({
+                scrollTop: i
+            }, 700);
+            console.log('='+ i);
+            return false;
+        });
+    });
 });
 jQuery(function($) {
     function fix_size() {
@@ -34,13 +46,19 @@ $(document).ready(function() {
     setTimeout(showHide,1000);
     
     
-    $(".collapsed").on('click', function(e) {
-        let th = $(this);
-        if (th.hasClass('active') !== true) {
-            $('.btn.border-warning.active').removeClass('active');
+    $('[data-toggle="collapse"]').on('click', function() {
+        let btn = $(this),
+                target = btn.data('target');
+        if ($(target).hasClass('show')) {
+            btn.removeClass('active');
+        } else {
+            if (target !== "#j-nav") {
+                $('#j-nav').removeClass('show');
+            }
+            $('[data-toggle="collapse"]').removeClass('active');
+            btn.addClass('active');
         }
-        th.toggleClass('active');
-        th.blur();
+        btn.blur();
     });
 });
 function showHide(){

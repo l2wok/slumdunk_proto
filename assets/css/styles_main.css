@@ -31,7 +31,10 @@ body {
     padding: 0;
 }
 footer{
-    min-height: 50px;
+    min-height: 60px;
+}
+footer .container{
+    position: relative;
 }
 @media (max-width: 576px) {
     .container{
@@ -237,7 +240,6 @@ a.btn{
     padding: 1rem;
     margin: .5rem auto;
 }
-
 .item_card img.item-card-image{
     width: 90%;
     height: 90%;
@@ -249,7 +251,7 @@ a.btn{
 .discount{
     position: absolute;
     left: 0;
-    top: .1rem;
+    top: .05rem;
     right: 0;
 }
 .discount span{
@@ -318,4 +320,14 @@ input.form-control{
     margin: 0;
     display: inline-block;
     margin-right: .25rem;
+}
+footer>.container a{
+    margin: .5rem;
+    /*padding: .5rem 1rem;*/
+}
+.pedal{
+    position: absolute;
+    z-index: 1000;
+    top: .1rem;
+    right: 1.5rem;
 }

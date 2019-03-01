@@ -38,8 +38,20 @@ $ver = 100000 + rand(1, 100000);
                                     <a class="btn btn-black" href="/slamdunk/main.php"><i class="fa fa-home"></i><span class="d-inline d-lg-none d-md-block"> НА&nbsp;ГЛАВНУЮ</span></a>
                                 </li>
                                 <li class="nav-item dropdown">
-                                    <a class="btn btn-black dropdown-toggle" href="#" id="cat-col"
-                                       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> стдСтолбик
+                                    <a class="btn btn-black dropdown-toggle text-uppercase" href="#" id="cat-col"
+                                       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> одежда
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="cat-col">
+                                        <a class="dropdown-item" href="#">Кросовки</a>
+                                        <a class="dropdown-item" href="#">Зимние кросовки</a>
+                                        <a class="dropdown-item" href="#">Кеды</a>
+                                        <a class="dropdown-item" href="#">Сланцы</a>
+                                        <a class="dropdown-item" href="#">Дети</a>
+                                    </div>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="btn btn-black dropdown-toggle text-uppercase" href="#" id="cat-col"
+                                       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Обувь
                                     </a>
                                     <div class="dropdown-menu" aria-labelledby="cat-col">
                                         <a class="dropdown-item" href="#">Кросовки</a>
@@ -51,6 +63,18 @@ $ver = 100000 + rand(1, 100000);
                                 </li>
                                 <li class="nav-item">
                                     <a class="btn btn-black" href="#">МЯЧИ <i class="fab fa-dribbble"></i></a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="btn btn-black dropdown-toggle text-uppercase" href="#" id="cat-col"
+                                       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> аксесуары
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="cat-col">
+                                        <a class="dropdown-item" href="#">Кросовки</a>
+                                        <a class="dropdown-item" href="#">Зимние кросовки</a>
+                                        <a class="dropdown-item" href="#">Кеды</a>
+                                        <a class="dropdown-item" href="#">Сланцы</a>
+                                        <a class="dropdown-item" href="#">Дети</a>
+                                    </div>
                                 </li>
                                 <li class="nav-item">
                                     <a class="btn btn-black" href="#">СКИДКИ</a>
@@ -86,7 +110,7 @@ $ver = 100000 + rand(1, 100000);
                                             data-target="#userPanel" aria-controls="userPanel">
                                         <i class="fa fa-user"></i>
                                     </button>
-                                    <button class="btn btn-outline-dark" type="button">
+                                    <button class="btn btn-outline-dark" type="button" onclick="alert('Клик по корзине, интерактивность в разработке.')">
                                         <i class="fa fa-shopping-cart"></i>
                                     </button>
                                 </div>
@@ -156,7 +180,7 @@ $ver = 100000 + rand(1, 100000);
         <!-- Main -->
         <main class="mb-auto">
             <!-- Carusel place -->
-            <div id="carousel" class="carousel slide shadow-sm mb-1" data-ride="carousel">
+            <div id="carousel" class="carousel slide shadow mb-1" data-ride="carousel">
                 <ol class="carousel-indicators">
                     <li data-target="#carousel" data-slide-to="0" class="active"></li>
                     <li data-target="#carousel" data-slide-to="1" ></li>
@@ -166,7 +190,7 @@ $ver = 100000 + rand(1, 100000);
                     <div class="carousel-item active" data-interval="10000">
                         <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
                              preserveAspectRatio="xMidYMid slice" focusable="false" role="img">
-                        <rect width="100%" height="100%" fill="gainsboro"></rect>
+                        <rect width="100%" height="100%" fill="cornsilk"></rect>
                         </svg>
                         <div class="carousel-caption">
                             <h1>ИНДИВИДУАЛЬНАЯ РАБОТА С КАЖДЫМ</h1>
@@ -231,7 +255,7 @@ $ver = 100000 + rand(1, 100000);
                                 </g></g></g></g></g></g></svg>
                             </div>
                             <p class="pb-2">С доставкой в удобное для вас время</p>
-                            <button class="btn  shadow bg-color-black" onclick="jQuery(alert('Клик на СМОТРЕТЬ КАТАЛОГ'))">СМОТРЕТЬ КАТАЛОГ</button>
+                            <button class="btn shadow-lg btn-black" onclick="jQuery(alert('Клик на СМОТРЕТЬ КАТАЛОГ'))">СМОТРЕТЬ КАТАЛОГ</button>
                         </div>
                     </div>
                     <div class="carousel-item" data-interval="10000" >
@@ -241,21 +265,21 @@ $ver = 100000 + rand(1, 100000);
                         </svg>
                         <div class="carousel-caption">
                             <h1><em><s>СТИЛЬНО</s>, <s>МОДНО</s>, <s>МОЛОДЕЖНО</s></em></h1>
-                            <p class="lead">Кто ты такое, когда тебе не удобно?!</p>
+                            <p class="lead">Кто ты такое когда не удобно!</p>
                             <p class="lead">Мы позаботимся что бы было комфортно!</p>
-                            <a class="btn border-warning b_black t_orange mt-2" href="#">ВЫБИРАТЬ ЛУЧШИЕ ТОВАРЫ</a>
+                            <a class="btn shadow-lg btn-black mt-2" href="#">ВЫБИРАТЬ ЛУЧШИЕ ТОВАРЫ</a>
                         </div>
                     </div>
                     <div class="carousel-item" data-interval="10000">
                         <svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
                              preserveAspectRatio="xMidYMid slice" focusable="false" role="img">
-                        <rect width="100%" height="100%" fill="cornsilk"></rect>
+                        <rect width="100%" height="100%" fill="#71706E"></rect>
                         </svg>
                         <div class="carousel-caption">
-                            <h1>В ТАКОЙ ОБУВИ ВИДНО ТОЛЬКО ТВОЮ СПИНУ</h1>
-                            <p >Потому что ты рилли быстрый</p>
-                            <p class="lead">как ебаный орёл</p>
-                            <a class="btn border-warning b_black t_orange mt-2" href="#">ЛЕТАТЬ КАК ВЕТЕР</a>
+                            <h1 class="font-shadow-light">В ТАКОЙ ОБУВИ ВИДНО ТОЛЬКО ТВОЮ СПИНУ</h1>
+                            <p  class="font-shadow-black">Потому что ты рилли быстрый</p>
+                            <p class="lead">як ебана орёл</p>
+                            <a class="btn shadow-lg btn-black mt-2" href="#">ЛЕТАТЬ КАК ВЕТЕР</a>
                         </div>
                     </div>
                 </div>
@@ -414,14 +438,14 @@ $ver = 100000 + rand(1, 100000);
                             <path class="cls-bl" d="M43.07,3.22c-2.56,6.19-5.18,14.26-4.27,22,1.25,10.52,9,20.06,19.26,22.95,8.56,2.42,17.64,2.25,26.22,4.72,12,3.44,18.58,12.36,20.84,24.36.5,2.63,4.5,1.51,4-1.1-2-10.5-7.16-19.56-16.86-24.56-8.23-4.25-17.7-4.8-26.7-6.14-3.63-.54-7.42-1.19-10.7-2.91-5.72-3-9.87-9-11.49-15.17-2.11-8,.67-15.74,3.69-23,1-2.47-3-3.54-4-1.1Z"/>
                             <path class="cls-bl" d="M22.38,11.33c-12,9.31-20,22.26-22,37.42-1.76,13.69,2.25,27.84,9.65,39.34a58.26,58.26,0,0,0,31.84,24.32c14.6,4.42,30.21,1.37,43.4-5.77C108,94.33,117.81,68.68,111.64,44c-5.85-23.42-25.5-42.22-50-43.9C47.93-.82,34.43,4.08,22.8,11c-2.3,1.37-.21,5,2.1,3.58,12.94-7.7,27.9-12.43,43-9.52,12,2.33,22.6,9.64,29.91,19.37C112.5,44,114,72.9,97.45,91.82,87.52,103.18,72,110,57,110.34c-14.69.3-28.34-6.75-38.07-17.46A57.39,57.39,0,0,1,4.2,53.78c.26-16,8.7-29.92,21.11-39.52,2.12-1.63-.85-4.55-2.94-2.93Z"/>
                             </g></g></svg>
-                            <div class="w-100 p-2">
+                            <div class="w-100">
                                 <h5 class="text-uppercase text-center"><em>Живи баскетболом</em></h5>
-                                <p><em>Пять способов не сдохнуть на площадке</em></p>
+                                <p class="pl-3"><em>Пять способов не сдохнуть на площадке</em></p>
                             </div>
                         </div>
                     </div>
                     <div class="col-12 col-lg-3 my-1">
-                        <div class="item_card card-small d-flex flex-column align-items-start card-hover-shadow cursor-pointer" onclick="jQuery(alert('Клик на статью 1'))">
+                        <div class="item_card card-small d-flex flex-column align-items-start card-hover-shadow cursor-pointer" onclick="jQuery(alert('Клик на статью 2'))">
                             <svg class="item-card-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 113.45 114.48" >
                             <defs><style>.cls-bl{fill:#333;}</style></defs><g id="ball_1"><g id="ball_2">
                             <path class="cls-bl" d="M13.72,86.13c.63-18.52,14.38-33.85,28.51-44.35C57.6,30.36,76.94,22.18,96.28,22c2.68,0,2.68-4.17,0-4.15-20.56.17-40.77,8.9-57.08,21-15,11.18-29,27.66-29.64,47.24-.09,2.68,4.06,2.67,4.15,0Z"/>
@@ -430,14 +454,14 @@ $ver = 100000 + rand(1, 100000);
                             <path class="cls-bl" d="M43.07,3.22c-2.56,6.19-5.18,14.26-4.27,22,1.25,10.52,9,20.06,19.26,22.95,8.56,2.42,17.64,2.25,26.22,4.72,12,3.44,18.58,12.36,20.84,24.36.5,2.63,4.5,1.51,4-1.1-2-10.5-7.16-19.56-16.86-24.56-8.23-4.25-17.7-4.8-26.7-6.14-3.63-.54-7.42-1.19-10.7-2.91-5.72-3-9.87-9-11.49-15.17-2.11-8,.67-15.74,3.69-23,1-2.47-3-3.54-4-1.1Z"/>
                             <path class="cls-bl" d="M22.38,11.33c-12,9.31-20,22.26-22,37.42-1.76,13.69,2.25,27.84,9.65,39.34a58.26,58.26,0,0,0,31.84,24.32c14.6,4.42,30.21,1.37,43.4-5.77C108,94.33,117.81,68.68,111.64,44c-5.85-23.42-25.5-42.22-50-43.9C47.93-.82,34.43,4.08,22.8,11c-2.3,1.37-.21,5,2.1,3.58,12.94-7.7,27.9-12.43,43-9.52,12,2.33,22.6,9.64,29.91,19.37C112.5,44,114,72.9,97.45,91.82,87.52,103.18,72,110,57,110.34c-14.69.3-28.34-6.75-38.07-17.46A57.39,57.39,0,0,1,4.2,53.78c.26-16,8.7-29.92,21.11-39.52,2.12-1.63-.85-4.55-2.94-2.93Z"/>
                             </g></g></svg>
-                            <div class="w-100 p-2">
+                            <div class="w-100">
                                 <h5 class="text-uppercase text-center"><em>Не попал?</em></h5>
-                                <p><em>Выбираем обувь как у Джордана <s>Бруно</s></em></p>
+                                <p class="pl-3"><em>Выбираем обувь как у Джордана <s>Бруно</s></em></p>
                             </div>
                         </div>
                     </div>
                     <div class="col-12 col-lg-3 my-1">
-                        <div class="item_card card-small d-flex flex-column align-items-start card-hover-shadow cursor-pointer" onclick="jQuery(alert('Клик на статью 1'))">
+                        <div class="item_card card-small d-flex flex-column align-items-start card-hover-shadow cursor-pointer" onclick="jQuery(alert('Клик на статью 3'))">
                             <svg class="item-card-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 113.45 114.48" >
                             <defs><style>.cls-bl{fill:#333;}</style></defs><g id="ball_1"><g id="ball_2">
                             <path class="cls-bl" d="M13.72,86.13c.63-18.52,14.38-33.85,28.51-44.35C57.6,30.36,76.94,22.18,96.28,22c2.68,0,2.68-4.17,0-4.15-20.56.17-40.77,8.9-57.08,21-15,11.18-29,27.66-29.64,47.24-.09,2.68,4.06,2.67,4.15,0Z"/>
@@ -446,14 +470,14 @@ $ver = 100000 + rand(1, 100000);
                             <path class="cls-bl" d="M43.07,3.22c-2.56,6.19-5.18,14.26-4.27,22,1.25,10.52,9,20.06,19.26,22.95,8.56,2.42,17.64,2.25,26.22,4.72,12,3.44,18.58,12.36,20.84,24.36.5,2.63,4.5,1.51,4-1.1-2-10.5-7.16-19.56-16.86-24.56-8.23-4.25-17.7-4.8-26.7-6.14-3.63-.54-7.42-1.19-10.7-2.91-5.72-3-9.87-9-11.49-15.17-2.11-8,.67-15.74,3.69-23,1-2.47-3-3.54-4-1.1Z"/>
                             <path class="cls-bl" d="M22.38,11.33c-12,9.31-20,22.26-22,37.42-1.76,13.69,2.25,27.84,9.65,39.34a58.26,58.26,0,0,0,31.84,24.32c14.6,4.42,30.21,1.37,43.4-5.77C108,94.33,117.81,68.68,111.64,44c-5.85-23.42-25.5-42.22-50-43.9C47.93-.82,34.43,4.08,22.8,11c-2.3,1.37-.21,5,2.1,3.58,12.94-7.7,27.9-12.43,43-9.52,12,2.33,22.6,9.64,29.91,19.37C112.5,44,114,72.9,97.45,91.82,87.52,103.18,72,110,57,110.34c-14.69.3-28.34-6.75-38.07-17.46A57.39,57.39,0,0,1,4.2,53.78c.26-16,8.7-29.92,21.11-39.52,2.12-1.63-.85-4.55-2.94-2.93Z"/>
                             </g></g></svg>
-                            <div class="w-100 p-2">
-                                <h5 class="text-uppercase text-center"><em>Хочешь быть кудрявым?</em></h5>
-                                <p><em>Будь им!</em></p>
+                            <div class="w-100">
+                                <h5 class="text-uppercase text-center"><em>Cтатья №3</em></h5>
+                                <p class="pl-3"><em>Первая строка третьей статьи блога.</em></p>
                             </div>
                         </div>
                     </div>
                     <div class="col-12 col-lg-3 my-1">
-                        <div class="item_card card-small d-flex flex-column align-items-start shadow card-hover-shadow cursor-pointer" onclick="jQuery(alert('Клик на статью 1'))">
+                        <div class="item_card card-small d-flex flex-column align-items-start shadow card-hover-shadow cursor-pointer" onclick="jQuery(alert('Клик на статью 4'))">
                             <svg class="item-card-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 113.45 114.48" >
                             <defs><style>.cls-bl{fill:#333;}</style></defs><g id="ball_1"><g id="ball_2">
                             <path class="cls-bl" d="M13.72,86.13c.63-18.52,14.38-33.85,28.51-44.35C57.6,30.36,76.94,22.18,96.28,22c2.68,0,2.68-4.17,0-4.15-20.56.17-40.77,8.9-57.08,21-15,11.18-29,27.66-29.64,47.24-.09,2.68,4.06,2.67,4.15,0Z"/>
@@ -462,9 +486,9 @@ $ver = 100000 + rand(1, 100000);
                             <path class="cls-bl" d="M43.07,3.22c-2.56,6.19-5.18,14.26-4.27,22,1.25,10.52,9,20.06,19.26,22.95,8.56,2.42,17.64,2.25,26.22,4.72,12,3.44,18.58,12.36,20.84,24.36.5,2.63,4.5,1.51,4-1.1-2-10.5-7.16-19.56-16.86-24.56-8.23-4.25-17.7-4.8-26.7-6.14-3.63-.54-7.42-1.19-10.7-2.91-5.72-3-9.87-9-11.49-15.17-2.11-8,.67-15.74,3.69-23,1-2.47-3-3.54-4-1.1Z"/>
                             <path class="cls-bl" d="M22.38,11.33c-12,9.31-20,22.26-22,37.42-1.76,13.69,2.25,27.84,9.65,39.34a58.26,58.26,0,0,0,31.84,24.32c14.6,4.42,30.21,1.37,43.4-5.77C108,94.33,117.81,68.68,111.64,44c-5.85-23.42-25.5-42.22-50-43.9C47.93-.82,34.43,4.08,22.8,11c-2.3,1.37-.21,5,2.1,3.58,12.94-7.7,27.9-12.43,43-9.52,12,2.33,22.6,9.64,29.91,19.37C112.5,44,114,72.9,97.45,91.82,87.52,103.18,72,110,57,110.34c-14.69.3-28.34-6.75-38.07-17.46A57.39,57.39,0,0,1,4.2,53.78c.26-16,8.7-29.92,21.11-39.52,2.12-1.63-.85-4.55-2.94-2.93Z"/>
                             </g></g></svg>
-                            <div class="w-100 p-2">
+                            <div class="w-100">
                                 <h5 class="text-uppercase text-center"><em>размер имеет значение</em></h5>
-                                <p><em>Подходящий длинный текст первой строки статьи про размеры обуви.</em></p>
+                                <p class="pl-3"><em>Подходящий длинный текст первой строки статьи №4 про что-то</em></p>
                             </div>
                         </div>
                     </div>
@@ -488,7 +512,7 @@ $ver = 100000 + rand(1, 100000);
                                 </div>
                             </div>
                             <div class="card d-flex flex-column align-items-start">
-                                <div class="discount"><span class="text-uppercase bg-color-orange font-color-black">Скидка</span></div>
+                                <div class="discount"><span class="text-uppercase bg-color-orange font-color-black">новинка</span></div>
                                 <img src="https://www.slamdunk.su/thumbs/5bbbfc774f1ee.jpg" class="img-fluid" alt="">
                                 <div class="card-footer w-100 h-50 mt-auto d-flex flex-column">
                                     <strong>Jordan Jumpman Hustle</strong>
@@ -501,7 +525,6 @@ $ver = 100000 + rand(1, 100000);
                         </div>
                         <div class="col-12 col-sm-12 col-md-12 col-lg-6 card-deck mb-1">
                             <div class="card d-flex flex-column align-items-start">
-                                <div class="discount"><span class="text-uppercase bg-color-orange font-color-black font-shadow-orange">Скидка</span></div>
                                 <img src="https://www.slamdunk.su/thumbs/5b41df8e50e2c5b400f77b51a6.jpg" class="img-fluid" alt="">
                                 <div class="card-footer w-100 h-50 mt-auto d-flex flex-column">
                                     <strong>Nike Air More Money «Piggy&nbsp;Bank»</strong>
@@ -511,10 +534,9 @@ $ver = 100000 + rand(1, 100000);
                                     </div>
                                 </div>
                             </div>
-                            <div class="card shadow d-flex flex-column align-items-start">
-                                <div class="discount"><span class="text-uppercase bg-color-orange font-color-black">Скидка</span></div>
-                                <img src="https://www.slamdunk.su/thumbs/5c7530c89e00dAO6224-004-PHSRH000-2000.jpeg" class="img-fluid" alt="">
-                                <div class="card-footer w-100 h-50 mt-auto d-flex flex-column">
+                            <div class="card d-flex flex-column align-items-start">
+                                <img src="https://www.slamdunk.su/thumbs/5c7530c89e00dAO6224-004-PHSRH000-2000.jpeg" class="img-fluid " alt="">
+                                <div class="card-footer w-100 h-50 mt-auto d-flex flex-column shadow-lg">
                                     <strong>Jordan Ultra Fly 3 Low</strong>
                                     <p class="small">Кроссовки баскетбольные</p>
                                     <div class="w-100 d-flex align-items-center mt-auto">Цена: 9 190р
@@ -614,7 +636,15 @@ $ver = 100000 + rand(1, 100000);
         <!-- END Links block -->
         <!-- Footer -->
         <footer class="bg-color-black">
-
+            <div class="container d-flex justify-content-center text-center">
+                <a href="#">Юридическая информация</a>
+                <a href="#">&COPY; <?php echo date("Y");?> SLUMDUNK</a>
+                <a href="#">Политика конфиденциальности</a>
+                <span class="pedal">
+                    <a id="go-to-top" class="btn btn-sm border-secondary font-color-light" href="#carousel">
+                        <i class="fa fa-chevron-up"></i> Наверх </a>
+                </span>
+            </div>
         </footer>
         <!-- END Footer -->
         <!-- // js block -->

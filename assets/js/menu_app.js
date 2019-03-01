@@ -5,9 +5,6 @@ $(function () {
             e.preventDefault(); // no need to use this line
             let sectionTo = $(this).attr('href');
             let i = $(sectionTo).offset().top;
-//            let i = parseInt($(sectionTo).offset().top - 80);
-//            let i = parseInt($(sectionTo).offset().top) - parseInt(80);
-//            console.log('1='+sectionTo);
             $('.offcanvas-collapse').animate({
                 scrollTop: i
             }, 700);

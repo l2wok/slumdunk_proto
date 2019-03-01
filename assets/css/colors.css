@@ -11,10 +11,10 @@ and open the template in the editor.
     black, orangered, lightcoral, gainsboro, snow
 
     Logo have
-    black - #131514
-    orange - #f86400
-    white - #ffffff
-    
+    black   -   #131514
+    orange  -   #f86400
+    white   -   #ffffff
+    gray    -   #71706E
 */
 
 /*      black
@@ -177,6 +177,7 @@ a.font-color-black:hover{
 .social-rate h4{
     color: #131514;
 }
+
 .social-rate a{
     color: #131514;
     text-shadow: 0 0 .5px whitesmoke;
@@ -184,4 +185,13 @@ a.font-color-black:hover{
 .social-rate a:hover{
     color: #71706E;
     text-shadow: 0 0 .5px whitesmoke;
+}
+
+footer>.container a{
+    font-size: 90%;
+    color: whitesmoke;
+    text-shadow: 0 0 .5px #131514;
+}
+footer>.container a:hover{
+    color: gainsboro;
 }
