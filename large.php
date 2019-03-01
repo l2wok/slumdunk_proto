@@ -362,7 +362,7 @@
             </a>
         </div>
         <div class="container">
-            <div class="midBtn mb-2">
+            <div class="mid-btn-block mb-2">
                 <button class="btn border-warning b_black t_orange">НОВЫЕ ПОСТУПЛЕНИЯ</button>
             </div>
             <div class="row">
@@ -395,7 +395,7 @@
                     </div>
                 </div>
             </div>
-            <div class="midBtn mb-2">
+            <div class="mid-btn-block mb-2">
                 <button class="btn border-warning b_black t_orange">КОЛЛЕКЦИИ</button>
             </div>
             <div class="row">
@@ -472,7 +472,7 @@
                     </div>
                 </div>
             </div>
-            <div class="midBtn mb-2">
+            <div class="mid-btn-block mb-2">
                 <button class="btn border-warning b_black t_orange">ИЗБРАННЫЕ СТАТЬИ</button>
             </div>
 
@@ -576,7 +576,7 @@
                     </div>
                 </div>
             </div>
-            <div class="midBtn mb-2">
+            <div class="mid-btn-block mb-2">
                 <button class="btn border-warning b_black t_orange">ЕЩЁ ТЕБЕ ПОНРАВИТСЯ</button>
             </div>
             <div class="offset-artem-designer-2019">
@@ -644,7 +644,7 @@
                     </div>
                 </div>
             </div>
-            <div class="midBtn mb-2">
+            <div class="mid-btn-block mb-2">
                 <button class="btn border-warning b_black t_orange">СМОТРЕТЬ ЕЩЁ</button>
             </div>
         </div>

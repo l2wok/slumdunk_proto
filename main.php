@@ -270,7 +270,7 @@ $ver = 100000 + rand(1, 100000);
 
             <div class="container">
                 <!-- Middle buttons -->
-                <div class="midBtn">
+                <div class="mid-btn-block">
                     <button class="btn shadow btn-black" onclick="jQuery(alert('Клик на Новые Поступления'))">НОВЫЕ ПОСТУПЛЕНИЯ</button>
                 </div>
 
@@ -321,7 +321,7 @@ $ver = 100000 + rand(1, 100000);
                         </div>
                     </div>
                 </div>
-                <div class="midBtn">
+                <div class="mid-btn-block">
                     <button class="btn shadow btn-black" onclick="jQuery(alert('Клик на КОЛЛЕКЦИИ'))">КОЛЛЕКЦИИ</button>
                 </div>
                 <!-- BLOG long cards -->
@@ -400,7 +400,7 @@ $ver = 100000 + rand(1, 100000);
                 </div>
                 <!-- END BLOG long cards -->
                 <!-- BLOG short cards -->
-                <div class="midBtn">
+                <div class="mid-btn-block">
                     <button class="btn shadow-sm btn-black" onclick="jQuery(alert('Клик на ИЗБРАННЫЕ СТАТЬИ'))">ИЗБРАННЫЕ СТАТЬИ</button>
                 </div>
                 <div class="row">
@@ -469,7 +469,7 @@ $ver = 100000 + rand(1, 100000);
                         </div>
                     </div>
                 </div>
-                <div class="midBtn">
+                <div class="mid-btn-block">
                     <button class="btn shadow btn-black" onclick="jQuery(alert('Клик на ЕЩЕ ТЕБЕ ПОНРАВИТСЯ'))">ЕЩЕ ТЕБЕ ПОНРАВИТСЯ</button>
                 </div>
                 <!-- LAST Item Block  -->
@@ -526,7 +526,7 @@ $ver = 100000 + rand(1, 100000);
                     </div>
                 </div>
                 <!-- END LAST Item Block  -->
-                <div class="midBtn">
+                <div class="mid-btn-block">
                     <button class="btn shadow btn-black" onclick="jQuery(alert('Клик на СМОТРЕТЬ ЕЩЕ'))">СМОТРЕТЬ ЕЩЕ</button>
                 </div>
             </div>

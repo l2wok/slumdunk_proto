@@ -200,14 +200,14 @@ button.btn{
 /********************************
             BLOCKS
 ********************************/
-.midBtn{
+.mid-btn-block{
     display: block;
     min-height: 1px;
     width: 100%;
     text-align: center;
     padding: 1.5rem 0 1rem;
 }
-.midBtn .btn{
+.mid-btn-block .btn{
     font-weight: 400;
     font-size: 110%;
 }
