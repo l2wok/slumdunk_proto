@@ -22,7 +22,7 @@ html.desktop{
             GRID
 ********************************/
 body {
-    padding-top: 80px;
+    padding-top: 72px;
 }
 
 .last-block-with-offset{
@@ -69,7 +69,7 @@ header{
     
     .offcanvas-collapse {
         position: fixed;
-        top: 80px; /* Height of navbar */
+        top: 72px; /* Height of navbar */
         bottom: 0;
         right: 100%;
         width: 100%;
@@ -103,20 +103,21 @@ header{
     position: relative;
     z-index: 1;
     top: .25rem;
-    -webkit-box-shadow: 0 0 0 1px #f86400;
-    box-shadow: 0 0 0 1px #f86400;
+    border-bottom: 1px solid rgba(0,0,0,.125);
+/*    -webkit-box-shadow: 0 0 0 .5px #131514;
+    box-shadow: 0 0 0 .5px #131514;*/
 }
 .navbar{
     padding-top: 0;
     padding-bottom: 0;
 }
 .top-nav{
-    height: 80px;
+    height: 72px;
 }
 #collapseParent{
     width: 100%;
     position: absolute;
-    top: 80px;
+    top: 72px;
     z-index: 500;
 }
 .navbar-toggler {
@@ -191,10 +192,23 @@ button:active, button:focus {
 button::-moz-focus-inner {
   border: 0;
 }
+
+input.focus,
+input:focus,
+.form-control.focus,
+.form-control:focus{
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+.btn{
+    transition: none !important;
+}
 button.btn,
 a.btn{
-    border-radius: 2px !important;
     font-weight: 500 !important;
+}
+.btn-black{
+    border-radius: 2px !important;
 }
 .mid-btn-block{
     display: flow-root;
@@ -203,6 +217,17 @@ a.btn{
     text-align: center;
     margin: 1.75rem auto 2rem auto;
 }
+
+.btn-outline-dark:not(:disabled):not(.disabled):active, .show>.btn-outline-dark.dropdown-toggle {
+    color: #fff;
+    background-color: #131514;
+}
+.btn.focus,
+.btn:focus{
+    -webkit-box-shadow: 0 0 0 0.1rem rgba(11,11,11,.15);
+    box-shadow: 0 0 0 0.1rem rgba(11,11,11,.15);
+}
+
 /********************************
             CARDS
 ********************************/
@@ -234,6 +259,7 @@ a.btn{
 }
 .item_card{
     overflow: hidden;
+    position: relative;
 }
 .item_card .item-card-svg{
     width: 55%;
@@ -245,6 +271,25 @@ a.btn{
     height: 90%;
     margin: 0 auto;
 }
+.card-img{
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+}
+.card-img-my{
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+    top: -3.5rem;
+}
+.mt-item{
+    margin-top: calc(250px + 2rem);
+}
+p.f-b{
+    font-weight: 400;
+    font-size: 1.25rem;
+    font-style: italic;
+}
 .card-img-overlay.card-blog{
     /*padding: 0;*/
 }
@@ -253,6 +298,7 @@ a.btn{
     left: 0;
     top: .05rem;
     right: 0;
+    z-index: 100;
 }
 .discount span{
     padding: .15rem .6rem .25rem;
@@ -260,6 +306,7 @@ a.btn{
     -webkit-box-shadow: 0 0 0 .5px #777;
     box-shadow: 0 0 0 .5px #777;
 }
+
 /********************************
             CARUSEL
 ********************************/
