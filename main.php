@@ -312,7 +312,7 @@ $ver = 100000 + rand(1, 100000);
                             <div class="item_card card-big card-hover-shadow d-flex">
                                 <img src="https://www.slamdunk.su/thumbs/5b41df8e50e2c5b400f77b51a6.jpg" class="card-img-my" alt="">
                                 <div class="card-img-overlay w-100 py-0 d-flex flex-column font-shadow-smoke">
-                                    <h4 class="mt-item">Nike Air More Money &laquo;Piggy Bank&raquo;</h4>
+                                    <h5 class="mt-item">Nike Air More Money &laquo;Piggy Bank&raquo;</h5>
                                     <p class="f-b align-self-end w-100 mt-auto text-center"><strong>9 990 р.</strong></p>
                                 </div>
                             </div>
@@ -323,7 +323,7 @@ $ver = 100000 + rand(1, 100000);
                             <div class="item_card card-big card-hover-shadow d-flex">
                                 <img src="https://www.slamdunk.su/thumbs/5c409dec2c2a0AO7893-002-PHSRH000-2000.jpeg" class="card-img-my" alt="">
                                 <div class="card-img-overlay w-100 py-0 d-flex flex-column font-shadow-smoke">
-                                    <h4 class="mt-item">Nike Hyperdunk X</h4>
+                                    <h5 class="mt-item">Nike Hyperdunk X</h5>
                                     <p class="f-b align-self-end w-100 mt-auto text-center"><strong>10 790 р.</strong></p>
                                 </div>
                             </div>
@@ -334,7 +334,7 @@ $ver = 100000 + rand(1, 100000);
                             <div class="item_card card-big card-hover-shadow d-flex">
                                 <img src="https://www.slamdunk.su/thumbs/5c7530c89e00dAO6224-004-PHSRH000-2000.jpeg" class="card-img-my" alt="">
                                 <div class="card-img-overlay w-100 py-0 d-flex flex-column font-shadow-smoke">
-                                    <h4 class="mt-item">Jordan Ultra Fly 3 Low with very very long item name X</h4>
+                                    <h5 class="mt-item">Jordan Ultra Fly 3 Low with very very long item name X</h4>
                                     <p class="f-b align-self-end w-100 mt-auto text-center"><strong>9 190 р.</strong></p>
                                 </div>
                             </div>
@@ -508,7 +508,7 @@ $ver = 100000 + rand(1, 100000);
                     <div class="row no-gutters d-flex justify-content-around">
                         <div class="col-12 col-sm-12 col-md-12 col-lg-6 card-deck mb-1">
                             <div class="card d-flex flex-column align-items-start">
-                                <div class="discount"><span class="text-uppercase bg-color-black font-color-smoke"><strong>Скидка</strong></span></div>
+                                <div class="discount"><span class="text-uppercase bg-color-black font-color-smoke">Скидка</span></div>
                                 <img src="https://www.slamdunk.su/thumbs/5c409dec2c2a0AO7893-002-PHSRH000-2000.jpeg" class="card-img" alt="">
                                 <div class="card-footer w-100 h-50 mt-auto d-flex flex-column">
                                     <strong>Nike Hyperdunk X</strong>
@@ -525,7 +525,8 @@ $ver = 100000 + rand(1, 100000);
                                 <div class="card-footer w-100 h-50 mt-auto d-flex flex-column">
                                     <strong>Jordan Jumpman Hustle</strong>
                                     <p class="small">Кроссовки баскетбольные</p>
-                                    <div class="w-100 d-flex align-items-center mt-auto">8 290р
+                                    <div class="w-100 d-flex align-items-center mt-auto">
+                                        <strong>8 290р.</strong>
                                         <button class="btn btn-sm btn-black ml-auto">Купить</button>
                                     </div>
                                 </div>
@@ -537,7 +538,8 @@ $ver = 100000 + rand(1, 100000);
                                 <div class="card-footer w-100 h-50 mt-auto d-flex flex-column">
                                     <strong>Nike Air More Money «Piggy&nbsp;Bank»</strong>
                                     <p class="small">Кроссовки баскетбольные</p>
-                                    <div class="w-100 d-flex align-items-center mt-auto">9 990р.
+                                    <div class="w-100 d-flex align-items-center mt-auto">
+                                        <strong>9 990р.</strong>
                                         <button class="btn btn-sm btn-black ml-auto">Купить</button>
                                     </div>
                                 </div>
@@ -547,7 +549,8 @@ $ver = 100000 + rand(1, 100000);
                                 <div class="card-footer w-100 h-50 mt-auto d-flex flex-column">
                                     <strong>Jordan Ultra Fly 3 Low</strong>
                                     <p class="small">Кроссовки баскетбольные</p>
-                                    <div class="w-100 d-flex align-items-center mt-auto">9 190р
+                                    <div class="w-100 d-flex align-items-center mt-auto">
+                                        <strong>9 190р.</strong>
                                         <button class="btn btn-sm btn-black ml-auto">Купить</button>
                                     </div>
                                 </div>

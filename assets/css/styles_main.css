@@ -286,9 +286,8 @@ a.btn{
     margin-top: calc(250px + 2rem);
 }
 p.f-b{
-    font-weight: 400;
+    font-weight: 500;
     font-size: 1.25rem;
-    font-style: italic;
 }
 .card-img-overlay.card-blog{
     /*padding: 0;*/
