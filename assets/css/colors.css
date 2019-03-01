@@ -73,3 +73,36 @@ a.font-color-black:hover{
 .font-shadow-smoke{
     text-shadow: 0 0 .5px whitesmoke;
 }
+
+
+
+.navbar-light .navbar-toggler .icon-bar {
+    background: #111;
+}
+
+.carousel-caption{
+    color: #111 ;
+}
+.carousel-indicators li.active,
+.carousel-indicators li:active {
+    background-color: gainsboro;
+}
+.carousel-control-next,
+.carousel-control-prev,
+.carousel-control-next:hover,
+.carousel-control-prev:hover,
+.carousel-control-next:active,
+.carousel-control-prev:active {
+    color: black !important;
+}
+
+.last-block >*, 
+.last-block >*>h5, 
+.last-block >*>ul,
+.last-block >*>ul li,
+.last-block >*>ul li a{
+    color: inherit;
+}
+.last-block >*>ul li a:hover{
+    
+}

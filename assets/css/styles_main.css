@@ -126,9 +126,6 @@ footer{
     transition: all 0.2s;
 }
 
-.navbar-light .navbar-toggler .icon-bar {
-    background: #111;
-}
 
 .navbar-toggler .icon-bar:nth-of-type(1) {
     transform: rotate(45deg);
@@ -269,7 +266,6 @@ a.btn{
 }
 .carousel-caption{
     top:5rem !important;
-    color: #111 ;
 }
 .carousel-caption h1,
 .carousel-caption h2,
@@ -278,18 +274,6 @@ a.btn{
 {
     margin: .5rem auto .25rem auto !important;
     text-align: center;
-}
-.carousel-indicators li.active,
-.carousel-indicators li:active {
-    background-color: gainsboro;
-}
-.carousel-control-next,
-.carousel-control-prev,
-.carousel-control-next:hover,
-.carousel-control-prev:hover,
-.carousel-control-next:active,
-.carousel-control-prev:active {
-    color: black !important;
 }
 .carousel-indicators li {
     width: 16px;
@@ -314,4 +298,17 @@ main .row{
 input.form-control{
     border-bottom-left-radius: 2px;
     border-top-left-radius: 2px;
+}
+.last-block{
+    width: 100%;
+}
+.social-rate{
+    height: 50px;
+    padding: 0;
+}
+.social-rate *{
+    margin: 0;
+    display: inline-block;
+    margin-right: .25rem;
+    color: inherit;
 }

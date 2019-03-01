@@ -546,11 +546,11 @@ $ver = 100000 + rand(1, 100000);
         </div>
         <div class="container">
             <div class="row">
-                <div class="lastBlock d-flex justify-content- font-color-light">
+                <div class="last-block d-flex justify-content-center font-color-black">
                     <div class="col-sm-6 col-md-3 col-lg-2 ml-4">
                         <h5>О компании</h5>
                         <ul>
-                            <li><a href="#" class="font-color-light">О нас</a></li>
+                            <li><a href="#" class="">О нас</a></li>
                             <li><a href="#">Новости</a></li>
                             <li><a href="#">Гарантии</a></li>
                             <li><a href="#">Контакты</a></li>
@@ -590,10 +590,10 @@ $ver = 100000 + rand(1, 100000);
                 </div>
                 
                 <div class="w-100 d-flex justify-content-center">
-                    <ul class="social-rate align-items-center">
-                        <h5>ОЦЕНИТЕ НАС </h5>
-                        <li><a href="#" class="" target="_blank" rel="noindex, nofollow"><i class="fab fa-instagram fa-2x mr-3"></i></a></li>
-                        <li><a href="#" class="" target="_blank" rel="noindex, nofollow"><i class="fab fa-vk fa-2x mr-3"></i></a></li>
+                    <ul class="social-rate  d-flex align-items-center">
+                        <h4 class="mr-4">ОЦЕНИТЕ НАС </h4>
+                        <li><a href="#" class="" target="_blank" rel="noindex, nofollow"><i class="fab fa-instagram fa-2x"></i></a></li>
+                        <li><a href="#" class="" target="_blank" rel="noindex, nofollow"><i class="fab fa-vk fa-2x"></i></a></li>
                         <li><a href="#" class="" target="_blank" rel="noindex, nofollow"><i class="fab fa-facebook fa-2x"></i></a></li>
                     </ul>
                 </div>
