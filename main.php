@@ -126,7 +126,7 @@ $ver = 100000 + rand(1, 100000);
                     </div>
                 </div>
             </nav>
-            <div id="collapseParent" class="bg-color-smoke pb-1">
+            <div id="collapseParent" class="bg-color-smoke">
                 <div class="container">
                     <div class="collapse" id="userPanel" data-parent="#collapseParent">
                         <div class="row">

@@ -102,8 +102,7 @@ header{
     height: 0;
     position: relative;
     z-index: 1;
-    top: .25rem;
-    border-bottom: 1px solid rgba(0,0,0,.125);
+    border-bottom: inset 1px rgba(0,0,0,.5);
 /*    -webkit-box-shadow: 0 0 0 .5px #131514;
     box-shadow: 0 0 0 .5px #131514;*/
 }
