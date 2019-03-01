@@ -284,8 +284,8 @@ $ver = 100000 + rand(1, 100000);
                         </svg>
                         <div class="carousel-caption">
                             <h1 class="font-shadow-light">В ТАКОЙ ОБУВИ ВИДНО ТОЛЬКО ТВОЮ СПИНУ</h1>
-                            <p  class="font-shadow-black">Потому что ты рилли быстрый</p>
-                            <p class="lead">як ебана орёл</p>
+                            <p  class="font-shadow-black">Потому что ты оч быстрый</p>
+                            <p class="lead">Как орёл!</p>
                             <a class="btn btn-black mt-2" href="#">ЛЕТАТЬ КАК ВЕТЕР</a>
                         </div>
                     </div>
