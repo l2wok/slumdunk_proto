@@ -175,15 +175,15 @@ a.font-color-black:hover{
     color: #131514;
 }
 .social-rate h4{
-    color: #131514;
+    color: #71706E;
 }
 
 .social-rate a{
-    color: #131514;
+    color: #71706E;
     text-shadow: 0 0 .5px whitesmoke;
 }
 .social-rate a:hover{
-    color: #71706E;
+    color: #131514;
     text-shadow: 0 0 .5px whitesmoke;
 }
 
