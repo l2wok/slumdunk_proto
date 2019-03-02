@@ -36,7 +36,7 @@ footer{
 footer .container{
     position: relative;
 }
-@media (min-width: 576px) {
+/*@media (min-width: 576px) {
     .container{
         max-width: max-content;
     }
@@ -44,7 +44,7 @@ footer .container{
     .last-block-with-offset{
         width: 100%;
     }
-}
+}*/
 @media (min-width: 1200px) {
     .container{
         max-width: 1170px;
