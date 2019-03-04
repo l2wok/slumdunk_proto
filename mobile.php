@@ -13,7 +13,7 @@ $ver = 100000 + rand(1, 100000);
         <meta name="description" content="">
         <meta name="author" content="">
 
-        <title>Main page v=<?php echo $ver; ?></title>
+        <title>Mobile adaptation test v=<?php echo $ver; ?></title>
         <!-- // css block -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
