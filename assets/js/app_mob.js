@@ -22,7 +22,6 @@ jQuery(function($) {
 });
 $(document).ready(function() {
     setTimeout(showHide,100);
-    
     $('[data-toggle="collapse"]').on('click', function() {
         let btn = $(this),
                 target = btn.data('target');
@@ -42,10 +41,8 @@ function showHide(){
     if($('html').hasClass('desktop')){
         $('.only-mobile').hide();
         $('.only-desktop').show();
-        console.log('desktop now')
     } else {
         $('#carousel').carousel('dispose');
-        console.log('mobile now')
         $('.only-mobile').show();
         $('.only-desktop').hide();
     }

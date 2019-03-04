@@ -13,13 +13,13 @@ $ver = 100000 + rand(1, 100000);
         <meta name="description" content="">
         <meta name="author" content="">
 
-        <title>Mobile adaptation test v=<?php echo $ver; ?></title>
+        <title>Mobile adaptation 1 test v=<?php echo $ver; ?></title>
         <!-- // css block -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
         <link rel="stylesheet" href="assets/css/flickity.min.css">
         <link rel="stylesheet" href="assets/css/colors_mob.css?v=<?php echo $ver; ?>">
-        <link rel="stylesheet" href="assets/css/styles_mob.css?v=<?php echo $ver; ?>">
+        <link rel="stylesheet" href="assets/css/styles_mob1.css?v=<?php echo $ver; ?>">
     </head>
     <body class="d-flex flex-column h-100" id="top">
         <header>
@@ -34,7 +34,7 @@ $ver = 100000 + rand(1, 100000);
                             <span class="icon-bar"></span>
                         </button>
                         <div class="navbar-collapse offcanvas-collapse" id="j-nav">
-                            <a href="/slamdunk/main.php" class="logo only-desktop">
+                            <a href="/slamdunk/mobile1.php" class="logo only-desktop">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="4rem" height="4rem" viewBox="0 0 96 96">
                                 <defs><style>.cls-1{fill-rule:evenodd;}.cls-w{fill:#fefefe;}.cls-or{fill:#f60;}</style></defs>
                                 <g id="Слой_2" data-name="Слой 2">
@@ -763,6 +763,6 @@ $ver = 100000 + rand(1, 100000);
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
     <script src="assets/js/current-device.min.js"></script>
     <script src="assets/js/flickity.min.js"></script>
-    <script src="assets/js/app_mob.js?v=<?php echo $ver; ?>"></script>
+    <script src="assets/js/app_mob1.js?v=<?php echo $ver; ?>"></script>
 </body>
 </html>

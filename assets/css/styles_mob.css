@@ -21,7 +21,7 @@ footer .container{
     position: relative;
 }
 @media (min-width: 576px) {
-    
+
     .pedal{
         top: -1rem;
     }
@@ -59,7 +59,7 @@ header{
     z-index: 499;
 }
 @media (max-width: 991.98px) {
-    
+
     .offcanvas-collapse {
         position: fixed;
         top: 73px; /* Height of navbar */
@@ -68,8 +68,8 @@ header{
         width: 100%;
         max-width: 100vw;
         /*padding: 1rem;*/
-            padding-top: 1rem;
-            padding-left: .25rem;
+        padding-top: 1rem;
+        padding-left: .25rem;
         overflow-y: auto;
         visibility: hidden;
         background-color: #f8f9fa;
@@ -94,7 +94,7 @@ header{
         border: inset #131514 1px;
         margin-bottom: .5rem;
     }
-    
+
     #j-nav .dropdown-menu.show{
         margin-bottom: 1rem !important;
     }
@@ -105,8 +105,8 @@ header{
     position: relative;
     z-index: 1;
     border-bottom: inset 1px rgba(0,0,0,.5);
-/*    -webkit-box-shadow: 0 0 0 .5px #131514;
-    box-shadow: 0 0 0 .5px #131514;*/
+    /*    -webkit-box-shadow: 0 0 0 .5px #131514;
+        box-shadow: 0 0 0 .5px #131514;*/
 }
 .navbar{
     padding-top: 0;
@@ -188,10 +188,10 @@ header{
             BUTTONS
 ********************************/
 button:active, button:focus {
-  outline: none;
+    outline: none;
 }
 button::-moz-focus-inner {
-  border: 0;
+    border: 0;
 }
 
 input.focus,
@@ -340,6 +340,50 @@ p.f-b{
 .carousel-indicators li:active,
 .carousel-indicators li.active{
     background-color: black;
+}
+.carousel-cell {
+    /*width: auto;*/
+    min-width: 200px;
+    max-width: 320px;
+    min-height: 300px;
+    /*height: auto;*/
+    position: relative;
+    margin-right: 30px;
+}
+
+.carousel-cell .container {
+    height: 100%;
+}
+.flickity-button {
+    background: transparent;
+}
+/* big previous & next buttons */
+.flickity-prev-next-button {
+    width: 2rem;
+    height: 2rem;
+}
+/* icon color */
+.flickity-button-icon {
+    fill: black;
+}
+/* hide disabled button */
+.flickity-button:disabled {
+    display: none;
+}
+.carousel-caption {
+    position: relative;
+    right: 0;
+    left: 0;
+    top: 0;
+    padding: 0;
+    /* position: absolute; */
+    /* right: 15%; */
+    /* bottom: 20px; */
+    /* left: 15%; */
+    /* z-index: 10; */
+    /* padding-top: 20px; */
+    /* padding-bottom: 20px; */
+    /* color: #fff; */
 }
 /********************************
             VISUAL
