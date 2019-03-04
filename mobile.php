@@ -17,7 +17,7 @@ $ver = 100000 + rand(1, 100000);
         <!-- // css block -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-        <link rel="stylesheet" href="assets/css/colors_mob.css?v=<?php echo $ver; ?>">
+        <link rel="stylesheet" href="assets/css/colors.css?v=<?php echo $ver; ?>">
         <link rel="stylesheet" href="assets/css/styles_mob.css?v=<?php echo $ver; ?>">
     </head>
     <body class="d-flex flex-column h-100" id="top">
@@ -33,22 +33,22 @@ $ver = 100000 + rand(1, 100000);
                             <span class="icon-bar"></span>
                         </button>
                         <div class="navbar-collapse offcanvas-collapse" id="j-nav">
-                            <ul class="navbar-nav nav-left d-flex align-items-center">
-                                <li class="nav-item">
-                                    <a href="/slamdunk/mobile.php">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="4rem" height="4rem" viewBox="0 0 96 96">
-                                        <defs><style>.cls-1{fill-rule:evenodd;}.cls-w{fill:#fefefe;}.cls-or{fill:#f60;}</style></defs>
-                                        <g id="Слой_2" data-name="Слой 2">
-                                        <g id="Слой_1-2" data-name="Слой 1">
-                                        <path class="cls-1" d="M9.6,0H86.4A9.63,9.63,0,0,1,96,9.6V86.4A9.63,9.63,0,0,1,86.4,96H9.6A9.63,9.63,0,0,1,0,86.4V9.6A9.63,9.63,0,0,1,9.6,0"/><path class="cls-w" d="M24.26,30.3q0,4.45-1.83,6.24a7.66,7.66,0,0,1-5.52,1.87,7.43,7.43,0,0,1-5.48-1.87Q9.6,34.71,9.6,30.46H14a4.89,4.89,0,0,0,.79,3.18,2.63,2.63,0,0,0,2.07.75,2.66,2.66,0,0,0,2.14-.79,4.9,4.9,0,0,0,.75-3.14,6.79,6.79,0,0,0-.5-3.12,4.27,4.27,0,0,0-2.16-1.53l-3.38-1.39A6.11,6.11,0,0,1,10.71,22a9.66,9.66,0,0,1-.87-4.71,7.64,7.64,0,0,1,2.3-6A7.08,7.08,0,0,1,17,9.6a7.07,7.07,0,0,1,5.08,1.71q2,1.95,2,6.16H19.61a5.08,5.08,0,0,0-.68-3,2.34,2.34,0,0,0-2-.83,2.44,2.44,0,0,0-1.91.79,4.2,4.2,0,0,0-.75,2.78,5.15,5.15,0,0,0,.44,2.48A3.82,3.82,0,0,0,16.63,21L20,22.35a6.41,6.41,0,0,1,3.4,2.7,11.62,11.62,0,0,1,.89,5.24"/><polygon class="cls-w" points="40.99 38.12 29.11 38.12 29.11 9.84 33.56 9.84 33.56 34.11 40.99 34.11 40.99 38.12"/><path class="cls-w" d="M56.4,28.51,54,16.67,51.56,28.51ZM63,38.12H58.39l-1.15-5.6H50.68l-1.11,5.6H44.88l7-28.28h4.33Z"/><polygon class="cls-w" points="86.4 38.12 81.95 38.12 81.95 20.48 78.1 32.08 75.64 32.08 71.86 20.68 71.86 38.12 67.41 38.12 67.41 9.84 71.42 9.84 76.91 24.7 82.35 9.84 86.4 9.84 86.4 38.12"/><path class="cls-w" d="M20,71.8q0-4.16-.18-6.12A6.51,6.51,0,0,0,19,62.8a2.54,2.54,0,0,0-2.28-1.16H14.08V82h2.64A2.54,2.54,0,0,0,19,80.88a6.56,6.56,0,0,0,.78-2.9Q20,76,20,71.8m4.12-7.9a61,61,0,0,1,.36,7.9,62,62,0,0,1-.36,7.94,7.24,7.24,0,0,1-1.72,4,7,7,0,0,1-5.52,2.36H9.6V57.6h7.24A7,7,0,0,1,22.36,60,7.2,7.2,0,0,1,24.08,63.9Z"/><path class="cls-w" d="M44.36,79.08a7.25,7.25,0,0,1-2,5.24,7.07,7.07,0,0,1-5.28,2.08,7.12,7.12,0,0,1-5.32-2.08,7.25,7.25,0,0,1-2-5.24V57.6h4.48V79.32a3,3,0,0,0,.8,2.26,2.75,2.75,0,0,0,2,.78,2.68,2.68,0,0,0,2-.78,3.06,3.06,0,0,0,.78-2.26V57.6h4.48Z"/><polygon class="cls-w" points="64.92 86.08 60.96 86.08 54.24 69.16 54.24 86.08 49.76 86.08 49.76 57.6 53.76 57.6 60.44 74.52 60.44 57.6 64.92 57.6 64.92 86.08"/><polygon class="cls-w" points="86.4 86.08 81.56 86.08 76.96 74.36 74.8 78.76 74.8 86.08 70.32 86.08 70.32 57.6 74.8 57.6 74.8 71 81 57.6 85.52 57.6 79.8 69.4 86.4 86.08"/><rect class="cls-or" x="9.6" y="45.6" width="76.8" height="4.8"/></g></g></svg>
+                            <a href="/slamdunk/main.php" class="logo only-desktop">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="4rem" height="4rem" viewBox="0 0 96 96">
+                                <defs><style>.cls-1{fill-rule:evenodd;}.cls-w{fill:#fefefe;}.cls-or{fill:#f60;}</style></defs>
+                                <g id="Слой_2" data-name="Слой 2">
+                                <g id="Слой_1-2" data-name="Слой 1">
+                                <path class="cls-1" d="M9.6,0H86.4A9.63,9.63,0,0,1,96,9.6V86.4A9.63,9.63,0,0,1,86.4,96H9.6A9.63,9.63,0,0,1,0,86.4V9.6A9.63,9.63,0,0,1,9.6,0"/><path class="cls-w" d="M24.26,30.3q0,4.45-1.83,6.24a7.66,7.66,0,0,1-5.52,1.87,7.43,7.43,0,0,1-5.48-1.87Q9.6,34.71,9.6,30.46H14a4.89,4.89,0,0,0,.79,3.18,2.63,2.63,0,0,0,2.07.75,2.66,2.66,0,0,0,2.14-.79,4.9,4.9,0,0,0,.75-3.14,6.79,6.79,0,0,0-.5-3.12,4.27,4.27,0,0,0-2.16-1.53l-3.38-1.39A6.11,6.11,0,0,1,10.71,22a9.66,9.66,0,0,1-.87-4.71,7.64,7.64,0,0,1,2.3-6A7.08,7.08,0,0,1,17,9.6a7.07,7.07,0,0,1,5.08,1.71q2,1.95,2,6.16H19.61a5.08,5.08,0,0,0-.68-3,2.34,2.34,0,0,0-2-.83,2.44,2.44,0,0,0-1.91.79,4.2,4.2,0,0,0-.75,2.78,5.15,5.15,0,0,0,.44,2.48A3.82,3.82,0,0,0,16.63,21L20,22.35a6.41,6.41,0,0,1,3.4,2.7,11.62,11.62,0,0,1,.89,5.24"/><polygon class="cls-w" points="40.99 38.12 29.11 38.12 29.11 9.84 33.56 9.84 33.56 34.11 40.99 34.11 40.99 38.12"/><path class="cls-w" d="M56.4,28.51,54,16.67,51.56,28.51ZM63,38.12H58.39l-1.15-5.6H50.68l-1.11,5.6H44.88l7-28.28h4.33Z"/><polygon class="cls-w" points="86.4 38.12 81.95 38.12 81.95 20.48 78.1 32.08 75.64 32.08 71.86 20.68 71.86 38.12 67.41 38.12 67.41 9.84 71.42 9.84 76.91 24.7 82.35 9.84 86.4 9.84 86.4 38.12"/><path class="cls-w" d="M20,71.8q0-4.16-.18-6.12A6.51,6.51,0,0,0,19,62.8a2.54,2.54,0,0,0-2.28-1.16H14.08V82h2.64A2.54,2.54,0,0,0,19,80.88a6.56,6.56,0,0,0,.78-2.9Q20,76,20,71.8m4.12-7.9a61,61,0,0,1,.36,7.9,62,62,0,0,1-.36,7.94,7.24,7.24,0,0,1-1.72,4,7,7,0,0,1-5.52,2.36H9.6V57.6h7.24A7,7,0,0,1,22.36,60,7.2,7.2,0,0,1,24.08,63.9Z"/><path class="cls-w" d="M44.36,79.08a7.25,7.25,0,0,1-2,5.24,7.07,7.07,0,0,1-5.28,2.08,7.12,7.12,0,0,1-5.32-2.08,7.25,7.25,0,0,1-2-5.24V57.6h4.48V79.32a3,3,0,0,0,.8,2.26,2.75,2.75,0,0,0,2,.78,2.68,2.68,0,0,0,2-.78,3.06,3.06,0,0,0,.78-2.26V57.6h4.48Z"/><polygon class="cls-w" points="64.92 86.08 60.96 86.08 54.24 69.16 54.24 86.08 49.76 86.08 49.76 57.6 53.76 57.6 60.44 74.52 60.44 57.6 64.92 57.6 64.92 86.08"/><polygon class="cls-w" points="86.4 86.08 81.56 86.08 76.96 74.36 74.8 78.76 74.8 86.08 70.32 86.08 70.32 57.6 74.8 57.6 74.8 71 81 57.6 85.52 57.6 79.8 69.4 86.4 86.08"/><rect class="cls-or" x="9.6" y="45.6" width="76.8" height="4.8"/></g></g></svg>
 
-                                    </a>
+                            </a>
+                            <ul class="navbar-nav nav-left">
+                                <li class="nav-item only-desktop">
                                 </li>
                                 <li class="nav-item dropdown">
-                                    <a class="btn btn-black dropdown-toggle text-uppercase" href="#" id="cat-col"
+                                    <a class="btn btn-black dropdown-toggle text-uppercase" href="#" id="cat-shmot"
                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> одежда
                                     </a>
-                                    <div class="dropdown-menu" aria-labelledby="cat-col">
+                                    <div class="dropdown-menu" aria-labelledby="cat-shmot">
                                         <a class="dropdown-item" href="#">Кросовки</a>
                                         <a class="dropdown-item" href="#">Зимние кросовки</a>
                                         <a class="dropdown-item" href="#">Кеды</a>
@@ -57,10 +57,10 @@ $ver = 100000 + rand(1, 100000);
                                     </div>
                                 </li>
                                 <li class="nav-item dropdown">
-                                    <a class="btn btn-black dropdown-toggle text-uppercase" href="#" id="cat-col"
+                                    <a class="btn btn-black dropdown-toggle text-uppercase" href="#" id="cat-shoes"
                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Обувь
                                     </a>
-                                    <div class="dropdown-menu" aria-labelledby="cat-col">
+                                    <div class="dropdown-menu" aria-labelledby="cat-shoes">
                                         <a class="dropdown-item" href="#">Кросовки</a>
                                         <a class="dropdown-item" href="#">Зимние кросовки</a>
                                         <a class="dropdown-item" href="#">Кеды</a>
@@ -72,10 +72,10 @@ $ver = 100000 + rand(1, 100000);
                                     <a class="btn btn-black" href="#">МЯЧИ </a>
                                 </li>
                                 <li class="nav-item dropdown">
-                                    <a class="btn btn-black dropdown-toggle text-uppercase" href="#" id="cat-col"
+                                    <a class="btn btn-black dropdown-toggle text-uppercase" href="#" id="cat-accs"
                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> аксесуары
                                     </a>
-                                    <div class="dropdown-menu" aria-labelledby="cat-col">
+                                    <div class="dropdown-menu" aria-labelledby="cat-accs">
                                         <a class="dropdown-item" href="#">Кросовки</a>
                                         <a class="dropdown-item" href="#">Зимние кросовки</a>
                                         <a class="dropdown-item" href="#">Кеды</a>
@@ -91,13 +91,12 @@ $ver = 100000 + rand(1, 100000);
                         <div class="ml-auto">
                             <ul class="navbar-nav nav-right">
                                 <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
-                                    <!--<div class="btn-group d-none d-md-none d-lg-block" role="group">-->
-                                    <div class="btn-group " role="group">
-                                        <button id="btnGroupDrop1" type="button" class="btn btn-outline-dark dropdown-toggle"
+                                    <div class="btn-group only-desktop" role="group">
+                                        <button id="region" type="button" class="btn btn-outline-dark dropdown-toggle"
                                                 data-toggle="dropdown" aria-haspopup="false" aria-expanded="false">
                                             Регион
                                         </button>
-                                        <div class="dropdown-menu short-drop" aria-labelledby="btnGroupDrop1">
+                                        <div class="dropdown-menu short-drop" aria-labelledby="region">
                                             <a class="dropdown-item" href="#"><i class="fas fa-location-arrow"></i> Авто-определение</a>
                                             <a class="dropdown-item" href="#"><i class="fas fa-location-arrow"></i> Выбрать регион</a>
                                         </div>
@@ -112,7 +111,7 @@ $ver = 100000 + rand(1, 100000);
                                             data-target="#callPanel" aria-controls="callPanel">
                                         <i class="fa fa-phone fa-rotate-90"></i>
                                     </button>
-                                    <button class="btn btn-outline-dark" type="button"
+                                    <button class="btn btn-outline-dark only-desktop" type="button"
                                             data-toggle="collapse" aria-expanded="false" aria-label="Open panel"
                                             data-target="#userPanel" aria-controls="userPanel">
                                         <i class="fa fa-user"></i>
@@ -172,7 +171,7 @@ $ver = 100000 + rand(1, 100000);
                         <div class="row">
                             <div class="w-100 text-center py-1">
                                 <div class="input-group col-sm-12 col-md-4 offset-md-4">
-                                    <input id="search_input" type="text" class="form-control" placeholder="Наименование товара или его категория" aria-describedby="s_input">
+                                    <input id="search_input" type="text" class="form-control" placeholder="Наименование / Категория товара" aria-describedby="s_input">
                                     <div class="input-group-append">
                                         <button class="btn btn-outline-secondary" type="button" id="s_input">Поиск</button>
                                     </div>
@@ -186,9 +185,8 @@ $ver = 100000 + rand(1, 100000);
         </header>
         <!-- Main -->
         <main class="mb-auto">
-            <!-- Carusel place -->
             <div id="carousel" class="carousel slide shadow mb-1" data-ride="carousel">
-                <ol class="carousel-indicators">
+                <ol class="carousel-indicators only-desktop">
                     <li data-target="#carousel" data-slide-to="0" class="active"></li>
                     <li data-target="#carousel" data-slide-to="1" ></li>
                     <li data-target="#carousel" data-slide-to="2" ></li>
@@ -262,7 +260,7 @@ $ver = 100000 + rand(1, 100000);
                                 </g></g></g></g></g></g></svg>
                             </div>
                             <p class="pb-2">С доставкой в удобное для вас время</p>
-                            <button class="btn btn-black" onclick="alert('Клик на СМОТРЕТЬ КАТАЛОГ')">СМОТРЕТЬ КАТАЛОГ</button>
+                            <button class="btn btn-black mt-2" onclick="alert('Клик на СМОТРЕТЬ КАТАЛОГ')">СМОТРЕТЬ КАТАЛОГ</button>
                         </div>
                     </div>
                     <div class="carousel-item" data-interval="10000" >
@@ -274,7 +272,7 @@ $ver = 100000 + rand(1, 100000);
                             <h1><em><s>СТИЛЬНО</s>, <s>МОДНО</s>, <s>МОЛОДЕЖНО</s></em></h1>
                             <p class="lead">Кто ты такое когда не удобно!</p>
                             <p class="lead">Мы позаботимся что бы было комфортно!</p>
-                            <a class="btn btn-black mt-2" href="#">ВЫБИРАТЬ ЛУЧШИЕ ТОВАРЫ</a>
+                            <a class="btn btn-black mt-3" href="#">ВЫБИРАТЬ ЛУЧШИЕ ТОВАРЫ</a>
                         </div>
                     </div>
                     <div class="carousel-item" data-interval="10000">
@@ -283,29 +281,25 @@ $ver = 100000 + rand(1, 100000);
                         <rect width="100%" height="100%" fill="#71706E"></rect>
                         </svg>
                         <div class="carousel-caption">
-                            <h1 class="font-shadow-light">В ТАКОЙ ОБУВИ ВИДНО ТОЛЬКО ТВОЮ СПИНУ</h1>
-                            <p  class="font-shadow-black">Потому что ты оч быстрый</p>
+                            <h1 class="">В ТАКОЙ ОБУВИ ВИДНО ТОЛЬКО ТВОЮ СПИНУ</h1>
+                            <p  class="lead">Потому что ты оч быстрый</p>
                             <p class="lead">Как орёл!</p>
-                            <a class="btn btn-black mt-2" href="#">ЛЕТАТЬ КАК ВЕТЕР</a>
+                            <a class="btn btn-black mt-3" href="#">ЛЕТАТЬ КАК ВЕТЕР</a>
                         </div>
                     </div>
                 </div>
-                <a class="carousel-control-prev " href="#carousel" role="button" data-slide="prev">
+                <a class="carousel-control-prev only-desktop" href="#carousel" role="button" data-slide="prev">
                     <i class="fas fa-chevron-left fa-3x "></i>
                 </a>
-                <a class="carousel-control-next " href="#carousel" role="button" data-slide="next">
+                <a class="carousel-control-next only-desktop" href="#carousel" role="button" data-slide="next">
                     <i class="fas fa-chevron-right fa-3x "></i>
                 </a>
             </div>
-            <!-- END Carusel place -->
 
             <div class="container">
-                <!-- Middle buttons -->
                 <div class="mid-btn-block">
                     <button class="btn btn-black" onclick="alert('Клик на Новые Поступления')">НОВЫЕ ПОСТУПЛЕНИЯ</button>
                 </div>
-
-                <!-- FIrst items cards -->
                 <div class="row">
                     <div class="col-sm-12 col-md-12 col-lg-4 mb-1">
                         <div class="cursor-pointer" onclick="alert('Клик на карточку товара 1')">
@@ -340,22 +334,11 @@ $ver = 100000 + rand(1, 100000);
                             </div>
                         </div>
                     </div>
-                    <!--                    <div class="col-sm-6 col-md-6 col-lg-3 mb-1">
-                        <div class="cursor-pointer" onclick="alert('Клик на карточку товара 3')">
-                            <div class="item_card card-big card-hover-shadow d-flex">
-                                <img src="https://www.slamdunk.su/thumbs/5bbbfc774f1ee.jpg" class="item-card-image" alt="">
-                                <div class="card-img-overlay d-flex flex-column align-items-baseline font-shadow-smoke">
-                                    <p class="lead ml-2 mt-2">Jordan Jumpman Hustle</p>
-                                    <p class="w-100 mt-auto lead text-center"><strong>Цена: </strong>8 290 р.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>-->
+                    
                 </div>
-                <div class="mid-btn-block">
+                <div class="mid-btn-block only-desktop">
                     <button class="btn btn-black" onclick="alert('Клик на КОЛЛЕКЦИИ')">КОЛЛЕКЦИИ</button>
                 </div>
-                <!-- BLOG long cards -->
                 <div class="row">
                     <div class="col-md-12 col-lg-6 mb-1">
                         <div class="card card-big bg-color-black font-color-smoke font-shadow-black shadow">
@@ -364,7 +347,8 @@ $ver = 100000 + rand(1, 100000);
                                 <h2 class="">Nike Air Max 95 SE</h2>
                                 <p>Признанная классика. Обувь, которая стала итогом многолетней кропотливой работы ведущих дизайнеров Nike. Обувь для твоих побед.</p>
 
-                                <a href="#" class="btn btn-black">ПОДРОБНЕЕ</a>
+                                <a href="#" class="btn btn-black">ПОДРОБНЕЕ</a><br />
+                                <button class="btn btn-black only-mobile mt-1" onclick="alert('Клик на КОЛЛЕКЦИИ')">ВСЕ КОЛЛЕКЦИИ</button>
                             </div>
                         </div>
                     </div>
@@ -429,8 +413,6 @@ $ver = 100000 + rand(1, 100000);
                         </div>
                     </div>
                 </div>
-                <!-- END BLOG long cards -->
-                <!-- BLOG short cards -->
                 <div class="mid-btn-block">
                     <button class="btn btn-black" onclick="alert('Клик на ИЗБРАННЫЕ СТАТЬИ')">ИЗБРАННЫЕ СТАТЬИ</button>
                 </div>
@@ -503,7 +485,6 @@ $ver = 100000 + rand(1, 100000);
                 <div class="mid-btn-block">
                     <button class="btn btn-black" onclick="alert('Клик на ЕЩЕ ТЕБЕ ПОНРАВИТСЯ')">ЕЩЕ ТЕБЕ ПОНРАВИТСЯ</button>
                 </div>
-                <!-- LAST Item Block  -->
                 <div class="last-block-with-offset">
                     <div class="row no-gutters d-flex justify-content-around">
                         <div class="col-12 col-sm-12 col-md-12 col-lg-6 card-deck mb-1">
@@ -558,10 +539,9 @@ $ver = 100000 + rand(1, 100000);
                         </div>
                     </div>
                 </div>
-                <!-- END LAST Item Block  -->
-<!--                <div class="mid-btn-block">
+                <div class="mid-btn-block only-desktop">
                     <button class="btn btn-black" onclick="alert('Клик на СМОТРЕТЬ ЕЩЕ')">СМОТРЕТЬ ЕЩЕ</button>
-                </div>-->
+                </div>
             </div>
         </main>
         <!-- END Main -->
@@ -569,9 +549,9 @@ $ver = 100000 + rand(1, 100000);
         <!-- subscribe block -->
         <div class="w-100 bg-color-black mt-5 mb-4 shadow">
             <div class="container py-2 subscribe">
-                <div class="d-flex align-items-center">
+                <div class="w-100 d-lg-flex align-items-center">
                     <h4 class="col-sm-12 col-md-6 col-lg-3 offset-lg-3 my-3 font-color-smoke font-shadow-black">ПОДПИШИСЬ НА НОВОСТИ SLUMDUNK И ПОЛУЧИ СКИДКУ 10%!</h4>
-                    <div class="col-md-5 col-lg-3 my-3">
+                    <div class="col-sm-12 col-md-5 col-lg-3 my-3">
                         <div class="input-group">
                             <input type="text" class="form-control border-dark"
                                    placeholder="АДРЕС ЭЛ.ПОЧТЫ"
@@ -595,11 +575,11 @@ $ver = 100000 + rand(1, 100000);
                     <div class="col-sm-6 col-md-3 col-lg-2 ml-4">
                         <h5>О компании</h5>
                         <ul>
-                            <li><a href="#" class="">О нас</a></li>
-                            <li><a href="#">Новости</a></li>
+                            <li class="only-desktop"><a href="#" class="">О нас</a></li>
+                            <li class="only-desktop"><a href="#">Новости</a></li>
                             <li><a href="#">Гарантии</a></li>
                             <li><a href="#">Контакты</a></li>
-                            <li><a href="#">Обратная связь</a></li>
+                            <li class="only-desktop"><a href="#">Обратная связь</a></li>
                         </ul>
                     </div>
                     <div class="col-sm-6 col-md-3 col-lg-2">
@@ -608,10 +588,10 @@ $ver = 100000 + rand(1, 100000);
                             <li><a href="#">Как заказать</a></li>
                             <li><a href="#">Доставка и оплата</a></li>
                             <li><a href="#">Программа лояльности</a></li>
-                            <li><a href="#">Обмен и возврат</a></li>
+                            <li class="only-desktop"><a href="#">Обмен и возврат</a></li>
                         </ul>
                     </div>
-                    <div class="col-md-3 col-lg-2 d-sm-none d-lg-block">
+                    <div class="col-md-3 col-lg-2 only-desktop">
                         <h5>Бренды</h5>
                         <ul>
                             <li><a href="#">Jordan</a></li>
@@ -622,7 +602,7 @@ $ver = 100000 + rand(1, 100000);
                             <li><a href="#">Mitchell & Ness</a></li>
                         </ul>
                     </div>
-                    <div class="col-md-3 col-lg-2 d-sm-none d-lg-block">
+                    <div class="col-md-3 col-lg-2 only-desktop">
                         <h5 class="">Магазин</h5>
                         <ul>
                             <li><a href="#">Кросовки</a></li>
@@ -636,7 +616,7 @@ $ver = 100000 + rand(1, 100000);
                 
                 <div class="w-100 d-flex justify-content-center">
                     <ul class="social-rate  d-flex align-items-center">
-                        <h4 class="mr-4 pl-2">ОЦЕНИТЕ НАС </h4>
+                        <h4 class="mr-4 pl-2 only-desktop">ОЦЕНИТЕ НАС </h4>
                         <li><a href="#" class="" target="_blank" rel="noindex, nofollow"><i class="fab fa-instagram fa-2x"></i></a></li>
                         <li><a href="#" class="" target="_blank" rel="noindex, nofollow"><i class="fab fa-vk fa-2x"></i></a></li>
                         <li><a href="#" class="" target="_blank" rel="noindex, nofollow"><i class="fab fa-facebook fa-2x"></i></a></li>
@@ -651,10 +631,10 @@ $ver = 100000 + rand(1, 100000);
                 <a href="#">Юридическая информация</a>
                 <a href="#">&COPY; <?php echo date("Y");?> SLUMDUNK</a>
                 <a href="#">Политика конфиденциальности</a>
-                <span class="pedal">
+                <div class="pedal">
                     <a id="go-to-top" class="btn btn-sm border-secondary font-color-light" href="#top">
-                        <i class="fa fa-chevron-up"></i> Наверх </a>
-                </span>
+                        <i class="fa fa-chevron-up"></i><span class="only-desktop"> Наверх</span></a>
+                </div>
             </div>
         </footer>
         <!-- END Footer -->

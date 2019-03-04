@@ -2,21 +2,10 @@
             PAGE
 ********************************/
 html{ height: 100%;}
-body header,
-body main,
-body footer{
+html.desktop body header,
+html.desktop body main,
+html.desktop body footer{
     display: flow-root;
-}
-html:not(.desktop){
-    .only-desktop{
-        display: none;
-    }
-    
-}
-html.desktop{
-    .only-mobile{
-        display: none;
-    }
 }
 /********************************
             GRID
@@ -25,26 +14,24 @@ body {
     padding-top: 72px;
 }
 
-.last-block-with-offset{
-    width: 92%;
-    margin: 0 auto;
-    padding: 0;
-}
 footer{
     min-height: 60px;
 }
 footer .container{
     position: relative;
 }
-/*@media (min-width: 576px) {
-    .container{
-        max-width: max-content;
-    }
+@media (min-width: 576px) {
     
+    .pedal{
+        top: -1rem;
+    }
     .last-block-with-offset{
         width: 100%;
     }
-}*/
+    .dropdown-item{
+        color: black;
+    }
+}
 @media (min-width: 1200px) {
     .container{
         max-width: 1170px;
@@ -55,10 +42,16 @@ footer .container{
         max-width: 1400px;
     }
 }
+.last-block-with-offset{
+    width: 90%;
+    margin: 0 auto;
+    padding: 0;
+}
 /********************************
             topMenu
 ********************************/
 header{
+    max-width: 100%;
     position: fixed;
     top:0;
     right: 0;
@@ -69,13 +62,14 @@ header{
     
     .offcanvas-collapse {
         position: fixed;
-        top: 72px; /* Height of navbar */
+        top: 73px; /* Height of navbar */
         bottom: 0;
         right: 100%;
         width: 100%;
-        padding: 1rem;
-        /*        padding-top: 1rem;
-                padding-left: 1rem;*/
+        max-width: 100vw;
+        /*padding: 1rem;*/
+            padding-top: 1rem;
+            padding-left: .25rem;
         overflow-y: auto;
         visibility: hidden;
         background-color: #f8f9fa;
@@ -88,11 +82,19 @@ header{
         -webkit-transform: translateX(100%);
         transform: translateX(100%);
     }
-    .nav-item a{
-        display: block;
+    .offcanvas-collapse ul,
+    .offcanvas-collapse ul li
+    .offcanvas-collapse ul li *{
         width: 100%;
-        margin-bottom: 1rem;
     }
+    .offcanvas-collapse ul li a.btn-black{
+        display: block;
+        background-color: transparent !important;
+        color: #131514;
+        border: inset #131514 1px;
+        margin-bottom: .5rem;
+    }
+    
     #j-nav .dropdown-menu.show{
         margin-bottom: 1rem !important;
     }
@@ -240,7 +242,7 @@ a.btn{
     height: inherit;
 }
 .card-big{
-    height: 400px;
+    height: auto;
     max-height: 400px;
     overflow: hidden;
 }
@@ -262,6 +264,7 @@ a.btn{
 }
 .item_card .item-card-svg{
     width: 55%;
+    height: max-content;
     padding: 1rem;
     margin: .5rem auto;
 }
@@ -312,8 +315,12 @@ p.f-b{
 .carousel-item{
     height: 25rem;
 }
+
 .carousel-caption{
-    top:5rem !important;
+    top: 2.5rem;
+}
+.carousel-caption h1{
+    font-size: 22pt;
 }
 .carousel-caption h1,
 .carousel-caption h2,
@@ -346,9 +353,10 @@ input.form-control{
 }
 .last-block{
     width: 100%;
+    max-width: 100vw;
 }
 .social-rate{
-    height: 50px;
+    min-height: 50px;
     padding: 0;
 }
 .last-block ul{
@@ -370,6 +378,6 @@ footer>.container a{
 .pedal{
     position: absolute;
     z-index: 1000;
-    top: .1rem;
-    right: 1.5rem;
+    top: -.25rem;
+    right: .5rem;
 }
