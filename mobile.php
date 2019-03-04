@@ -17,7 +17,7 @@ $ver = 100000 + rand(1, 100000);
         <!-- // css block -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-        <link rel="stylesheet" href="assets/css/colors.css?v=<?php echo $ver; ?>">
+        <link rel="stylesheet" href="assets/css/colors_mob.css?v=<?php echo $ver; ?>">
         <link rel="stylesheet" href="assets/css/styles_mob.css?v=<?php echo $ver; ?>">
     </head>
     <body class="d-flex flex-column h-100" id="top">
