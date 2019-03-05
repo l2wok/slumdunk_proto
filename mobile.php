@@ -488,7 +488,7 @@ $ver = 100000 + rand(1, 100000);
                 </div>
                 <div class="flickity-carousel no-gutters" data-flickity='{
                      "contain": "true",
-                     "prevNextButtons": true,
+                     "prevNextButtons": false,
                      "pageDots": false
                      }'>
 <!--                     "freeScroll": false,
