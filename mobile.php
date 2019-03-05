@@ -486,7 +486,7 @@ $ver = 100000 + rand(1, 100000);
                 <div class="mid-btn-block">
                     <button class="btn btn-black" onclick="alert('Клик на ЕЩЕ ТЕБЕ ПОНРАВИТСЯ')">ЕЩЕ ТЕБЕ ПОНРАВИТСЯ</button>
                 </div>
-                <div class="flickity-carousel no-gutters" data-flickity='{
+                <div class="flickity-carousel" data-flickity='{
                      "contain": "true",
                      "prevNextButtons": false,
                      "pageDots": false

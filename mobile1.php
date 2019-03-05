@@ -13,13 +13,13 @@ $ver = 100000 + rand(1, 100000);
         <meta name="description" content="">
         <meta name="author" content="">
 
-        <title>Mobile adaptation 1 test v=<?php echo $ver; ?></title>
+        <title>Mobile adaptation 2 test v=<?php echo $ver; ?></title>
         <!-- // css block -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
         <link rel="stylesheet" href="assets/css/flickity.min.css">
-        <link rel="stylesheet" href="assets/css/colors_mob.css?v=<?php echo $ver; ?>">
-        <link rel="stylesheet" href="assets/css/styles_mob1.css?v=<?php echo $ver; ?>">
+        <link rel="stylesheet" href="assets/css/colors_mob_1.css?v=<?php echo $ver; ?>">
+        <link rel="stylesheet" href="assets/css/styles_mob_1.css?v=<?php echo $ver; ?>">
     </head>
     <body class="d-flex flex-column h-100" id="top">
         <header>
@@ -301,7 +301,79 @@ $ver = 100000 + rand(1, 100000);
                 <div class="mid-btn-block">
                     <button class="btn btn-black" onclick="alert('Клик на Новые Поступления')">НОВЫЕ ПОСТУПЛЕНИЯ</button>
                 </div>
-                <div class="row">
+                <!-- // s-car new items -->
+
+                <div class="flickity-carousel" data-flickity='{
+                     "cellAlign": "left",
+                     "contain": true,
+                     "freeScroll": true,
+                     "wrapAround": true,
+                     "dragThreshold": 10,
+                     "selectedAttraction": 0.01,
+                     "friction": 0.15,
+                     "prevNextButtons": false,
+                     "pageDots": false
+                     }'>
+                    <!--                     "freeScroll": false,
+                                         "wrapAround": false-->
+                    <div ondblclick="alert('Doubleclick event')" onmousedown="alert('mousedown event')" class="carousel-cell-big cursor-pointer">
+                        <div class="carousel-caption d-md-block ">
+                            <div class="item_card card-big d-flex flex-column align-items-start">
+                                <img src="https://www.slamdunk.su/thumbs/5c409dec2c2a0AO7893-002-PHSRH000-2000.jpeg" class="card-img-my" alt="">
+                                <div class="card-img-overlay d-flex align-content-end flex-wrap">
+                                    <p class="name w-100 text-left text-uppercase"><strong>Item name very very very very very long</strong></p>
+                                    <p class="price w-100">itemPrice $</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div ondblclick="alert('Doubleclick event')" onmousedown="alert('mousedown event')" class="carousel-cell-big cursor-pointer">
+                        <div class="carousel-caption d-md-block ">
+                            <div class="item_card card-big d-flex flex-column align-items-start">
+                                <img src="https://www.slamdunk.su/thumbs/5c409dec2c2a0AO7893-002-PHSRH000-2000.jpeg" class="card-img-my" alt="">
+                                <div class="card-img-overlay d-flex align-content-end flex-wrap">
+                                    <p class="name w-100 text-left text-uppercase"><strong>Item name short</strong></p>
+                                    <p class="price w-100">itemPrice</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div ondblclick="alert('Doubleclick event')" onmousedown="alert('mousedown event')" class="carousel-cell-big cursor-pointer">
+                        <div class="carousel-caption d-md-block ">
+                            <div class="item_card card-big d-flex flex-column align-items-start">
+                                <img src="https://www.slamdunk.su/thumbs/5c409dec2c2a0AO7893-002-PHSRH000-2000.jpeg" class="card-img-my" alt="">
+                                <div class="card-img-overlay d-flex align-content-end flex-wrap">
+                                    <p class="name w-100 text-left text-uppercase"><strong>Item name short</strong></p>
+                                    <p class="price w-100">itemPrice</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div ondblclick="alert('Doubleclick event')" onmousedown="alert('mousedown event')" class="carousel-cell-big cursor-pointer">
+                        <div class="carousel-caption d-md-block ">
+                            <div class="item_card card-big d-flex flex-column align-items-start">
+                                <img src="https://www.slamdunk.su/thumbs/5c409dec2c2a0AO7893-002-PHSRH000-2000.jpeg" class="card-img-my" alt="">
+                                <div class="card-img-overlay d-flex align-content-end flex-wrap">
+                                    <p class="name w-100 text-left text-uppercase"><strong>Item name short</strong></p>
+                                    <p class="price w-100">itemPrice</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div ondblclick="alert('Doubleclick event')" onmousedown="alert('mousedown event')" class="carousel-cell-big cursor-pointer">
+                        <div class="carousel-caption d-md-block ">
+                            <div class="item_card card-big d-flex flex-column align-items-start">
+                                <img src="https://www.slamdunk.su/thumbs/5c409dec2c2a0AO7893-002-PHSRH000-2000.jpeg" class="card-img-my" alt="">
+                                <div class="card-img-overlay d-flex align-content-end flex-wrap">
+                                    <p class="name w-100 text-left text-uppercase"><strong>Item name short</strong></p>
+                                    <p class="price w-100">itemPrice</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- // END s-car new items -->
+<!--                <div class="row">
                     <div class="col-sm-12 col-md-12 col-lg-4 mb-1">
                         <div class="cursor-pointer" onclick="alert('Клик на карточку товара 1')">
                             <div class="item_card card-big card-hover-shadow d-flex">
@@ -336,7 +408,7 @@ $ver = 100000 + rand(1, 100000);
                         </div>
                     </div>
 
-                </div>
+                </div>-->
                 <div class="mid-btn-block only-desktop">
                     <button class="btn btn-black" onclick="alert('Клик на КОЛЛЕКЦИИ')">КОЛЛЕКЦИИ</button>
                 </div>
@@ -486,7 +558,7 @@ $ver = 100000 + rand(1, 100000);
                 <div class="mid-btn-block">
                     <button class="btn btn-black" onclick="alert('Клик на ЕЩЕ ТЕБЕ ПОНРАВИТСЯ')">ЕЩЕ ТЕБЕ ПОНРАВИТСЯ</button>
                 </div>
-                <div class="flickity-carousel no-gutters" data-flickity='{
+                <div class="flickity-carousel w-100" data-flickity='{
                      "contain": "true",
                      "prevNextButtons": false,
                      "pageDots": false
@@ -763,6 +835,6 @@ $ver = 100000 + rand(1, 100000);
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
     <script src="assets/js/current-device.min.js"></script>
     <script src="assets/js/flickity.min.js"></script>
-    <script src="assets/js/app_mob1.js?v=<?php echo $ver; ?>"></script>
+    <script src="assets/js/app_mob_1.js?v=<?php echo $ver; ?>"></script>
 </body>
 </html>
