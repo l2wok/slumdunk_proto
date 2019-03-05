@@ -639,7 +639,7 @@ $ver = 100000 + rand(1, 100000);
     </main>
     <!-- END Main -->
     <!-- subscribe block -->
-    <div class="w-100 bg-color-black mt-5 mb-4 shadow">
+    <div class="w-100 bg-color-black mb-4 shadow">
         <div class="container py-2 subscribe">
             <div class="w-100 d-lg-flex align-items-center">
                 <h4 class="col-sm-12 col-md-6 col-lg-3 offset-lg-3 my-3 font-color-smoke font-shadow-black">ПОДПИШИСЬ НА НОВОСТИ SLUMDUNK И ПОЛУЧИ СКИДКУ 10%!</h4>
