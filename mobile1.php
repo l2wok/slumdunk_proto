@@ -102,7 +102,7 @@ $ver = 100000 + rand(1, 100000);
                                             <a class="dropdown-item" href="#"><i class="fas fa-location-arrow"></i> Выбрать регион</a>
                                         </div>
                                     </div>
-                                    <button class="btn btn-outline-dark" type="button"
+                                    <button class="btn btn-outline-dark mob-first-round" type="button"
                                             data-toggle="collapse" aria-expanded="false" aria-label="Open panel"
                                             data-target="#searchPanel" aria-controls="searchPanel">
                                         <i class="fa fa-search"></i>
@@ -185,7 +185,7 @@ $ver = 100000 + rand(1, 100000);
             </div>
         </header>
         <!-- Main -->
-        <main class="mb-auto">
+        <main class="">
             <div id="carousel" class="carousel slide shadow mb-1" data-ride="carousel">
                 <ol class="carousel-indicators only-desktop">
                     <li data-target="#carousel" data-slide-to="0" class="active"></li>
@@ -301,18 +301,18 @@ $ver = 100000 + rand(1, 100000);
                 <div class="mid-btn-block">
                     <button class="btn btn-black" onclick="alert('Клик на Новые Поступления')">НОВЫЕ ПОСТУПЛЕНИЯ</button>
                 </div>
-                <div class="flickity-carousel" data-flickity='{
+                <div id="j-fl-top" class="flickity-carousel" data-flickity='{
                      "cellAlign": "left",
                      "contain": true,
-                     "freeScroll": true,
+                     "freeScroll": false,
                      "wrapAround": true,
                      "dragThreshold": 10,
-                     "selectedAttraction": 0.01,
-                     "friction": 0.15,
+                     "accessibility": false,
+                     "passive": false,
                      "prevNextButtons": true,
                      "pageDots": false
                      }'>
-                    <div ondblclick="alert('Doubleclick event')" onmousedown="alert('mousedown event')" class="carousel-cell-big cursor-pointer">
+                    <div class="carousel-cell-big cursor-pointer">
                         <div class="carousel-caption d-md-block ">
                             <div class="item_card card-big d-flex flex-column align-items-start">
                                 <img src="https://www.slamdunk.su/thumbs/5c409dec2c2a0AO7893-002-PHSRH000-2000.jpeg" class="card-img-my" alt="">
@@ -323,7 +323,7 @@ $ver = 100000 + rand(1, 100000);
                             </div>
                         </div>
                     </div>
-                    <div ondblclick="alert('Doubleclick event')" onmousedown="alert('mousedown event')" class="carousel-cell-big cursor-pointer">
+                    <div class="carousel-cell-big cursor-pointer">
                         <div class="carousel-caption d-md-block ">
                             <div class="item_card card-big d-flex flex-column align-items-start">
                                 <img src="https://www.slamdunk.su/thumbs/5c409dec2c2a0AO7893-002-PHSRH000-2000.jpeg" class="card-img-my" alt="">
@@ -334,7 +334,7 @@ $ver = 100000 + rand(1, 100000);
                             </div>
                         </div>
                     </div>
-                    <div ondblclick="alert('Doubleclick event')" onmousedown="alert('mousedown event')" class="carousel-cell-big cursor-pointer">
+                    <div class="carousel-cell-big cursor-pointer">
                         <div class="carousel-caption d-md-block ">
                             <div class="item_card card-big d-flex flex-column align-items-start">
                                 <img src="https://www.slamdunk.su/thumbs/5c409dec2c2a0AO7893-002-PHSRH000-2000.jpeg" class="card-img-my" alt="">
@@ -345,7 +345,7 @@ $ver = 100000 + rand(1, 100000);
                             </div>
                         </div>
                     </div>
-                    <div ondblclick="alert('Doubleclick event')" onmousedown="alert('mousedown event')" class="carousel-cell-big cursor-pointer">
+                    <div class="carousel-cell-big cursor-pointer">
                         <div class="carousel-caption d-md-block ">
                             <div class="item_card card-big d-flex flex-column align-items-start">
                                 <img src="https://www.slamdunk.su/thumbs/5c409dec2c2a0AO7893-002-PHSRH000-2000.jpeg" class="card-img-my" alt="">
@@ -356,7 +356,7 @@ $ver = 100000 + rand(1, 100000);
                             </div>
                         </div>
                     </div>
-                    <div ondblclick="alert('Doubleclick event')" onmousedown="alert('mousedown event')" class="carousel-cell-big cursor-pointer">
+                    <div class="carousel-cell-big cursor-pointer">
                         <div class="carousel-caption d-md-block ">
                             <div class="item_card card-big d-flex flex-column align-items-start">
                                 <img src="https://www.slamdunk.su/thumbs/5c409dec2c2a0AO7893-002-PHSRH000-2000.jpeg" class="card-img-my" alt="">
@@ -368,7 +368,7 @@ $ver = 100000 + rand(1, 100000);
                         </div>
                     </div>
                 </div>
-                <!-- // END s-car new items -->
+                <!-- // END s-car new items  -->
                 <div class="mid-btn-block only-desktop">
                     <button class="btn btn-black" onclick="alert('Клик на КОЛЛЕКЦИИ')">КОЛЛЕКЦИИ</button>
                 </div>
@@ -437,8 +437,6 @@ $ver = 100000 + rand(1, 100000);
                         </div>
                     </div>
                 </div>
-                
-                
                 <div class="mid-btn-block">
                     <button class="btn btn-black" onclick="alert('Клик на ИЗБРАННЫЕ СТАТЬИ')">ИЗБРАННЫЕ СТАТЬИ</button>
                 </div>
@@ -511,13 +509,17 @@ $ver = 100000 + rand(1, 100000);
                 <div class="mid-btn-block">
                     <button class="btn btn-black" onclick="alert('Клик на ЕЩЕ ТЕБЕ ПОНРАВИТСЯ')">ЕЩЕ ТЕБЕ ПОНРАВИТСЯ</button>
                 </div>
-                <div class="flickity-carousel w-100" data-flickity='{
-                     "contain": "true",
+                <div id="j-fl-bot" class="flickity-carousel w-100 mb-5" data-flickity='{
+                     "cellAlign": "left",
+                     "contain": true,
+                     "freeScroll": false,
+                     "wrapAround": false,
+                     "dragThreshold": 10,
+                     "accessibility": false,
+                     "passive": false,
                      "prevNextButtons": true,
                      "pageDots": false
                      }'>
-<!--                     "freeScroll": false,
-                     "wrapAround": false-->
                     <div class="carousel-cell col-8 col-sm-6 col-md-3">
                         <div class="carousel-caption d-md-block text-left">
                             <div class="card d-flex flex-column align-items-start">
@@ -632,110 +634,106 @@ $ver = 100000 + rand(1, 100000);
                     </div>
                 </div>
             </div>
-            <div class="mid-btn-block only-desktop">
-                <button class="btn btn-black" onclick="alert('Клик на СМОТРЕТЬ ЕЩЕ')">СМОТРЕТЬ ЕЩЕ</button>
-            </div>
-        </div>
-    </main>
-    <!-- END Main -->
-    <!-- subscribe block -->
-    <div class="w-100 bg-color-black mb-4 shadow">
-        <div class="container py-2 subscribe">
-            <div class="w-100 d-lg-flex align-items-center">
-                <h4 class="col-sm-12 col-md-6 col-lg-3 offset-lg-3 my-3 font-color-smoke font-shadow-black">ПОДПИШИСЬ НА НОВОСТИ SLUMDUNK И ПОЛУЧИ СКИДКУ 10%!</h4>
-                <div class="col-sm-12 col-md-5 col-lg-3 my-3">
-                    <div class="input-group">
-                        <input type="text" class="form-control border-dark"
-                               placeholder="АДРЕС ЭЛ.ПОЧТЫ"
-                               onfocus="this.placeholder = ''"
-                               onblur="this.placeholder = 'АДРЕС ЭЛ.ПОЧТЫ'">
-                        <div class="input-group-append">
-                            <button class="btn bg-color-light border-dark" type="button">
-                                <i class="fas fa-long-arrow-alt-right"></i>
-                            </button>
+        </main>
+        <!-- END Main -->
+        <!-- subscribe block -->
+        <div class="w-100 bg-color-black mb-4 mt-1 py-1 shadow">
+            <div class="container py-2 subscribe">
+                <div class="w-100 d-lg-flex align-items-center">
+                    <h4 class="col-sm-12 col-md-6 col-lg-3 offset-lg-3 my-3 font-color-smoke font-shadow-black">ПОДПИШИСЬ НА НОВОСТИ SLUMDUNK И ПОЛУЧИ СКИДКУ 10%!</h4>
+                    <div class="col-sm-12 col-md-5 col-lg-3 my-3">
+                        <div class="input-group">
+                            <input type="text" class="form-control border-dark"
+                                   placeholder="АДРЕС ЭЛ.ПОЧТЫ"
+                                   onfocus="this.placeholder = ''"
+                                   onblur="this.placeholder = 'АДРЕС ЭЛ.ПОЧТЫ'">
+                            <div class="input-group-append">
+                                <button class="btn bg-color-light border-dark" type="button">
+                                    <i class="fas fa-long-arrow-alt-right"></i>
+                                </button>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <!-- END subscribe block -->
-    <!-- Links block -->
-    <div class="container">
-        <div class="row">
-            <div class="last-block d-flex justify-content-center font-color-black">
-                <div class="col-sm-6 col-md-3 col-lg-2 ml-4">
-                    <h5>О компании</h5>
-                    <ul>
-                        <li class="only-desktop"><a href="#" class="">О нас</a></li>
-                        <li class="only-desktop"><a href="#">Новости</a></li>
-                        <li><a href="#">Гарантии</a></li>
-                        <li><a href="#">Контакты</a></li>
-                        <li class="only-desktop"><a href="#">Обратная связь</a></li>
-                    </ul>
+        <!-- END subscribe block -->
+        <!-- Links block -->
+        <div class="container">
+            <div class="row">
+                <div class="last-block d-flex justify-content-center font-color-black">
+                    <div class="col-sm-6 col-md-3 col-lg-2 ml-4">
+                        <h5>О компании</h5>
+                        <ul>
+                            <li class="only-desktop"><a href="#" class="">О нас</a></li>
+                            <li class="only-desktop"><a href="#">Новости</a></li>
+                            <li><a href="#">Гарантии</a></li>
+                            <li><a href="#">Контакты</a></li>
+                            <li class="only-desktop"><a href="#">Обратная связь</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-6 col-md-3 col-lg-2">
+                        <h5>Помощь</h5>
+                        <ul>
+                            <li><a href="#">Как заказать</a></li>
+                            <li><a href="#">Доставка и оплата</a></li>
+                            <li><a href="#">Программа лояльности</a></li>
+                            <li class="only-desktop"><a href="#">Обмен и возврат</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 col-lg-2 only-desktop">
+                        <h5>Бренды</h5>
+                        <ul>
+                            <li><a href="#">Jordan</a></li>
+                            <li><a href="#">Nike</a></li>
+                            <li><a href="#">Under Armour</a></li>
+                            <li><a href="#">Spalding</a></li>
+                            <li><a href="#">Molten</a></li>
+                            <li><a href="#">Mitchell & Ness</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 col-lg-2 only-desktop">
+                        <h5 class="">Магазин</h5>
+                        <ul>
+                            <li><a href="#">Кросовки</a></li>
+                            <li><a href="#">Толстовки</a></li>
+                            <li><a href="#">Футболки и майки</a></li>
+                            <li><a href="#">Компрессионное белье</a></li>
+                            <li><a href="#">Мячи</a></li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="col-sm-6 col-md-3 col-lg-2">
-                    <h5>Помощь</h5>
-                    <ul>
-                        <li><a href="#">Как заказать</a></li>
-                        <li><a href="#">Доставка и оплата</a></li>
-                        <li><a href="#">Программа лояльности</a></li>
-                        <li class="only-desktop"><a href="#">Обмен и возврат</a></li>
-                    </ul>
-                </div>
-                <div class="col-md-3 col-lg-2 only-desktop">
-                    <h5>Бренды</h5>
-                    <ul>
-                        <li><a href="#">Jordan</a></li>
-                        <li><a href="#">Nike</a></li>
-                        <li><a href="#">Under Armour</a></li>
-                        <li><a href="#">Spalding</a></li>
-                        <li><a href="#">Molten</a></li>
-                        <li><a href="#">Mitchell & Ness</a></li>
-                    </ul>
-                </div>
-                <div class="col-md-3 col-lg-2 only-desktop">
-                    <h5 class="">Магазин</h5>
-                    <ul>
-                        <li><a href="#">Кросовки</a></li>
-                        <li><a href="#">Толстовки</a></li>
-                        <li><a href="#">Футболки и майки</a></li>
-                        <li><a href="#">Компрессионное белье</a></li>
-                        <li><a href="#">Мячи</a></li>
-                    </ul>
-                </div>
-            </div>
 
-            <div class="w-100 d-flex justify-content-center">
-                <ul class="social-rate  d-flex align-items-center">
-                    <h4 class="mr-4 pl-2 only-desktop">ОЦЕНИТЕ НАС </h4>
-                    <li><a href="#" class="" target="_blank" rel="noindex, nofollow"><i class="fab fa-instagram fa-2x"></i></a></li>
-                    <li><a href="#" class="" target="_blank" rel="noindex, nofollow"><i class="fab fa-vk fa-2x"></i></a></li>
-                    <li><a href="#" class="" target="_blank" rel="noindex, nofollow"><i class="fab fa-facebook fa-2x"></i></a></li>
-                </ul>
+                <div class="w-100 d-flex justify-content-center">
+                    <ul class="social-rate  d-flex align-items-center">
+                        <h4 class="mr-4 pl-2 only-desktop">ОЦЕНИТЕ НАС </h4>
+                        <li><a href="#" class="" target="_blank" rel="noindex, nofollow"><i class="fab fa-instagram fa-2x"></i></a></li>
+                        <li><a href="#" class="" target="_blank" rel="noindex, nofollow"><i class="fab fa-vk fa-2x"></i></a></li>
+                        <li><a href="#" class="" target="_blank" rel="noindex, nofollow"><i class="fab fa-facebook fa-2x"></i></a></li>
+                    </ul>
+                </div>
             </div>
         </div>
-    </div>
-    <!-- END Links block -->
-    <!-- Footer -->
-    <footer class="bg-color-black">
-        <div class="container d-flex justify-content-center text-center">
-            <a href="#">Юридическая информация</a>
-            <a href="#">&COPY; <?php echo date("Y"); ?> SLUMDUNK</a>
-            <a href="#">Политика конфиденциальности</a>
-            <div class="pedal">
-                <a id="go-to-top" class="btn btn-sm border-secondary font-color-light" href="#top">
-                    <i class="fa fa-chevron-up"></i><span class="only-desktop"> Наверх</span></a>
+        <!-- END Links block -->
+        <!-- Footer -->
+        <footer class="bg-color-black">
+            <div class="container d-flex justify-content-center text-center">
+                <a href="#">Юридическая информация</a>
+                <a href="#">&COPY; <?php echo date("Y"); ?> SLUMDUNK</a>
+                <a href="#">Политика конфиденциальности</a>
+                <div class="pedal">
+                    <a id="go-to-top" class="btn btn-sm border-secondary font-color-light" href="#top">
+                        <i class="fa fa-chevron-up"></i><span class="only-desktop"> Наверх</span></a>
+                </div>
             </div>
-        </div>
-    </footer>
-    <!-- END Footer -->
-    <!-- // js block -->
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
-    <script src="assets/js/current-device.min.js"></script>
-    <script src="assets/js/flickity.min.js"></script>
-    <script src="assets/js/app_mob_1.js?v=<?php echo $ver; ?>"></script>
-</body>
+        </footer>
+        <!-- END Footer -->
+        <!-- // js block -->
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+        <script src="assets/js/current-device.min.js"></script>
+        <script src="assets/js/flickity.min.js"></script>
+        <script src="assets/js/app_mob_1.js?v=<?php echo $ver; ?>"></script>
+    </body>
 </html>
