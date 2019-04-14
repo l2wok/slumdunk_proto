@@ -133,11 +133,23 @@
                     <td>-</td>
                 </tr>
                 <tr class="">
-                    <td>7</td>
-                    <td><a href="<?php echo $data['pref'];?>register.php">Регистрация</a></td>
-                    <td>register.php</td>
+                    <td>8</td>
+                    <td><a href="<?php echo $data['pref'];?>profile.php">Личн.Кабинет</a></td>
+                    <td>profile.php</td>
                     <td class="small">
-                        _register
+                        _profile
+                    </td>
+                    <td class="small">
+                    </td>
+                    <td>?</td>
+                    <td>-</td>
+                </tr>
+                <tr class="">
+                    <td>8</td>
+                    <td><a href="<?php echo $data['pref'];?>profile.php">Личн.Кабинет</a></td>
+                    <td>profile.php</td>
+                    <td class="small">
+                        _profile
                     </td>
                     <td class="small">
                         <strong>promocode</strong>
@@ -152,16 +164,6 @@
                 
                 
                 <!--
-                <tr class="">
-                    <td>Страница регистрации</td>
-                    <td><a href="<?php echo $data['pref'];?>register.php">/register.php</a></td>
-                    <td class="small">++</td>
-                </tr>
-                <tr class="">
-                    <td>Профиль</td>
-                    <td><a href="<?php echo $data['pref'];?>profile.php">/profile.php</a></td>
-                    <td class="small">+Личный кабинет чтоли+</td>
-                </tr>
                 <tr class="">
                     <td>Подтверждение заказа</td>
                     <td><a href="<?php echo $data['pref'];?>confirm.php">/confirm.php</a></td>
