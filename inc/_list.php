@@ -188,19 +188,20 @@
                     <td>?</td>
                     <td>-</td>
                 </tr>
+                <tr class="">
+                    <td>13</td>
+                    <td><a href="<?php echo $data['pref'];?>contacts.php">Блог статья</a></td>
+                    <td>contacts.php</td>
+                    <td class="small">
+                        _contacts
+                    </td>
+                    <td class="small"></td>
+                    <td>?</td>
+                    <td>-</td>
+                </tr>
                 
                 
                 <!--
-                <tr class="">
-                    <td>Главная стр блога</td>
-                    <td><a href="<?php echo $data['pref'];?>blog_main.php">/blog_main.php</a></td>
-                    <td class="small">++</td>
-                </tr>
-                <tr class="">
-                    <td>Страница блога</td>
-                    <td><a href="<?php echo $data['pref'];?>blog_page.php">/blog_page.php</a></td>
-                    <td class="small">++</td>
-                </tr>
                 <tr class="">
                     <td>Адреса и контакты</td>
                     <td><a href="<?php echo $data['pref'];?>contacts.php">/contacts.php</a></td>
