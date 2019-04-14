@@ -9,7 +9,7 @@
                     <th>IncFile</th>
                     <th>usable id/classes</th>
                     <th>%</th>
-                    <th>Примечания, замечания и т.д.</th>
+                    <th >Примечания, замечания и т.д.</th>
                 </tr>
             </thead>
             <tbody>
@@ -90,6 +90,23 @@
                     <td>?</td>
                     <td class="small">Отдельная страница с товаром. Подключает кроме файла продукта еще и доп-товарамы, субскрайб и нижние ссылки
                     </td>
+                </tr>
+                <tr class="">
+                    <td>5</td>
+                    <td><a href="<?php echo $data['pref'];?>backet.php">Корзина</a></td>
+                    <td>backet.php</td>
+                    <td class="small">
+                        _backet
+                    </td>
+                    <td class="small">
+                        <strong>promocode</strong>
+                        <ul>
+                            <li>input#j-promo</li>
+                            <li>button[type=submit]#j-promo-submit</li>
+                        </ul>
+                    </td>
+                    <td>?</td>
+                    <td>-</td>
                 </tr>
                 
                 
