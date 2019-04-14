@@ -2,7 +2,6 @@
 <div class="container mb-2">
     <div class="row">
         <div class="col-12 col-lg-8">
-            <!--<h4 class="text-uppercase my-3">Создание нового аккаунта</h4>-->
             <div class="d-block d-lg-flex justify-content-center my-4">
                 <div class="flex-fill">
                     <h5 class="mb-3">Авторизация через соц.сети</h5>
