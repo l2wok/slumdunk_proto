@@ -108,29 +108,38 @@
                     <td>?</td>
                     <td>-</td>
                 </tr>
+                <tr class="">
+                    <td>6</td>
+                    <td><a href="<?php echo $data['pref'];?>signin.php">Вход</a></td>
+                    <td>signin.php</td>
+                    <td class="small">
+                        _signin
+                    </td>
+                    <td class="small">
+                    </td>
+                    <td>?</td>
+                    <td>-</td>
+                </tr>
+                <tr class="">
+                    <td>6</td>
+                    <td><a href="<?php echo $data['pref'];?>signin.php">Вход</a></td>
+                    <td>signin.php</td>
+                    <td class="small">
+                        _signin
+                    </td>
+                    <td class="small">
+                        <strong>promocode</strong>
+                        <ul>
+                            <li>input#j-promo</li>
+                            <li>button[type=submit]#j-promo-submit</li>
+                        </ul>
+                    </td>
+                    <td>?</td>
+                    <td>-</td>
+                </tr>
                 
                 
                 <!--
-                <tr class="">
-                    <td>Корзина</td>
-                    <td><a href="<?php echo $data['pref'];?>backet.php">/backet.php</a></td>
-                    <td class="small">++</td>
-                </tr>
-                <tr class="">
-                    <td class="">Модальные окна </td>
-                    <td><a href="<?php echo $data['pref'];?>modal.php">/modal.php</a></td>
-                    <td class="small">Добавление в корзину, табл.размеров, Заказ размера</td>
-                </tr>
-                <tr class="">
-                    <td>Таблица размеров</td>
-                    <td><a href="<?php echo $data['pref'];?>modal.php">/modal.php</a></td>
-                    <td class="small">Модальное окно</td>
-                </tr>
-                <tr class="">
-                    <td>Страница входа</td>
-                    <td><a href="<?php echo $data['pref'];?>signin.php">/signin.php</a></td>
-                    <td class="small">++</td>
-                </tr>
                 <tr class="">
                     <td>Страница регистрации</td>
                     <td><a href="<?php echo $data['pref'];?>register.php">/register.php</a></td>
@@ -210,6 +219,11 @@
                     <td>О нас</td>
                     <td><a href="<?php echo $data['pref'];?>about.php">/about.php</a></td>
                     <td class="small">++</td>
+                </tr>
+                <tr class="">
+                    <td class="">Модальные окна </td>
+                    <td><a href="<?php echo $data['pref'];?>modal.php">/modal.php</a></td>
+                    <td class="small">Добавление в корзину, табл.размеров, Заказ размера</td>
                 </tr>
                 <tr class="">
                     <td></td>
