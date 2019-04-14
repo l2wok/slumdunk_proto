@@ -1,0 +1,149 @@
+.modal{
+    margin-top: 3.5rem!important;
+}
+.toast{
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&0.96+0,0.96+100 */
+    background: -moz-linear-gradient(top, rgba(255,255,255,0.96) 0%, rgba(255,255,255,0.96) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(255,255,255,0.96) 0%,rgba(255,255,255,0.96) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(255,255,255,0.96) 0%,rgba(255,255,255,0.96) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d9ffffff', endColorstr='#d9ffffff',GradientType=0 ); /* IE6-9 */
+}
+ul.sign-ul{
+    padding-left: 1rem;
+}
+.sign-ul li{
+    margin-bottom: .5rem;
+}
+.form-control-lg::placeholder {
+    font-weight: 200;
+}
+.list-group-nopadding .list-group-item{
+    padding: 0;
+}
+.list-group-nopadding .list-group-item>a.active{
+    background-color: #131514;
+    font-weight: 500;
+    color: #fefefe!important;
+}
+.profile-tab{
+    min-height: 200px;
+}
+.custom-radio .custom-control-input:checked~.custom-control-label::after {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3e%3cpath fill='%23131514' d='M457.14,0H54.86A54.87,54.87,0,0,0,0,54.86V457.14A54.87,54.87,0,0,0,54.86,512H457.14A54.87,54.87,0,0,0,512,457.14V54.86A54.87,54.87,0,0,0,457.14,0Z'/%3e%3c/svg%3e");
+}
+
+.custom-control-input:checked~.custom-control-label::before,
+.custom-control-label::before {
+    border-color: #131514;
+    background-color: transparent;
+    border-width: .1rem;
+}
+.custom-radio .custom-control-label::before {
+    border-radius: .25rem; 
+}
+.blogmain .card{
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+}
+.blogmain .col-lg-8 .card-img-overlay{
+    padding: 3rem;
+}
+.overlay-stroke{
+    background-color: black;
+    color: white;
+    display: inline-block;
+    padding: .25rem 1rem;
+}
+@media (max-width: 576px){
+    .blogmain .col-lg-8 .card-img-overlay{
+        padding: 1rem;
+    }
+}
+.blog-article p{
+    line-height: 1.25;
+    margin-bottom: 1rem;
+}
+.blog-par{
+    line-height: 1.4!important;
+    font-weight: 300;
+}
+.blog-article .row img{
+    width: 100%;
+    height: 100%;
+}
+.address p,
+.infopage p{
+    padding: .25rem 0 .5rem 0;
+}
+.infopage img{
+    margin-top: 1rem;
+    margin-bottom: .25rem;
+}
+ol { counter-reset: item }
+ol li { display: block }
+ol li:before { content: counters(item, ".") ". "; counter-increment: item }
+ol.policy{
+    padding-left: 0;
+}
+.policy ol{
+    padding: .5rem 0 .75rem 1rem;
+}
+.policy li {
+    padding: .25rem 0 .25rem 0;
+}
+.accordion-header{
+    padding-top: .5rem;
+}
+.table-sm td, .table-sm th {
+    /* padding: .3rem; */
+    padding: .25rem 0 0 1rem;
+}
+.mdl-reg{
+    position: relative;
+}
+.mdl-reg span{
+    position: relative;
+    z-index: 1;
+}
+.mdl-reg:after{
+    display: block;
+    content: "";
+    position: absolute;
+    top: 7.5%;
+    left: 50%;
+    width:1px;
+    height: 85%;
+    border-left: .15rem solid #131514;
+    z-index: 0;
+}
+.input-group-append {
+    margin-left: -.05rem;
+}
+.btn,
+.form-control {
+    border: .05rem solid;
+    border-color: #131514;
+}
+.j-like:hover{
+    text-decoration: underline!important;
+}
+.accordion-body .btn{
+    border-color: transparent;
+}
+.accordion-body .btn.active{
+    background-color: #f8f9fa;
+}
+.custom-control-label::after {
+    border: #131514 solid .1rem !important;
+}
+.custom-control-label::before {
+    border: #131514 solid .1rem !important;
+}
+.form-control.is-ok{
+    padding-right: 2.25rem;
+    background-repeat: no-repeat;
+    background-position: center right calc(2.25rem / 4);
+    background-size: calc(2.25rem / 2) calc(2.25rem / 2);
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%23131514' d='M2.3 6.73L.6 4.53c-.4-1.04.46-1.4 1.1-.8l1.1 1.4 3.4-3.8c.6-.63 1.6-.27 1.2.7l-4 4.6c-.43.5-.8.4-1.1.1z'/%3e%3c/svg%3e");
+}
