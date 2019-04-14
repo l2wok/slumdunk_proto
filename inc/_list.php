@@ -167,11 +167,22 @@
                     <td>-</td>
                 </tr>
                 <tr class="">
-                    <td>10</td>
-                    <td><a href="<?php echo $data['pref'];?>404.php">404</a></td>
-                    <td>404.php</td>
+                    <td>11</td>
+                    <td><a href="<?php echo $data['pref'];?>blog_main.php">Блог</a></td>
+                    <td>blog_main.php</td>
                     <td class="small">
-                        _404
+                        _blog_main
+                    </td>
+                    <td class="small"></td>
+                    <td>?</td>
+                    <td>-</td>
+                </tr>
+                <tr class="">
+                    <td>12</td>
+                    <td><a href="<?php echo $data['pref'];?>blog_page.php">Блог статья</a></td>
+                    <td>blog_page.php</td>
+                    <td class="small">
+                        _blog_page
                     </td>
                     <td class="small"></td>
                     <td>?</td>
@@ -180,11 +191,6 @@
                 
                 
                 <!--
-                <tr class="">
-                    <td>Ошибка 404</td>
-                    <td><a href="<?php echo $data['pref'];?>404.php">/404.php</a></td>
-                    <td class="small">++</td>
-                </tr>
                 <tr class="">
                     <td>Главная стр блога</td>
                     <td><a href="<?php echo $data['pref'];?>blog_main.php">/blog_main.php</a></td>
