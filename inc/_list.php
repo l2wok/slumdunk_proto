@@ -24,8 +24,8 @@
                 </tr>
                 <tr class="">
                     <td>1</td>
-                    <td><a href="<?php echo $data['pref'];?>list.php">Список всех страниц</a></td>
-                    <td>каждая страница</td>
+                    <td><a href="<?php echo $data['pref'];?>list.php">Список страниц</a></td>
+                    <td>list.php</td>
                     <td class="small">
                         _start <br>
                         _head <br>
@@ -35,17 +35,17 @@
                     <td class="small">
                         <strong>cart indicator</strong>
                         <ul>
-                            <li>span#j-cart-label-desktop</li>
-                            <li>span#j-cart-label-mobile</li>
+                            <li>span#j-cart-label-desktop (_head)</li>
+                            <li>span#j-cart-label-mobile (_footer)</li>
                         </ul>
                         <strong>search</strong>
                         <ul>
-                            <li>input#search_input</li>
-                            <li>button[type=submit]#s_input</li>
+                            <li>input#search_input (_head)</li>
+                            <li>button[type=submit]#s_input (_head)</li>
                         </ul>
                     </td>
                     <td>?</td>
-                    <td class="small">Эта страница /list.php как и все остальные подключает:<br>
+                    <td class="small">Эта страница как и все остальные подключает:<br>
                         (_start) html body meta-head <br>
                         (_head) header-topnav <br>
                         &nbsp;&nbsp;&nbsp;&nbsp;_подключаемый файл своего контента<br>
@@ -64,26 +64,36 @@
                     </td>
                     <td>-</td>
                     <td>?</td>
-                    <td class="small">Используемые примечания и замечания</td>
+                    <td class="small">В карусели на мобиле 1й слайд фиксируется</td>
+                </tr>
+                <tr class="">
+                    <td>3</td>
+                    <td><a href="<?php echo $data['pref'];?>catalog.php?cats=boots">Каталог</a></td>
+                    <td>catalog.php</td>
+                    <td class="small">
+                        _catalog <br>
+                    </td>
+                    <td>-</td>
+                    <td>?</td>
+                    <td class="small">Корня каталога (без категории, т.е. _GET) не существует...</td>
+                </tr>
+                <tr class="">
+                    <td>4</td>
+                    <td><a href="<?php echo $data['pref'];?>product.php">Карточка товара</a></td>
+                    <td>product.php</td>
+                    <td class="small">
+                        _product <br>
+                        _land_mid <br>
+                        _land_sec
+                    </td>
+                    <td>-</td>
+                    <td>?</td>
+                    <td class="small">Отдельная страница с товаром. Подключает кроме файла продукта еще и доп-товарамы, субскрайб и нижние ссылки
+                    </td>
                 </tr>
                 
                 
                 <!--
-                <tr class="">
-                    <td>Главная страница</td>
-                    <td><a href="<?php echo $data['pref'];?>index.php">/index.php</a></td>
-                    <td>?</td>
-                </tr>
-                <tr class="">
-                    <td>Каталог</td>
-                    <td><a href="<?php echo $data['pref'];?>catalog.php?cats=clothes">/catalog.php?cats=clothes</a></td>
-                    <td class="small">Kатегория = Oдежда<br>в _GET для ключа cats значением является текущая категория в фильтре</td>
-                </tr>
-                <tr class="">
-                    <td>Карточка товара</td>
-                    <td><a href="<?php echo $data['pref'];?>product.php">/product.php</a></td>
-                    <td class="small">++</td>
-                </tr>
                 <tr class="">
                     <td>Корзина</td>
                     <td><a href="<?php echo $data['pref'];?>backet.php">/backet.php</a></td>

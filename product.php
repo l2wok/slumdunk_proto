@@ -1,12 +1,10 @@
 <?php
-
 require_once 'config.php';
 $data = getConfig();
-
-$title = "Главная (прототип) версия " . $data['cv'];
+$title = "Карточка товара (прототип) версия ".$data['cv'];
 
 foreach (["_start", "_head",
-    "_land_main",
+    "_product",
     "_land_mid",
     "_land_sec",
 "_footer", "_end"

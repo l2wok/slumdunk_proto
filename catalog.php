@@ -1,14 +1,11 @@
 <?php
-
 require_once 'config.php';
 $data = getConfig();
+$title = "Каталог (прототип) версия ".$data['cv'];
 
-$title = "Главная (прототип) версия " . $data['cv'];
 
 foreach (["_start", "_head",
-    "_land_main",
-    "_land_mid",
-    "_land_sec",
+    "_catalog",
 "_footer", "_end"
 ] as $file) {
     if (file_exists(INC . $file . ".php")) {
