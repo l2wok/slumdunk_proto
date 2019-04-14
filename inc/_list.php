@@ -190,7 +190,7 @@
                 </tr>
                 <tr class="">
                     <td>13</td>
-                    <td><a href="<?php echo $data['pref'];?>contacts.php">Блог статья</a></td>
+                    <td><a href="<?php echo $data['pref'];?>contacts.php">Адреса</a></td>
                     <td>contacts.php</td>
                     <td class="small">
                         _contacts
@@ -199,24 +199,31 @@
                     <td>?</td>
                     <td>-</td>
                 </tr>
+                <tr class="">
+                    <td>14</td>
+                    <td><a href="<?php echo $data['pref'];?>orderafter.php">Оформленный заказ</a></td>
+                    <td>orderafter.php</td>
+                    <td class="small">
+                        _orderafter
+                    </td>
+                    <td class="small"></td>
+                    <td>?</td>
+                    <td>-</td>
+                </tr>
+                <tr class="">
+                    <td>15</td>
+                    <td><a href="<?php echo $data['pref'];?>orderbefore.php">Как заказать</a></td>
+                    <td>orderbefore.php</td>
+                    <td class="small">
+                        _orderbefore
+                    </td>
+                    <td class="small"></td>
+                    <td>?</td>
+                    <td>-</td>
+                </tr>
                 
                 
                 <!--
-                <tr class="">
-                    <td>Адреса и контакты</td>
-                    <td><a href="<?php echo $data['pref'];?>contacts.php">/contacts.php</a></td>
-                    <td class="small">+С картами как добраться+</td>
-                </tr>
-                <tr class="">
-                    <td>Как заказать</td>
-                    <td><a href="<?php echo $data['pref'];?>orderbefore.php">/orderbefore.php</a></td>
-                    <td class="small">+информация как сделать заказ+</td>
-                </tr>
-                <tr class="">
-                    <td>Оформленный заказ</td>
-                    <td><a href="<?php echo $data['pref'];?>orderafter.php">/orderafter.php</a></td>
-                    <td class="small">++</td>
-                </tr>
                 <tr class="">
                     <td>Договор оферты</td>
                     <td><a href="<?php echo $data['pref'];?>offer.php">/offer.php</a></td>
