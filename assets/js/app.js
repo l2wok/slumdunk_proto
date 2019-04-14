@@ -92,7 +92,7 @@ function winResize() {
     } else if ($('html').hasClass('desktop')) {
         $('.only-mobile').hide();
         $('.only-desktop').show();
-        $('.logo').css('margin-left', 0);
+//        $('.logo').css('margin-left', 0);
     } else {
         $('#j-top-carousel').carousel(0);
         $('#j-top-carousel').carousel({'ride': false, 'touch': false, 'keyboard': false});

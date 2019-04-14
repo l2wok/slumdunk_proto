@@ -1,22 +1,74 @@
 <div class="container my-2">
-
-<!--    <h2>Все страницы прототипа</h2>
-    <p class="lead mb-3">По состоянию на <em><?php echo date("d m Y"); ?></em></p>
     <div class="table-responsive ">
         <table class="table table-hover">
             <thead>
                 <tr>
-                    <th>Наименование</th>
-                    <th>Cсылка</th>
-                    <th>Примечания / Готовность</th>
+                    <th>#</th>
+                    <th>Ссылка на страницу</th>
+                    <th>ExecFile</th>
+                    <th>IncFile</th>
+                    <th>%</th>
+                    <th>usable id/classes</th>
+                    <th>Примечания, замечания и т.д.</th>
                 </tr>
             </thead>
             <tbody>
                 <tr class="">
-                    <td>Пи-категории</td>
+                    <td>0</td>
                     <td><a href="https://docs.google.com/spreadsheets/d/1CD-hB4MTTJxqtqavShf9hBaJ1x4QeYANET-xUKXxRFM/edit#gid=950562734" target="_blank">Внешние гугл-доки</a></td>
                     <td>-</td>
+                    <td>-</td>
+                    <td>100%</td>
+                    <td>-</td>
+                    <td class="small">Используемые примечания и замечания</td>
                 </tr>
+                <tr class="">
+                    <td>1</td>
+                    <td><a href="<?php echo $data['pref'];?>list.php">Список всех страниц</a></td>
+                    <td>каждая страница</td>
+                    <td class="small">
+                        _start <br>
+                        _head <br>
+                        _footer <br>
+                        _end
+                    </td>
+                    <td>?</td>
+                    <td class="small">
+                        <strong>cart indicator</strong>
+                        <ul>
+                            <li>span#j-cart-label-desktop</li>
+                            <li>span#j-cart-label-mobile</li>
+                        </ul>
+                        <strong>search</strong>
+                        <ul>
+                            <li>input#search_input</li>
+                            <li>button[type=submit]#s_input</li>
+                        </ul>
+                    </td>
+                    <td class="small">Эта страница /list.php как и все остальные подключает:<br>
+                        (_start) html body meta-head <br>
+                        (_head) header-topnav <br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;_подключаемый файл своего контента<br>
+                        (_footer) footer <br>
+                        (_end) close html body <br>
+                    </td>
+                </tr>
+                <tr class="">
+                    <td>2</td>
+                    <td><a href="<?php echo $data['pref'];?>index.php">Главная</a></td>
+                    <td>index.php</td>
+                    <td class="small">
+                        _land_main <br>
+                        _land_mid <br>
+                        _land_sec
+                    </td>
+                    <td>?</td>
+                    <td>-</td>
+                    <td class="small">Используемые примечания и замечания</td>
+                </tr>
+                
+                
+                <!--
                 <tr class="">
                     <td>Главная страница</td>
                     <td><a href="<?php echo $data['pref'];?>index.php">/index.php</a></td>
@@ -137,9 +189,9 @@
                     <td><a href="<?php echo $data['pref'];?>product.php">_</a></td>
                     <td class="small">++</td>
                 </tr>
-            </tbody>
+-->            </tbody>
         </table>
-    </div>-->
+    </div>
 
 </div>
 

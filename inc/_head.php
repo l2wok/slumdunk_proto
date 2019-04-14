@@ -150,7 +150,7 @@
                     <input id="search_input" type="text" class="form-control border-dark" placeholder="Поиск" aria-describedby="s_input">
                     <input name="csrfToken" type="hidden" value="Fl0suJlBCn9F5fgrxwSANd3g73oWQi6IfP7Vt8Z9">
                     <div class="input-group-append">
-                        <button class="btn btn-outline-dark" type="button" id="s_input">Поиск</button>
+                        <button class="btn btn-outline-dark" type="submit" id="s_input">Поиск</button>
                     </div>
                 </form>
             </div>
