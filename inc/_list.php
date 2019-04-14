@@ -233,11 +233,22 @@
                     <td>-</td>
                 </tr>
                 <tr class="">
-                    <td>16</td>
-                    <td><a href="<?php echo $data['pref'];?>offer.php">Договор оферты</a></td>
-                    <td>offer.php</td>
+                    <td>17</td>
+                    <td><a href="<?php echo $data['pref'];?>faq.php">Вопросы и ответы</a></td>
+                    <td>faq.php</td>
                     <td class="small">
-                        _offer
+                        _faq
+                    </td>
+                    <td class="small"></td>
+                    <td>?</td>
+                    <td>-</td>
+                </tr>
+                <tr class="">
+                    <td>17</td>
+                    <td><a href="<?php echo $data['pref'];?>faq.php">Вопросы и ответы</a></td>
+                    <td>faq.php</td>
+                    <td class="small">
+                        _faq
                     </td>
                     <td class="small"></td>
                     <td>?</td>
@@ -246,11 +257,6 @@
                 
                 
                 <!--
-                <tr class="">
-                    <td>Вопросы и ответы</td>
-                    <td><a href="<?php echo $data['pref'];?>faq.php">/faq.php</a></td>
-                    <td class="small">++</td>
-                </tr>
                 <tr class="">
                     <td>Политика кофиденц.</td>
                     <td><a href="<?php echo $data['pref'];?>policy.php">/policy.php</a></td>

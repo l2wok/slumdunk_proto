@@ -1,4 +1,4 @@
-<!-- END страница регистрации -->
+<!-- START страница регистрации -->
 <div class="container mb-2">
     <div class="row">
         <div class="col-12 col-lg-8">
