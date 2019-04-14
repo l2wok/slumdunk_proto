@@ -145,30 +145,41 @@
                     <td>-</td>
                 </tr>
                 <tr class="">
-                    <td>8</td>
-                    <td><a href="<?php echo $data['pref'];?>profile.php">Личн.Кабинет</a></td>
-                    <td>profile.php</td>
+                    <td>9</td>
+                    <td><a href="<?php echo $data['pref'];?>confirm.php">Подтверждение заказа</a></td>
+                    <td>confirm.php</td>
                     <td class="small">
-                        _profile
+                        _confirm
                     </td>
+                    <td class="small"></td>
+                    <td>?</td>
+                    <td>-</td>
+                </tr>
+                <tr class="">
+                    <td>10</td>
+                    <td><a href="<?php echo $data['pref'];?>404.php">404</a></td>
+                    <td>404.php</td>
                     <td class="small">
-                        <strong>promocode</strong>
-                        <ul>
-                            <li>input#j-promo</li>
-                            <li>button[type=submit]#j-promo-submit</li>
-                        </ul>
+                        _404
                     </td>
+                    <td class="small"></td>
+                    <td>?</td>
+                    <td>-</td>
+                </tr>
+                <tr class="">
+                    <td>10</td>
+                    <td><a href="<?php echo $data['pref'];?>404.php">404</a></td>
+                    <td>404.php</td>
+                    <td class="small">
+                        _404
+                    </td>
+                    <td class="small"></td>
                     <td>?</td>
                     <td>-</td>
                 </tr>
                 
                 
                 <!--
-                <tr class="">
-                    <td>Подтверждение заказа</td>
-                    <td><a href="<?php echo $data['pref'];?>confirm.php">/confirm.php</a></td>
-                    <td class="small">+Заполнение данных куда доставлять+</td>
-                </tr>
                 <tr class="">
                     <td>Ошибка 404</td>
                     <td><a href="<?php echo $data['pref'];?>404.php">/404.php</a></td>
