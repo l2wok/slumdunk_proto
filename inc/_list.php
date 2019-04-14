@@ -121,11 +121,23 @@
                     <td>-</td>
                 </tr>
                 <tr class="">
-                    <td>6</td>
-                    <td><a href="<?php echo $data['pref'];?>signin.php">Вход</a></td>
-                    <td>signin.php</td>
+                    <td>7</td>
+                    <td><a href="<?php echo $data['pref'];?>register.php">Регистрация</a></td>
+                    <td>register.php</td>
                     <td class="small">
-                        _signin
+                        _register
+                    </td>
+                    <td class="small">
+                    </td>
+                    <td>?</td>
+                    <td>-</td>
+                </tr>
+                <tr class="">
+                    <td>7</td>
+                    <td><a href="<?php echo $data['pref'];?>register.php">Регистрация</a></td>
+                    <td>register.php</td>
+                    <td class="small">
+                        _register
                     </td>
                     <td class="small">
                         <strong>promocode</strong>
