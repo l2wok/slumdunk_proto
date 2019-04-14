@@ -3,6 +3,9 @@ require_once 'config.php';
 $data = getConfig();
 $title = "Каталог (прототип) версия ".$data['cv'];
 
+if(! $data['get']){
+    header('Location: '.$data['pref'] . 'catalog.php?cats=boots');
+}
 
 foreach (["_start", "_head",
     "_catalog",
