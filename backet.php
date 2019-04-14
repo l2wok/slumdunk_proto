@@ -3,7 +3,6 @@ require_once 'config.php';
 $data = getConfig();
 $title = "Корзина (прототип) версия ".$data['cv'];
 
-
 foreach (["_start", "_head",
     "_backet",
 "_footer", "_end"
