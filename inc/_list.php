@@ -265,35 +265,42 @@
                     <td>?</td>
                     <td>-</td>
                 </tr>
+                <tr class="">
+                    <td>20</td>
+                    <td><a href="<?php echo $data['pref'];?>garants.php">Отмазка оригинальности</a></td>
+                    <td>garants.php</td>
+                    <td class="small">
+                        _garants
+                    </td>
+                    <td class="small"></td>
+                    <td>?</td>
+                    <td>-</td>
+                </tr>
+                <tr class="">
+                    <td>21</td>
+                    <td><a href="<?php echo $data['pref'];?>loyal.php">Программа лояльности</a></td>
+                    <td>loyal.php</td>
+                    <td class="small">
+                        _loyal
+                    </td>
+                    <td class="small"></td>
+                    <td>?</td>
+                    <td>-</td>
+                </tr>
+                <tr class="">
+                    <td>22</td>
+                    <td><a href="<?php echo $data['pref'];?>about.php">О нас</a></td>
+                    <td>about.php</td>
+                    <td class="small">
+                        _about<br>
+                        _land_sec
+                    </td>
+                    <td class="small"></td>
+                    <td>?</td>
+                    <td>-</td>
+                </tr>
                 
-                
-                <!--
-                <tr class="">
-                    <td>Политика кофиденц.</td>
-                    <td><a href="<?php echo $data['pref'];?>policy.php">/policy.php</a></td>
-                    <td class="small">+Сам дьявол придумал слово КОНФИДЕНЦИАЛЬНОСТИ+</td>
-                </tr>
-                <tr class="">
-                    <td>Доставка и оплата</td>
-                    <td><a href="<?php echo $data['pref'];?>delivery.php">/delivery.php</a></td>
-                    <td class="small">+информация+</td>
-                </tr>
-                <tr class="">
-                    <td>Отмазка оригинальности</td>
-                    <td><a href="<?php echo $data['pref'];?>garants.php">/garants.php</a></td>
-                    <td class="small">+ГАРАНТИИ ? по смыслу ждал бы другого...+</td>
-                </tr>
-                <tr class="">
-                    <td>Программа лояльности</td>
-                    <td><a href="<?php echo $data['pref'];?>loyal.php">/loyal.php</a></td>
-                    <td class="small">++</td>
-                </tr>
-                <tr class="">
-                    <td>О нас</td>
-                    <td><a href="<?php echo $data['pref'];?>about.php">/about.php</a></td>
-                    <td class="small">++</td>
-                </tr>
--->            </tbody>
+            </tbody>
         </table>
     </div>
 
