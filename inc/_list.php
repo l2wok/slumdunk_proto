@@ -221,14 +221,31 @@
                     <td>?</td>
                     <td>-</td>
                 </tr>
+                <tr class="">
+                    <td>16</td>
+                    <td><a href="<?php echo $data['pref'];?>offer.php">Договор оферты</a></td>
+                    <td>offer.php</td>
+                    <td class="small">
+                        _offer
+                    </td>
+                    <td class="small"></td>
+                    <td>?</td>
+                    <td>-</td>
+                </tr>
+                <tr class="">
+                    <td>16</td>
+                    <td><a href="<?php echo $data['pref'];?>offer.php">Договор оферты</a></td>
+                    <td>offer.php</td>
+                    <td class="small">
+                        _offer
+                    </td>
+                    <td class="small"></td>
+                    <td>?</td>
+                    <td>-</td>
+                </tr>
                 
                 
                 <!--
-                <tr class="">
-                    <td>Договор оферты</td>
-                    <td><a href="<?php echo $data['pref'];?>offer.php">/offer.php</a></td>
-                    <td class="small">++</td>
-                </tr>
                 <tr class="">
                     <td>Вопросы и ответы</td>
                     <td><a href="<?php echo $data['pref'];?>faq.php">/faq.php</a></td>
@@ -257,16 +274,6 @@
                 <tr class="">
                     <td>О нас</td>
                     <td><a href="<?php echo $data['pref'];?>about.php">/about.php</a></td>
-                    <td class="small">++</td>
-                </tr>
-                <tr class="">
-                    <td class="">Модальные окна </td>
-                    <td><a href="<?php echo $data['pref'];?>modal.php">/modal.php</a></td>
-                    <td class="small">Добавление в корзину, табл.размеров, Заказ размера</td>
-                </tr>
-                <tr class="">
-                    <td></td>
-                    <td><a href="<?php echo $data['pref'];?>product.php">_</a></td>
                     <td class="small">++</td>
                 </tr>
 -->            </tbody>
