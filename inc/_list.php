@@ -244,11 +244,22 @@
                     <td>-</td>
                 </tr>
                 <tr class="">
-                    <td>17</td>
-                    <td><a href="<?php echo $data['pref'];?>faq.php">Вопросы и ответы</a></td>
-                    <td>faq.php</td>
+                    <td>18</td>
+                    <td><a href="<?php echo $data['pref'];?>policy.php">Политика кофиденц</a></td>
+                    <td>policy.php</td>
                     <td class="small">
-                        _faq
+                        _policy
+                    </td>
+                    <td class="small"></td>
+                    <td>?</td>
+                    <td>-</td>
+                </tr>
+                <tr class="">
+                    <td>19</td>
+                    <td><a href="<?php echo $data['pref'];?>delivery.php">Доставка и оплата</a></td>
+                    <td>delivery.php</td>
+                    <td class="small">
+                        _delivery
                     </td>
                     <td class="small"></td>
                     <td>?</td>
