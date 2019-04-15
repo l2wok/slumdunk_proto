@@ -156,94 +156,103 @@
                 продумывать функционал их небыло задачи, да и особенных фишек тут нет,
                 работают как любые другие - таргет на класс и фильтруем. 
                 Надеюсь нужды фильтровать полтора размера не прийдется... -->
-            <!--            <div class="filter-box top-border">
-                            <div class="filter-header d-flex justify-content-between align-items-center">
-                                <h4 class="text-uppercase">Размеры</h4>
-                                <i class="fas fa-chevron-up"></i>
-                            </div>
-                            <div class="filter-body collapse pt-1">
-                                <div class="nav btn-group btn-group-sm" role="tablist">
-                                    <a class="btn btn-outline-dark active" data-toggle="tab" role="tab" aria-selected="true"
-                                       id="size-btn-us" href="#size-us" aria-controls="size-us"> us
-                                    </a>
-                                    <a class="btn btn-outline-dark" data-toggle="tab" role="tab" aria-selected="false"
-                                       id="size-btn-eu" href="#size-eu" aria-controls="size-eu"> eu
-                                    </a>
-                                    <a class="btn btn-outline-dark" data-toggle="tab" role="tab" aria-selected="false"
-                                       id="size-btn-ru" href="#size-ru" aria-controls="size-ru"> ru
-                                    </a>
-                                    <a class="btn btn-outline-dark" data-toggle="tab" role="tab" aria-selected="false"
-                                       id="size-btn-uk" href="#size-uk" aria-controls="size-uk"> uk
-                                    </a>
-                                    <a class="btn btn-outline-dark" data-toggle="tab" role="tab" aria-selected="false"
-                                       id="size-btn-cm" href="#size-cm" aria-controls="size-cm"> cm
-                                    </a>
-                                </div>
-                                <div class="tab-content pt-2">
-                                    <div class="w-100 tab-pane show active" role="tabpanel" id="size-us" aria-labelledby="size-btn-us">
-                                        <div class="row">
-                                            <div class="col-6"><button class="btn btn-block btn-outline-dark mb-1">US-1</button></div>
-                                            <div class="col-6"><button class="btn btn-block btn-outline-dark mb-1">US-1</button></div>
-                                            <div class="col-6"><button class="btn btn-block btn-outline-dark mb-1">US-1</button></div>
-                                            <div class="col-6"><button class="btn btn-block btn-outline-dark mb-1">US-1</button></div>
-                                            <div class="col-6"><button class="btn btn-block btn-outline-dark mb-1">US-1</button></div>
-                                            <div class="col-6"><button class="btn btn-block btn-outline-dark mb-1">US-1</button></div>
+            <div class="filter-box top-border">
+                <div class="filter-header d-flex justify-content-between align-items-center">
+                    <h4 class="text-uppercase">Размеры</h4>
+                    <i class="fas fa-chevron-up"></i>
+                </div>
+                <div class="filter-body collapse pt-1">
+                    <div class="nav btn-group btn-group-sm" role="tablist">
+                        <?php foreach ($data['sizename'] as $key => $value) : ?>
+                            <a class="btn btn-outline-dark <?php if (!$key) echo "active"; ?>"
+                               data-toggle="tab" role="tab" aria-selected="true"
+                               id="size-btn-<?php echo $value; ?>"
+                               href="#size-<?php echo $value; ?>"
+                               aria-controls="size-<?php echo $value; ?>"
+                               >
+                                   <?php echo $value; ?>
+                            </a>
+                        <?php endforeach; ?>
+                    </div>
+                    <div class="tab-content pt-2">
+                        <?php foreach ($data['sizename'] as $key => $value) : ?>
+                            <div class="w-100 tab-pane show <?php if (!$key) echo "active"; ?>" role="tabpanel"
+                                 id="size-<?php echo $value; ?>"
+                                 aria-labelledby="size-btn-<?php echo $value; ?>"
+                                 >
+                                <div class="row">
+                                    <?php foreach ($data['sizetable'] as $sid => $sval) : ?>
+                                        <div class="col-6">
+                                            <button class="btn btn-block btn-outline-dark mb-1"><?php echo $value; ?>-<?php echo $sval[$key]; ?></button>
                                         </div>
-                                    </div>
-                                    <div class="tab-pane" role="tabpanel" id="size-eu" aria-labelledby="size-btn-eu">
-                                        <div class="row">
-                                            <div class="col-6"><button class="btn btn-block btn-outline-dark mb-1">EU-2</button></div>
-                                            <div class="col-6"><button class="btn btn-block btn-outline-dark mb-1">EU-2</button></div>
-                                            <div class="col-6"><button class="btn btn-block btn-outline-dark mb-1">EU-2</button></div>
-                                            <div class="col-6"><button class="btn btn-block btn-outline-dark mb-1">EU-2</button></div>
-                                            <div class="col-6"><button class="btn btn-block btn-outline-dark mb-1">EU-2</button></div>
-                                            <div class="col-6"><button class="btn btn-block btn-outline-dark mb-1">EU-2</button></div>
-                                            <div class="col-6"><button class="btn btn-block btn-outline-dark mb-1">EU-2</button></div>
-                                            <div class="col-6"><button class="btn btn-block btn-outline-dark mb-1">EU-2</button></div>
-                                            <div class="col-6"><button class="btn btn-block btn-outline-dark mb-1">EU-2</button></div>
-                                            <div class="col-6"><button class="btn btn-block btn-outline-dark mb-1">EU-2</button></div>
-                                            <div class="col-6"><button class="btn btn-block btn-outline-dark mb-1">EU-2</button></div>
-                                        </div>
-                                    </div>
-                                    <div class="tab-pane" role="tabpanel" id="size-ru" aria-labelledby="size-btn-ru">
-                                        <div class="row">
-                                            <div class="col-6"><button class="btn btn-block btn-outline-dark mb-1">RU-3</button></div>
-                                            <div class="col-6"><button class="btn btn-block btn-outline-dark mb-1">RU-3</button></div>
-                                            <div class="col-6"><button class="btn btn-block btn-outline-dark mb-1">RU-3</button></div>
-                                            <div class="col-6"><button class="btn btn-block btn-outline-dark mb-1">RU-3</button></div>
-                                            <div class="col-6"><button class="btn btn-block btn-outline-dark mb-1">RU-3</button></div>
-                                            <div class="col-6"><button class="btn btn-block btn-outline-dark mb-1">RU-3</button></div>
-                                            <div class="col-6"><button class="btn btn-block btn-outline-dark mb-1">RU-3</button></div>
-                                            <div class="col-6"><button class="btn btn-block btn-outline-dark mb-1">RU-3</button></div>
-                                            <div class="col-6"><button class="btn btn-block btn-outline-dark mb-1">RU-3</button></div>
-                                            <div class="col-6"><button class="btn btn-block btn-outline-dark mb-1">RU-3</button></div>
-                                            <div class="col-6"><button class="btn btn-block btn-outline-dark mb-1">RU-3</button></div>
-                                            <div class="col-6"><button class="btn btn-block btn-outline-dark mb-1">RU-3</button></div>
-                                            <div class="col-6"><button class="btn btn-block btn-outline-dark mb-1">RU-3</button></div>
-                                            <div class="col-6"><button class="btn btn-block btn-outline-dark mb-1">RU-3</button></div>
-                                        </div>
-                                    </div>
-                                    <div class="tab-pane" role="tabpanel" id="size-uk" aria-labelledby="size-btn-uk">
-                                        <div class="row">
-                                            <div class="col-6"><button class="btn btn-block btn-outline-dark mb-1">UK1</button></div>
-                                            <div class="col-6"><button class="btn btn-block btn-outline-dark mb-1">UK1</button></div>
-                                            <div class="col-6"><button class="btn btn-block btn-outline-dark mb-1">UK1</button></div>
-                                            <div class="col-6"><button class="btn btn-block btn-outline-dark mb-1">UK1</button></div>
-                                        </div>
-                                    </div>
-                                    <div class="tab-pane" role="tabpanel" id="size-cm" aria-labelledby="size-btn-cm">
-                                        <div class="row">
-                                            <div class="col-6"><button class="btn btn-block btn-outline-dark mb-1">19cm</button></div>
-                                            <div class="col-6"><button class="btn btn-block btn-outline-dark mb-1">19cm</button></div>
-                                            <div class="col-6"><button class="btn btn-block btn-outline-dark mb-1">19cm</button></div>
-                                            <div class="col-6"><button class="btn btn-block btn-outline-dark mb-1">19cm</button></div>
-                                            <div class="col-6"><button class="btn btn-block btn-outline-dark mb-1">19cm</button></div>
-                                            <div class="col-6"><button class="btn btn-block btn-outline-dark mb-1">19cm</button></div>
-                                        </div>
-                                    </div>
+                                    <?php endforeach; ?>
                                 </div>
                             </div>
-                        </div>-->
+                        <?php endforeach; ?>
+                        <!--                        <div class="w-100 tab-pane show active" role="tabpanel" id="size-us" aria-labelledby="size-btn-us">
+                                                    <div class="row">
+                                                        <div class="col-6"><button class="btn btn-block btn-outline-dark mb-1">US-1</button></div>
+                                                        <div class="col-6"><button class="btn btn-block btn-outline-dark mb-1">US-1</button></div>
+                                                        <div class="col-6"><button class="btn btn-block btn-outline-dark mb-1">US-1</button></div>
+                                                        <div class="col-6"><button class="btn btn-block btn-outline-dark mb-1">US-1</button></div>
+                                                        <div class="col-6"><button class="btn btn-block btn-outline-dark mb-1">US-1</button></div>
+                                                        <div class="col-6"><button class="btn btn-block btn-outline-dark mb-1">US-1</button></div>
+                                                    </div>
+                                                </div>
+                                                <div class="tab-pane" role="tabpanel" id="size-eu" aria-labelledby="size-btn-eu">
+                                                    <div class="row">
+                                                        <div class="col-6"><button class="btn btn-block btn-outline-dark mb-1">EU-2</button></div>
+                                                        <div class="col-6"><button class="btn btn-block btn-outline-dark mb-1">EU-2</button></div>
+                                                        <div class="col-6"><button class="btn btn-block btn-outline-dark mb-1">EU-2</button></div>
+                                                        <div class="col-6"><button class="btn btn-block btn-outline-dark mb-1">EU-2</button></div>
+                                                        <div class="col-6"><button class="btn btn-block btn-outline-dark mb-1">EU-2</button></div>
+                                                        <div class="col-6"><button class="btn btn-block btn-outline-dark mb-1">EU-2</button></div>
+                                                        <div class="col-6"><button class="btn btn-block btn-outline-dark mb-1">EU-2</button></div>
+                                                        <div class="col-6"><button class="btn btn-block btn-outline-dark mb-1">EU-2</button></div>
+                                                        <div class="col-6"><button class="btn btn-block btn-outline-dark mb-1">EU-2</button></div>
+                                                        <div class="col-6"><button class="btn btn-block btn-outline-dark mb-1">EU-2</button></div>
+                                                        <div class="col-6"><button class="btn btn-block btn-outline-dark mb-1">EU-2</button></div>
+                                                    </div>
+                                                </div>
+                                                <div class="tab-pane" role="tabpanel" id="size-ru" aria-labelledby="size-btn-ru">
+                                                    <div class="row">
+                                                        <div class="col-6"><button class="btn btn-block btn-outline-dark mb-1">RU-3</button></div>
+                                                        <div class="col-6"><button class="btn btn-block btn-outline-dark mb-1">RU-3</button></div>
+                                                        <div class="col-6"><button class="btn btn-block btn-outline-dark mb-1">RU-3</button></div>
+                                                        <div class="col-6"><button class="btn btn-block btn-outline-dark mb-1">RU-3</button></div>
+                                                        <div class="col-6"><button class="btn btn-block btn-outline-dark mb-1">RU-3</button></div>
+                                                        <div class="col-6"><button class="btn btn-block btn-outline-dark mb-1">RU-3</button></div>
+                                                        <div class="col-6"><button class="btn btn-block btn-outline-dark mb-1">RU-3</button></div>
+                                                        <div class="col-6"><button class="btn btn-block btn-outline-dark mb-1">RU-3</button></div>
+                                                        <div class="col-6"><button class="btn btn-block btn-outline-dark mb-1">RU-3</button></div>
+                                                        <div class="col-6"><button class="btn btn-block btn-outline-dark mb-1">RU-3</button></div>
+                                                        <div class="col-6"><button class="btn btn-block btn-outline-dark mb-1">RU-3</button></div>
+                                                        <div class="col-6"><button class="btn btn-block btn-outline-dark mb-1">RU-3</button></div>
+                                                        <div class="col-6"><button class="btn btn-block btn-outline-dark mb-1">RU-3</button></div>
+                                                        <div class="col-6"><button class="btn btn-block btn-outline-dark mb-1">RU-3</button></div>
+                                                    </div>
+                                                </div>
+                                                <div class="tab-pane" role="tabpanel" id="size-uk" aria-labelledby="size-btn-uk">
+                                                    <div class="row">
+                                                        <div class="col-6"><button class="btn btn-block btn-outline-dark mb-1">UK1</button></div>
+                                                        <div class="col-6"><button class="btn btn-block btn-outline-dark mb-1">UK1</button></div>
+                                                        <div class="col-6"><button class="btn btn-block btn-outline-dark mb-1">UK1</button></div>
+                                                        <div class="col-6"><button class="btn btn-block btn-outline-dark mb-1">UK1</button></div>
+                                                    </div>
+                                                </div>
+                                                <div class="tab-pane" role="tabpanel" id="size-cm" aria-labelledby="size-btn-cm">
+                                                    <div class="row">
+                                                        <div class="col-6"><button class="btn btn-block btn-outline-dark mb-1">19cm</button></div>
+                                                        <div class="col-6"><button class="btn btn-block btn-outline-dark mb-1">19cm</button></div>
+                                                        <div class="col-6"><button class="btn btn-block btn-outline-dark mb-1">19cm</button></div>
+                                                        <div class="col-6"><button class="btn btn-block btn-outline-dark mb-1">19cm</button></div>
+                                                        <div class="col-6"><button class="btn btn-block btn-outline-dark mb-1">19cm</button></div>
+                                                        <div class="col-6"><button class="btn btn-block btn-outline-dark mb-1">19cm</button></div>
+                                                    </div>
+                                                </div>-->
+                    </div>
+                </div>
+            </div>
             <!-- Фильтр по цене немного специфичен и не похож по строению на остальные, вывовдим отдельно просто HTML благо это последний пункт-->
             <div class="filter-box top-border mb-2" data-filter-group="maxprice">
                 <div class="filter-header d-flex justify-content-between align-items-center">
@@ -287,25 +296,25 @@
                 </div>
             </div>
             <div id="j-products" class="merch-cards row pt-1">
-<!--                <div class="f-item mix col-12 col-lg-3 mb-3" data-price="1" data-published-date="2019-12-16">
-                    <div class="card d-flex flex-column align-items-start">
-                        <div class="overlay"><span class="">Новинка</span></div>
-                        <div class="card-image">
-                            <a href="/proto/product.php" class="text-decoration-none text-dark">
-                                <img class="card-img-top" src="//www.slamdunk.su/thumbs/626726-012.jpg" alt="">
-                            </a>
-                        </div>
-                        <div class="card-footer mt-auto d-flex flex-column">
-                            <span class="item-name ellipsed">Имя товара / модель</span>
-                            <p class="item-desc ellipsed">Примечание</p>
-                            <p class="item-desc ellipsed">Если решили оставить 2 строки</p>
-                            <div class="d-flex align-items-center mt-auto">
-                                <span class="item-price">7777 р.</span>
-                                <a href="/proto/product.php" class="btn btn-sm btn-dark ml-auto">Купить</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>-->
+                <!--                <div class="f-item mix col-12 col-lg-3 mb-3" data-price="1" data-published-date="2019-12-16">
+                                    <div class="card d-flex flex-column align-items-start">
+                                        <div class="overlay"><span class="">Новинка</span></div>
+                                        <div class="card-image">
+                                            <a href="/proto/product.php" class="text-decoration-none text-dark">
+                                                <img class="card-img-top" src="//www.slamdunk.su/thumbs/626726-012.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="card-footer mt-auto d-flex flex-column">
+                                            <span class="item-name ellipsed">Имя товара / модель</span>
+                                            <p class="item-desc ellipsed">Примечание</p>
+                                            <p class="item-desc ellipsed">Если решили оставить 2 строки</p>
+                                            <div class="d-flex align-items-center mt-auto">
+                                                <span class="item-price">7777 р.</span>
+                                                <a href="/proto/product.php" class="btn btn-sm btn-dark ml-auto">Купить</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>-->
                 <?php
                 // имитирую каталог товаров, внешний вид идентичен (выше комент), разница только в наличии/отсутствтии оверлея скидки
                 // В классы первого блока (f-item mix) дописываем классами свойства товара для фильтрации, для сортировки - data-price + data-published-date
@@ -354,9 +363,9 @@
                                 $classes .= " dsc";
                             }
                             $year = rand(1, 9);
-                            if($year === 9){
-                                    $overlay = '<div class="overlay"><span class="">Новинка</span></div>';
-                                    $classes .= " news";
+                            if ($year === 9) {
+                                $overlay = '<div class="overlay"><span class="">Новинка</span></div>';
+                                $classes .= " news";
                             }
                             $date = "201" . $year . "-" . rand(10, 12) . "-" . rand(10, 28);
                             echo '<div class="f-item mix col-12 col-lg-3 mb-3 ' . $classes . '" data-price="' . $price . '" data-published-date="' . $date . '">
@@ -386,7 +395,7 @@
             <div id="j-filter-empty" class="col-12 py-2 mb-3 text-center d-none">
                 <h5>Cкрыто товаров фильтрами: <span id="j-hide"></span></h5>
                 <hr/>
-                <a href="<?php echo $data['pref'];?>catalog.php?cats=<?php echo $data['get'];?>" class="btn btn-dark" >Cнять все фильтры </a>
+                <a href="<?php echo $data['pref']; ?>catalog.php?cats=<?php echo $data['get']; ?>" class="btn btn-dark" >Cнять все фильтры </a>
             </div>
         </div>
         <!-- END Блок каталога товаров -->
