@@ -9,14 +9,14 @@ $(function() {
                 tagName = $.trim(tag.text()),
                 checkbox = $('#j-filter').find('[data-tag="' + tagName + '"]');
         let btn = $('#j-filter').find('button.size-control[data-tag="'+tagName+'"]');
-//        $('[data-filter-group="' + group + '"]').find('button.size-control[data-toggle=".'+ tagInfo +'"]').data('tag');
         if (checkbox.is(':checked')) {
             checkbox.trigger('click');
         }
         if(btn.hasClass('active')){
             btn.trigger('click');
+            btn.blur();
+            return 
         }
-//        console.log(btn);
         tag.detach();
     });
     $("button.size-control").on('click',function (e){
