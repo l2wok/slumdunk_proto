@@ -35,7 +35,6 @@
                         <a href="#" class="text-muted"> Политикой&nbsp;конфиденциальности</a>.
                 </small>
                 <button type="button" class="btn btn-outline-dark ml-lg-auto my-2" data-dismiss="alert" aria-label="Close">
-                    <span aria-hidden="true">Ok</span>
                     <span aria-hidden="true">Подтверждаю</span>
                 </button>
             </div>
