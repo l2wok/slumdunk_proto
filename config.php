@@ -4,7 +4,7 @@ $data = getConfig();
 
 function getConfig() {
     $data = [];
-    $data['pref'] = "/";
+    $data['pref'] = "/proto/";
     $data['cv'] = "1.0";
     $data['version'] = 100000 + rand(1, 100000);
     $data['langs'] = ["en", "ru"];
@@ -133,6 +133,14 @@ function getConfig() {
     ];
     $data['jsPref'] = [
         "assets/js/"
+    ];
+    $data['sizename'] = [
+        "ru",
+        "eu",
+        "us_m",
+        "us_w",
+        "uk",
+        "cm",
     ];
     $data['sizetable'] = [
         ["35.5", "36", "4", "5", "3.5", "22.5"],
