@@ -2,7 +2,7 @@
 <div class="container mt-4">
     <div class="row">
         <div class="col-12">
-            <div class="col-12 alert py-3 mb-2 alert-secondary alert-dismissible fade show" role="alert">
+            <div class="col-12 alert py-3 mb-2 alert-warning alert-dismissible fade show" role="alert">
                 <strong>Аллилуйа!</strong> Ваш аккаунт успешно создан! Вам правда надо такого рода оповещение?!
                 <button type="button" class="close" data-dismiss="alert" aria-label="Close">
                     <span aria-hidden="true">&times;</span>

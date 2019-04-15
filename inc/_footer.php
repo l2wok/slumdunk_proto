@@ -25,3 +25,19 @@
     </div>
 </footer>
 <!-- //END FOOTER -->
+<div class="w-100 bg-light police">
+    <div class="container">
+        <div class="row clearfix">
+            <div class="alert alert-dismissible fade show d-block d-lg-flex justify-content-between align-items-center py-2" role="alert">
+                <small class="my-2">
+                    <strong>Этот веб-сайт использует cookie-файлы.</strong><br>
+                        При использовании данного сайта вы подтверждаете свое согласие на использование cookie-файлов в соответствии с нашей
+                        <a href="#" class="text-muted"> Политикой&nbsp;конфиденциальности</a>.
+                </small>
+                <button type="button" class="btn btn-outline-dark ml-lg-auto my-2" data-dismiss="alert" aria-label="Close">
+                    <span aria-hidden="true">Ok</span>
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
