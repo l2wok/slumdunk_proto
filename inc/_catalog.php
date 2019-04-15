@@ -183,9 +183,11 @@
                                 <div class="row">
                                     <?php foreach ($data['sizetable'] as $sid => $sval) : ?>
                                         <div class="col-6">
-                                            <button class="btn btn-block btn-outline-dark mb-1 control"
-                                                    data-mix-control
-                                                    data-toggle=".size-<?php echo $sid; ?>"
+                                            <button class="btn btn-block btn-outline-dark mb-1 control size-control" 
+                                                    data-mix-control 
+                                                    value=".size-<?php echo $sid; ?>" 
+                                                    data-tag="<?php echo $value; ?>-<?php echo $sval[$key]; ?>" 
+                                                    data-toggle=".size-<?php echo $sid; ?>" 
                                                     >
                                                         <?php echo $sval[$key]; ?>
                                             </button>
