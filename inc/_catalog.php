@@ -183,7 +183,7 @@
                                 <div class="row">
                                     <?php foreach ($data['sizetable'] as $sid => $sval) : ?>
                                         <div class="col-6">
-                                            <button class="btn btn-block btn-outline-dark mb-1"><?php echo $value; ?>-<?php echo $sval[$key]; ?></button>
+                                            <button class="btn btn-block btn-outline-dark mb-1"><?php echo $sval[$key]; ?></button>
                                         </div>
                                     <?php endforeach; ?>
                                 </div>
