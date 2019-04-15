@@ -189,7 +189,7 @@
                                 </div>
                             </div>
                         <?php endforeach; ?>
-                        <!--                        <div class="w-100 tab-pane show active" role="tabpanel" id="size-us" aria-labelledby="size-btn-us">
+                    <!--                        <div class="w-100 tab-pane show active" role="tabpanel" id="size-us" aria-labelledby="size-btn-us">
                                                     <div class="row">
                                                         <div class="col-6"><button class="btn btn-block btn-outline-dark mb-1">US-1</button></div>
                                                         <div class="col-6"><button class="btn btn-block btn-outline-dark mb-1">US-1</button></div>
