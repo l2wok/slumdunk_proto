@@ -59,7 +59,7 @@
                             </div>
                         </li>
                         <li class="nav-item">
-                            <a href="<?php echo $data['pref']; ?>catalog.php?cats=discount#offers=discounts" class="btn btn-nav">СКИДКИ</a>
+                            <a href="<?php echo $data['pref']; ?>catalog.php?cats=discount#offers=news,dsc" class="btn btn-nav">СКИДКИ</a>
                         </li>
                         <li class="nav-item dropdown d-block d-lg-none only-mobile">
                             <a id="cat-reg" href="#" class="btn btn-nav dropdown-toggle text-uppercase"
