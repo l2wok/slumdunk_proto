@@ -156,7 +156,7 @@
                 продумывать функционал их небыло задачи, да и особенных фишек тут нет,
                 работают как любые другие - таргет на класс и фильтруем. 
                 Надеюсь нужды фильтровать полтора размера не прийдется... -->
-            <div class="filter-box top-border">
+            <div class="filter-box top-border control-group" data-filter-group="sizes">
                 <div class="filter-header d-flex justify-content-between align-items-center">
                     <h4 class="text-uppercase">Размеры</h4>
                     <i class="fas fa-chevron-up"></i>
@@ -183,7 +183,12 @@
                                 <div class="row">
                                     <?php foreach ($data['sizetable'] as $sid => $sval) : ?>
                                         <div class="col-6">
-                                            <button class="btn btn-block btn-outline-dark mb-1"><?php echo $sval[$key]; ?></button>
+                                            <button class="btn btn-block btn-outline-dark mb-1 control"
+                                                    data-mix-control
+                                                    data-toggle=".size-<?php echo $sid; ?>"
+                                                    >
+                                                        <?php echo $sval[$key]; ?>
+                                            </button>
                                         </div>
                                     <?php endforeach; ?>
                                 </div>
@@ -327,6 +332,7 @@
                             $discounted = rand(0, 5);
                             $brand = rand(0, 6);
                             $model = rand(0, 6);
+                            $size = rand(0,25);
                             $col = rand(0, 6);
                             $color = $data['filters']['colors']['body'][$col];
                             switch ($data['get']) {
@@ -368,7 +374,7 @@
                                 $classes .= " news";
                             }
                             $date = "201" . $year . "-" . rand(10, 12) . "-" . rand(10, 28);
-                            echo '<div class="f-item mix col-12 col-lg-3 mb-3 ' . $classes . '" data-price="' . $price . '" data-published-date="' . $date . '">
+                            echo '<div class="f-item mix col-12 col-lg-3 mb-3 ' . $classes . ' size-'.$size.'" data-price="' . $price . '" data-published-date="' . $date . '">
                                 <div class="card d-flex flex-column align-items-start">
                                     ' . $overlay . '
                                     <div class="card-image">
@@ -430,6 +436,7 @@ function getGroupsState() {
         balls: mixer.getFilterGroupSelectors('balls').map(getValueFromSelector),
         models: mixer.getFilterGroupSelectors('models').map(getValueFromSelector),
         colors: mixer.getFilterGroupSelectors('colors').map(getValueFromSelector),
+        sizes: mixer.getFilterGroupSelectors('sizes').map(getValueFromSelector),
 //        bandles: mixer.getFilterGroupSelectors('bandles').map(getValueFromSelector),
 //        heights: mixer.getFilterGroupSelectors('heights').map(getValueFromSelector),
         offers: mixer.getFilterGroupSelectors('offers').map(getValueFromSelector),
@@ -456,6 +463,7 @@ function filterMixerByGroupsState(groupsState, animate) {
     var brands      = (groupsState && groupsState.brands)       ? groupsState.brands        : [];
     var models      = (groupsState && groupsState.models)       ? groupsState.models        : [];
     var colors      = (groupsState && groupsState.colors)       ? groupsState.colors        : [];
+    var sizes       = (groupsState && groupsState.sizes)        ? groupsState.sizes         : [];
 //    var bandles   = (groupsState && groupsState.bandles)      ? groupsState.bandles       : [];
 //    var heights   = (groupsState && groupsState.heights)      ? groupsState.heights       : [];
     var offers      = (groupsState && groupsState.offers)       ? groupsState.offers        : [];
@@ -468,6 +476,7 @@ function filterMixerByGroupsState(groupsState, animate) {
     mixer.setFilterGroupSelectors('brands',     brands.map(getSelectorFromValue));
     mixer.setFilterGroupSelectors('models',     models.map(getSelectorFromValue));
     mixer.setFilterGroupSelectors('colors',     colors.map(getSelectorFromValue));
+    mixer.setFilterGroupSelectors('sizes',      colors.map(getSelectorFromValue));
 //    mixer.setFilterGroupSelectors('bandles',  bandles.map(getSelectorFromValue));
 //    mixer.setFilterGroupSelectors('heights',  heights.map(getSelectorFromValue));
     mixer.setFilterGroupSelectors('offers',     offers.map(getSelectorFromValue));
