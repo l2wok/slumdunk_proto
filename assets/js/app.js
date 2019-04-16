@@ -72,13 +72,23 @@ $(document).ready(function() {
             $("#j-modal-ask-size").text("Регион - " + reg + ", размер - " + size);
         }
     });
-    $("#sms-on").on('change',function (){
-        if($(this).prop('checked')){
+    $("#sms-on").on('change', function() {
+        if ($(this).prop('checked')) {
             $("#j-sms").prop("disabled", false);
         } else {
-            $("#j-sms").prop('disabled',true)
+            $("#j-sms").prop('disabled', true)
         }
-    })
+    });
+    var cName = 'police';
+    let cook = Cookies.get(cName);
+    if (cook) {
+        $('.police').addClass('d-none');
+    } else {
+        $('.police').removeClass('d-none');
+        $("#acc-cookie").on('click', function() {
+            Cookies.set(cName, 'accepted', {path: '/'});
+        });
+    }
 });
 function winResize() {
     let pw = $(document).width();

@@ -25,6 +25,8 @@
     </div>
 </footer>
 <!-- //END FOOTER -->
+
+<!-- START Cookie alert -->
 <div class="w-100 bg-light police">
     <div class="container">
         <div class="row clearfix">
@@ -34,10 +36,11 @@
                         При использовании данного сайта вы подтверждаете свое согласие на использование cookie-файлов в соответствии с нашей
                         <a href="#" class="text-muted"> Политикой&nbsp;конфиденциальности</a>.
                 </small>
-                <button type="button" class="btn btn-outline-dark ml-lg-auto my-2" data-dismiss="alert" aria-label="Close">
-                    <span aria-hidden="true">Подтверждаю</span>
+                <button id="acc-cookie" type="button" class="btn btn-outline-dark ml-lg-auto my-2" data-dismiss="alert" aria-label="Close">
+                    Подтверждаю
                 </button>
             </div>
         </div>
     </div>
 </div>
+<!-- //END Cookie alert -->

@@ -1,75 +1,129 @@
 
-        <!-- section subscribe -->
-        <section id="j-subscribe" class="bg-black subscribe">
-            <div class="container my-4">
-                <div class="row d-sm-block d-md-flex align-items-center">
-                    <h4 class="col-12 col-md-6 col-lg-3 offset-lg-3">ПОДПИШИСЬ НА НОВОСТИ SLAMDUNK И ПОЛУЧИ СКИДКУ&nbsp;10%!</h4>
-                    <div class="col-12 col-md-6 col-lg-3">
-                        <div class="input-group">
-                            <input type="text" class="form-control border-dark" placeholder="АДРЕС ЭЛ.ПОЧТЫ">
-                            <div class="input-group-append">
-                                <button class="btn bg-light border-dark" type="button">
-                                    <i class="fas fa-long-arrow-alt-right"></i>
-                                </button>
-                            </div>
-                        </div>
+<!-- section subscribe -->
+<section id="j-subscribe" class="bg-black subscribe">
+    <div class="container my-4">
+        <div class="row d-sm-block d-md-flex align-items-center">
+            <h4 class="col-12 col-md-6 col-lg-3 offset-lg-3">ПОДПИШИСЬ НА НОВОСТИ SLAMDUNK И ПОЛУЧИ СКИДКУ&nbsp;10%!</h4>
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="input-group">
+                    <input type="text" class="form-control border-dark" placeholder="АДРЕС ЭЛ.ПОЧТЫ">
+                    <div class="input-group-append">
+                        <button class="btn bg-light border-dark" type="button">
+                            <i class="fas fa-long-arrow-alt-right"></i>
+                        </button>
                     </div>
                 </div>
             </div>
-        </section>
-        <!-- END section subscribe -->
+        </div>
+    </div>
+</section>
+<!-- END section subscribe -->
 
-        <!-- section bot-links -->
-        <section id="j-bot-links" class="container bot-links">
-            <div class="row d-flex justify-content-center bottom-links">
-                <div class="col-6 col-md-3 col-lg-2">
-                    <h5>О компании</h5>
-                    <ul>
-                        <li class="only-desktop"><a href="#" class="">О нас</a></li>
-                        <li class="only-desktop"><a href="#">Новости</a></li>
-                        <li><a href="#">Гарантии</a></li>
-                        <li><a href="#">Контакты</a></li>
-                        <li class="only-desktop"><a href="#">Обратная связь</a></li>
-                    </ul>
-                </div>
-                <div class="col-6 col-md-3 col-lg-2">
-                    <h5>Помощь</h5>
-                    <ul>
-                        <li><a href="#">Как заказать</a></li>
-                        <li><a href="#">Доставка и оплата</a></li>
-                        <li><a href="#">Программа лояльности</a></li>
-                        <li class="only-desktop"><a href="#">Обмен и возврат</a></li>
-                    </ul>
-                </div>
-                <div class="col-md-3 col-lg-2 only-desktop">
-                    <h5>Бренды</h5>
-                    <ul>
-                        <li><a href="<?php echo $data['pref'];?>catalog.php?cats=boots">Jordan</a></li>
-                        <li><a href="<?php echo $data['pref'];?>catalog.php?cats=boots">Nike</a></li>
-                        <li><a href="<?php echo $data['pref'];?>catalog.php?cats=boots">Under Armour</a></li>
-                        <li><a href="<?php echo $data['pref'];?>catalog.php?cats=boots">Spalding</a></li>
-                        <li><a href="<?php echo $data['pref'];?>catalog.php?cats=boots">Molten</a></li>
-                        <li><a href="<?php echo $data['pref'];?>catalog.php?cats=boots">Mitchell & Ness</a></li>
-                    </ul>
-                </div>
-                <div class="col-md-3 col-lg-2 only-desktop">
-                    <h5 class="">Магазин</h5>
-                    <ul>
-                        <li><a href="<?php echo $data['pref'];?>catalog.php?cats=boots#boots=cross">Кросовки</a></li>
-                        <li><a href="<?php echo $data['pref'];?>catalog.php?cats=clothes#clothes=tolstovki">Толстовки</a></li>
-                        <li><a href="<?php echo $data['pref'];?>catalog.php?cats=clothes#clothes=mayki">Футболки и майки</a></li>
-                        <li><a href="<?php echo $data['pref'];?>catalog.php?cats=clothes#clothes=compress">Компрессионное белье</a></li>
-                        <li><a href="<?php echo $data['pref'];?>catalog.php?cats=balls">Мячи</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-12 d-flex justify-content-center">
-                <h4 class="mr-4 only-desktop">ОЦЕНИТЕ НАС </h4>
-                <ul class="social-rate d-flex align-items-center">
-                    <li><a href="#" class="" target="_blank" rel="nofollow"><i class="fab fa-instagram fa-2x"></i></a></li>
-                    <li><a href="#" class="" target="_blank" rel="nofollow"><i class="fab fa-vk fa-2x"></i></a></li>
-                    <li><a href="#" class="" target="_blank" rel="nofollow"><i class="fab fa-facebook fa-2x"></i></a></li>
-                </ul>
-            </div>
-        </section>
-        <!-- END section bot-links -->
+<!-- section bot-links -->
+<section id="j-bot-links" class="container bot-links">
+    <div class="row d-flex justify-content-center bottom-links">
+        <div class="col-6 col-md-3 col-lg-2">
+            <h5>О компании</h5>
+            <ul>
+                <li class="only-desktop"><a href="#" class="">О нас</a></li>
+                <li class="only-desktop"><a href="#">Новости</a></li>
+                <li><a href="#">Гарантии</a></li>
+                <li><a href="#">Контакты</a></li>
+                <li class="only-desktop"><a href="#">Обратная связь</a></li>
+            </ul>
+        </div>
+        <div class="col-6 col-md-3 col-lg-2">
+            <h5>Помощь</h5>
+            <ul>
+                <li><a href="#">Как заказать</a></li>
+                <li><a href="#">Доставка и оплата</a></li>
+                <li><a href="#">Программа лояльности</a></li>
+                <li class="only-desktop"><a href="#">Обмен и возврат</a></li>
+            </ul>
+        </div>
+        <div class="col-md-3 col-lg-2 only-desktop">
+            <h5>Бренды</h5>
+            <ul>
+                <li><a href="<?php echo $data['pref']; ?>catalog.php?cats=boots">Jordan</a></li>
+                <li><a href="<?php echo $data['pref']; ?>catalog.php?cats=boots">Nike</a></li>
+                <li><a href="<?php echo $data['pref']; ?>catalog.php?cats=boots">Under Armour</a></li>
+                <li><a href="<?php echo $data['pref']; ?>catalog.php?cats=boots">Spalding</a></li>
+                <li><a href="<?php echo $data['pref']; ?>catalog.php?cats=boots">Molten</a></li>
+                <li><a href="<?php echo $data['pref']; ?>catalog.php?cats=boots">Mitchell & Ness</a></li>
+            </ul>
+        </div>
+        <div class="col-md-3 col-lg-2 only-desktop">
+            <h5 class="">Магазин</h5>
+            <ul>
+                <li><a href="<?php echo $data['pref']; ?>catalog.php?cats=boots#boots=cross">Кросовки</a></li>
+                <li><a href="<?php echo $data['pref']; ?>catalog.php?cats=clothes#clothes=tolstovki">Толстовки</a></li>
+                <li><a href="<?php echo $data['pref']; ?>catalog.php?cats=clothes#clothes=mayki">Футболки и майки</a></li>
+                <li><a href="<?php echo $data['pref']; ?>catalog.php?cats=clothes#clothes=compress">Компрессионное белье</a></li>
+                <li><a href="<?php echo $data['pref']; ?>catalog.php?cats=balls">Мячи</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="col-12 d-flex justify-content-center">
+        <h4 class="mr-4 only-desktop">ОЦЕНИТЕ НАС </h4>
+        <ul class="social-rate d-flex align-items-center">
+            <li><a href="#" class="" target="_blank" rel="nofollow"><i class="fab fa-instagram fa-2x"></i></a></li>
+            <li><a href="#" class="" target="_blank" rel="nofollow"><i class="fab fa-vk fa-2x"></i></a></li>
+            <li><a href="#" class="" target="_blank" rel="nofollow"><i class="fab fa-facebook fa-2x"></i></a></li>
+        </ul>
+    </div>
+</section>
+<!-- END section bot-links -->
+<!-- START section paragraph -->
+<div class="container">
+    <article class="small">
+        <h3>Баскетбольный магазин «Slamdunk»</h3>
+        <div class="" data-toggle="collapse" data-target="#seo-text" aria-expanded="false" aria-controls="seo-text">
+            <p>
+                Баскетбольные майки, голеностопы, наколенники, кроссовки для баскетбола – обязательные элементы экипировки спортсмена, 
+                вне зависимости от уровня его подготовки, возраста, телосложения. 
+            </p>
+            <p>
+                Подвижная, жёсткая игра требует от баскетболиста полной отдачи.
+            </p>
+        </div>
+        <div class="collapse" id="seo-text" data-toggle="collapse" data-target="#seo-text.show">>
+            <p>Каждый шаг должен быть обдуманным и взвешенным, только так можно достичь успеха. Ещё одно важное условие, которое поможет победить в соревнованиях, это правильно выбранные баскетбольные кроссовки. Nike, Jordan и другие известные бренды презентуют целые коллекции спортивной обуви. Купить в Новосибирске, Санкт-Петербурге, Уфе, Ижевске, Барнауле и других городах фирменные модели отменного качества можно, не выходя из дома.</p>
+            <p class="">
+                Если раньше кроссовки Nike покупали преимущественно спортсмены, то сегодня эта удобная, практичная обувь прочно вошла в повседневную жизнь активных людей, которые большую часть своего времени проводят в движении. Баскетбольный интернет-магазин «Slamdunk» предлагает широкий ассортимент обуви для профессиональных спортсменов и любителей. Омск, Челябинск, Тольятти, Иркутск или Казань – заказать доставку можно в любую точку страны.
+            </p>
+            <h4>Критерии выбора баскетбольных кроссовок</h4>
+            <p class="">
+                Выбрать качественные баскетбольные кроссовки для детей и взрослых спортсменов в Пскове, Норильске, Салавате, Ульяновске, Ярославле и т.д. довольно сложно. Обувь должна быть максимально комфортной, идеально прилегать к ноге, обеспечивать отменную маневренность баскетболисту. На лодыжки и ступни спортсмена приходится большая нагрузка, поэтому нужно выбирать такие модели, чтобы не только быстро передвигаться, но и предупредить травмы голеностопного сустава. При выборе спортивной обуви в Великом Новгороде, Южно-Сахалинске, Благовещенске нужно учитывать несколько критериев.
+            </p>
+            <p class="">Подошва. В каталогах нашего баскетбольного магазина представлены модели для игры на открытом воздухе или в спортивном зале. Варианты с мягкой подошвой идеальны для крытых стадионов, в то время как жёсткие больше подходят для уличной игры. Вы можете купить качественные баскетбольные кроссовки Nike с доставкой в Орск, Братск, Сыктывкар, Хабаровск, Владивосток.
+            </p>
+            <p class="">Материал изготовления. Кроссовки Jordan, Nike, модели других известных брендов изготавливаются с применением прочной, износостойкой натуральной кожи, которая не препятствует нормальному воздухообмену. Сетка из синтетической ткани обеспечивает отменную маневренность и гибкость, позволяет коже ступни дышать. Обувь больших размеров или баскетбольные кроссовки для детей вы можете у нас купить  доставкой в Нижнекамск, Таганрог, Комсомольск-на-Амуре, Тюмень, Саратов.
+            </p>
+            <p class="">Степень фиксации голеностопного сустава. Высокие кроссовки Jordan надёжно фиксируют лодыжку, игра в них максимально безопасна. Это выбор начинающих баскетболистов и любителей. Профессиональные спортсмены, которые играют на результат, настроены только на победу, выбирают кроссовки Nike низкие или средней высоты. Чтобы купить фирменную обувь в Нижневартовске, Новороссийске, Йошкар-Оле, Краснодаре, достаточно оставить заявку на сайте нашего баскетбольного интернет-магазина.
+            </p>
+            <p class="">На рынках в Костроме, Тамбове, Петрозаводске, Мурманске, Екатеринбурге, Нижнем Новгороде, даже в Сочи купить качественную обувь больших размеров или обычные кроссовки довольно сложно. Пролистайте каталоги нашего баскетбольного магазина. Здесь представлен широкий ассортимент продукции для профессиональных спортсменов, команд, любителей или тех, кто ведёт активный образ жизни. Баскетбольные шорты, майки, кроссовки, а также баскетбольные мячи можно по доступной цене с доставкой в Якутск, Саранск, Череповец, Пермь, Воронеж и другие города.
+            </p>
+            <h4>Требования к кроссовкам для баскетбола</h4>
+            <p class=""> Оригинальные баскетбольные кроссовки Nike в Петропавловске-Камчатском, Северодвинске, Вологде приобрести очень сложно. Покупка на рынке – не всегда надёжно и безопасно. Недобросовестные продавцы часто выдают низкокачественные фальшивки за фирменную обувь и, конечно же, пытаются продать модели по завышенной цене. Чтобы обезопасить себя от подобных неприятностей, заказывайте обувь больших размеров или баскетбольные кроссовки для детей в нашем баскетбольном магазине. Вы не проживаете в Москве и у вас не возможности забрать покупку? Не проблема! Мы осуществляем доставку в Крым, Читу, Калугу, Орёл, Волгоград, Красноярск, Ростов-на-Дону и не только. Вся продукция сертифицирована. Кроссовки для игры в баскетбол отвечают таким требованиям:</p>
+            <ul>
+                <li>обеспечивают отменную устойчивость при боковом перемещении;</li>
+                <li>имеют хорошее сцепление с покрытием спортивной площадки;</li>
+                <li>оснащены амортизационными элементами для снижения нагрузки на стопы при прыжках;</li>
+                <li>стопы и голеностопы в них надёжно закреплены для защиты от травм;</li>
+                <li>не препятствуют активному движению и свободному перемещению баскетболиста;</li>
+                <li>не парят ногу, не натирают, их носка не сопровождается дискомфортными ощущениями;</li>
+                <li>характеризуются великолепной износоустойчивостью.</li>
+            </ul>
+            <p class="">
+                Дешёвая обувь c рынка никак не отвечает этим требованиям, поэтому от покупки таких моделей лучше отказаться. Специалисты рекомендуют использовать фирменные кроссовки от известных производителей. В их коллекциях действительно качественные, надёжные, удобные в использовании изделия, которые не только смотрятся стильно, но и носиться будут долго. Чтобы купить брендовую обувь, не обязательно искать специализированную точку продажи в Сургуте, Архангельске, Владимире.
+            </p>
+            <p class=""> Теперь приобрести высококачественную спортивную обувь можно без особых усилий. Достаточно выбрать модель из каталогов у нас на сайте и оставить заявку на заказ. Где бы вы не находились, в Нижнем Тагиле, Белгороде, Брянске, Иваново, через несколько дней новенькие кроссовки будут уже у вас.
+            </p>
+            <h4>Одежда и аксессуары для баскетболистов</h4>
+            <p class=""> Продажа баскетбольных кроссовок для детей, взрослых, обуви больших размеров – основная, но не единственная специализация баскетбольного магазина «Slamdunk». Ассортимент товаров для баскетбола широк и разнообразен. У нас вы можете купить баскетбольные шорты, баскетбольные майки, баскетбольную форму, наколенники, мячи, компрессионное бельё и бандажные изделия, рюкзаки и сумки. В Севастополе, Магнитогорске, Твери, Ставрополе, Курске непросто найти качественную спортивную обувь баскетболистам с размером ноги от 46. Наш интернет-магазин представляет большой размерный ряд кроссовок.
+            </p><p class=""> Не знаете, где купить качественную обувь и одежду для баскетбола в Улан-Удэ, Калининграде, Туле, Чебоксарах? Выбирайте из каталогов у нас на сайте. Здесь представлена только сертифицированная продукция от популярных производителей. Если у вас возникли трудности с выбором, помогут определиться наши консультанты. Мы предлагаем наиболее выгодные цены на фирменную обувь в Кирове, Липецке, Смоленске, Астрахани. Выбирайте модели из каталогов на сайте, оставляете заявку или звоните по номеру телефона. Мы осуществляем доставку в Пензу, Рязань, Кемерово, Оренбург, Томск и другие города РФ. Если вы из Москвы, покупка будет доставлена в день заказа.
+            </p>
+        </div>
+    </article>
+</div>
+<!-- END section paragraph -->
