@@ -9,14 +9,18 @@
 </nav>
 <!-- end breadcrumps -->
 <!-- section  -->
-<main id="j-product-card" class="container mt-1 mb-2">
+<main id="j-product-card" class="container mt-1 mb-2" itemscope itemtype="http://schema.org/Product">
     <div class="row mb-4">
         <div class="col-12 d-lg-none only-mobile">
             <div class="d-flex justify-content-between align-items-center my-2">
                 <div class="text-muted d-flex align-items-center ">Кроссовки LifeStyle</div>
-                <div class="h5">9 990 руб.</div>
+                <div itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+                    <meta itemprop="price" content="9990.00">
+                    <meta itemprop="priceCurrency" content="RUB">
+                </div>
+                <div class="h5">9990 руб.</div>
             </div>
-            <h1>Nike Air Max 270</h1>
+            <div itemprop="name"><h1>Nike Air Max 270</h1></div>
             <p>Артикул 754332</p>
         </div>
         <div class="col-md-12 col-lg-7 mb-2">
@@ -31,7 +35,7 @@
                 </a>
                 <div class="carousel-inner">
                     <div class="carousel-item active" data-interval="10000">
-                        <img class="img-fluid d-block w-100" src="//www.slamdunk.su/thumbs/5b420be47268a5b416102cad35.jpg" alt="">
+                        <img itemprop="image" class="img-fluid d-block w-100" src="//www.slamdunk.su/thumbs/5b420be47268a5b416102cad35.jpg" alt="">
                     </div>
                     <div class="carousel-item" data-interval="10000">
                         <img class="img-fluid d-block w-100" src="//www.slamdunk.su/thumbs/5b4160ff56d49.jpg" alt="">
@@ -271,7 +275,7 @@
                 <div class="col-12 mb-2">
                     <div class="tab-content pt-2">
                         <div class="w-100 tab-pane show active" role="tabpanel" id="p-desc" aria-labelledby="product-desc">
-                            <div class="desc">
+                            <div class="desc" itemprop="description">
                                 <p class="my-2">В мужских кроссовках Nike Air Max 270 впервые была использована вставка Max Air, разработанная 
                                     дизайнерами Nike Sportswear, которая обеспечивает легкость и амортизацию при каждом шаге. Обновленная модель 
                                     обеспечивает современный уровень комфорта, а увеличенный верх язычка и ретро-логотип на язычке напоминает 
