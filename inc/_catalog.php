@@ -5,7 +5,6 @@
         <li class="breadcrumb-item active"><?php echo $data['cats']; ?></li>
         <span class="summ ml-2"></span>
     </ul>
-    <h1>Заголовок товара. Что сюда писать то?</h1>
     <div class="row">
         <div id="j-filter" class="col-lg-2 offcanvas-filter flip controls">
 
