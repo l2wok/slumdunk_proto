@@ -1,9 +1,12 @@
 <!-- END страница contacts -->
-<div class="container pt-3">
-    <h2>СЕТЬ БАСКЕТБОЛЬНЫХ МАГАЗИНОВ &laquo;SLAMDUNK&raquo;</h2>
-    <div class="address">
+<div class="container pt-3" itemscope itemtype="http://schema.org/Organization">
+    <h2 itemprop="name">СЕТЬ БАСКЕТБОЛЬНЫХ МАГАЗИНОВ &laquo;SLAMDUNK&raquo;</h2>
+    <div class="address" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
         <h4 class="text-muted">Адрес нашего магазина в Москве: </h4>
-        <p class="">г. Москва, Ленинградский проспект, 37 Б (ст. м. &laquo;Динамо&raquo;), ТЦ &laquo;Старт&raquo;, 3 этаж, павильон 51-Б. Телефон в Москве: +7 (495) 410-00-28.</p>
+        <p class="">г. <span itemprop="addressLocality">Москва</span>, 
+            <span itemprop="streetAddress">Ленинградский проспект, 37 Б (ст. м. &laquo;Динамо&raquo;), ТЦ &laquo;Старт&raquo;, 3 этаж, павильон 51-Б. </span>
+            Телефон в Москве: <span itemprop="telephone">+7 (495) 410-00-28</span>
+        </p>
         <p class="lead">Время работы: с 10 до 20:45 без перерыва и выходных.</p>
         <h5>Схема проезда к баскетбольному магазину &laquo;Slamdunk&raquo; в Москве:</h5>
         <div class="col-12 map">
@@ -25,9 +28,12 @@
         <p>Если вы не нашли наш магазин, то обязательно позвоните нам по телефону +7 (495) 410-00-28, и мы поможем вам найти кратчайший путь!</p>
     </div>
     <hr />
-    <div class="address">
+    <div class="address" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
         <h4 class="text-muted">Адрес нашего магазина в Самаре: </h4>
-        <p class="">г. Самара, пр. Ленина, 12-а, ТЦ &laquo;Мелодия&raquo;, 3-й этаж. Телефоны в Самаре: +7 (846) 302-82-28, +7 (987) 958-18-63.</p>
+        <p class="">г. <span itemprop="addressLocality">Самара </span>, 
+            <span itemprop="streetAddress">пр. Ленина, 12-а, ТЦ &laquo;Мелодия&raquo;, 3-й этаж. </span>
+            Телефоны в Самаре: <span itemprop="telephone">+7 (846) 302-82-28, +7 (987) 958-18-63</span>
+        </p>
         <p class="lead">Время работы: с 10 до 20:00 без перерыва и выходных.</p>
         <h5>Схема проезда к баскетбольному магазину &laquo;Slamdunk&raquo; в Самарe:</h5>
         <div class="col-12 map">
