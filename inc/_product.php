@@ -90,7 +90,7 @@
                         <div class="text-muted">Кроссовки LifeStyle</div>
                         <div class="h4">9 990 руб.</div>
                     </div>
-                    <h3>Nike Air Max 270</h3>
+                    <h1>Nike Air Max 270</h1>
                     <p>Артикул: 754332</p>
                 </div>
                 <div class="col-12 col-lg-10 mb-4">
