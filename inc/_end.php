@@ -5,13 +5,13 @@
 
         <script type="text/javascript" src="assets/js/current-device.min.js"></script>
         <script type="text/javascript" src="assets/js/app.js?v=<?php echo $data['version']; ?>"></script>
+        <script type="text/javascript" src="assets/js/jquery.cookie.js"></script>
         <?php  //   скрипты фильтров подключаем только при наличии _GET[cats], т.е. только в каталоге товаров
         if($data['cats'] ):
         ?>
         <script type="text/javascript" src="assets/js/mixitup.min.js"></script>
         <script type="text/javascript" src="assets/js/multi.js"></script>
         <script type="text/javascript" src="assets/js/rangeslider.min.js"></script>
-        <script type="text/javascript" src="assets/js/jquery.cookie.js"></script>
         <script type="text/javascript" src="assets/js/progma.js?v=<?php echo $data['version']; ?>"></script>
         <?php endif; ?>
         <script type="text/javascript" src="assets/js/temp.js?v=<?php echo $data['version']; ?>"></script>
