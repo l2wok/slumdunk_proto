@@ -14,8 +14,6 @@ $(function() {
         }
         if(btn.hasClass('active')){
             btn.trigger('click');
-            btn.blur();
-            return 
         }
         tag.detach();
     });
