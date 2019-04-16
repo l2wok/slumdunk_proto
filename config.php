@@ -4,7 +4,7 @@ $data = getConfig();
 
 function getConfig() {
     $data = [];
-    $data['pref'] = "/";
+    $data['pref'] = "/proto/";
     $data['cv'] = "1.0";
     $data['version'] = 100000 + rand(1, 100000);
     $data['langs'] = ["en", "ru"];
