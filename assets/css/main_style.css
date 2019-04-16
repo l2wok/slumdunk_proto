@@ -167,7 +167,7 @@ h1,h2,h3,h4,h5,h6{
         padding-bottom: .75rem;
     }
     .carousel-caption h1{
-        font-size: 1.35rem;
+        font-size: 1.2rem;
         padding: 0;
     }
     .carousel-caption p{
@@ -178,7 +178,7 @@ h1,h2,h3,h4,h5,h6{
         font-size: .9rem;        
     }
     .card-img-overlay h2{
-        font-size: 1.4rem;
+        font-size: 1.15rem;
     }
     .firms{
         height: 1.5rem;
@@ -233,7 +233,7 @@ h1,h2,h3,h4,h5,h6{
         font-size: .9rem;        
     }
     .card-img-overlay h2{
-        font-size: 1.4rem;
+        font-size: 1.15rem;
     }
     .firms{
         height: 1rem;
