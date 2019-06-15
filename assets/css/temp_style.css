@@ -157,3 +157,52 @@ ol.policy{
 h1{ font-size: 1.5rem; }
 h2{ font-size: 1.4rem; }
 h3{ font-size: 1.35rem; }
+
+
+.bg-second{
+    background-color: #000 !important;
+}
+.btn-second{
+    color: #fefefe;
+    border-color: none !important;
+}
+.nav-right .btn-outline-dark{
+    color: #fefefe;
+    border-color: none !important;
+}
+
+.nav-left .btn-nav:active,
+.nav-left .btn-nav:hover,
+.nav-left .btn-nav:focus{
+    color: #f60 !important;
+    background-color: inherit;
+}
+.nav-left .dropdown-item{
+    color:#f60;
+    /*background-color: #131514;*/
+}
+.nav-right .btn-outline-dark.active,
+.nav-right .btn-outline-dark.hover,
+.nav-right .btn-outline-dark.focus,
+.nav-right .btn-group .btn-outline-dark:focus,
+.nav-right .btn-group .btn-outline-dark:hover,
+.nav-right .btn-group .btn-outline-dark:active,
+.nav-right .btn-outline-dark:focus,
+.nav-right .btn-outline-dark:hover,
+.nav-right .btn-outline-dark:active,
+.nav-right .btn-outline-dark:hover i,
+.nav-right .btn-outline-dark:active i,
+.nav-right .btn-outline-dark:hover i{
+    color: #f60;
+    border-color: none !important;
+}
+.navbar-toggler .icon-bar{
+    background-color: #fefefe;
+}
+.btn-second:active,
+.btn-second:hover,
+.btn-second.active,
+.btn-second.hover{
+    color: #f60;
+    border-color: none !important;
+}
