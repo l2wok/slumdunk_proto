@@ -171,16 +171,11 @@ h3{ font-size: 1.35rem; }
     border-color: none !important;
 }
 
-.nav-left .btn-nav:active,
-.nav-left .btn-nav:hover,
-.nav-left .btn-nav:focus{
+.nav-left .btn-nav:hover{
     color: #f60 !important;
     background-color: inherit;
 }
-.nav-left .dropdown-item{
-    color:#f60;
-    /*background-color: #131514;*/
-}
+
 .nav-right .btn-outline-dark.active,
 .nav-right .btn-outline-dark.hover,
 .nav-right .btn-outline-dark.focus,
